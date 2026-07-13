@@ -1,0 +1,43 @@
+schema_version: 1
+character: Ardric
+version: 0.8
+
+institutional_identity:
+  class: Imperial_noble
+  strengths:
+    - access
+    - introductions
+    - guarantees
+    - reputation
+    - protocol
+    - patronage
+    - quiet pressure
+
+leverage_model:
+  strongest_when:
+    - an official has discretion
+    - the request is plausible
+    - the favor can be reciprocated
+    - the stakes are local or administrative
+    - Ardric's credibility is intact
+
+  weakest_when:
+    - strategic security policy is involved
+    - a rival noble actively opposes him
+    - evidence of deception is public
+    - jurisdiction is outside his relationships
+    - compliance would expose an official to severe personal risk
+
+cover_uses:
+  - sponsor
+  - guarantor
+  - nominal owner
+  - patron
+  - host
+  - intermediary
+
+boundaries:
+  - title is not universal command authority
+  - influence should create access, not erase consequences
+  - favors accumulate obligations
+  - public embarrassment damages future leverage

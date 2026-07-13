@@ -1,0 +1,45 @@
+schema_version: 1
+topic: Imperial_institutions
+
+adopted:
+  - fact_id: imperium.fragmented_power
+    statement: Imperial authority is powerful but distributed across nobles, services, ports, worlds, and local officials.
+
+  - fact_id: imperium.jump_lag_discretion
+    statement: Slow communications force local officials to exercise broad judgment.
+
+  - fact_id: nobility.patronage
+    statement: Noble influence commonly works through access, reputation, favors, guarantees, and introductions.
+
+  - fact_id: scouts.practical_decentralization
+    statement: The Scout Service is decentralized, improvisational, and trusted for mobility and local knowledge.
+
+  - fact_id: navy.power_not_ubiquity
+    statement: The Imperial Navy is strategically dominant but not continuously present in every system.
+
+  - fact_id: starport.shared_jurisdiction
+    statement: Starport and planetary authority frequently overlap in practice.
+
+  - fact_id: tas.information_network
+    statement: TAS influence comes from trusted information, social access, hostels, and publication reach.
+
+campaign_specific:
+  - fact_id: ardric.institutional_bridge
+    statement: Ardric's primary institutional strength is his ability to connect the crew to officials, nobles, and protected processes.
+    authority: campaign_interpretation
+
+  - fact_id: corbin.public_framing
+    statement: Corbin's value lies in investigation, credibility, publication, and the ability to shape public interpretation.
+    authority: campaign_characterization
+
+  - fact_id: omicron.fragmented_secrecy
+    statement: Omicron-like organizations are powerful but constrained by secrecy, internal boundaries, and political exposure.
+    authority: campaign_model
+
+tensions:
+  - formal_authority_vs_local_discretion
+  - secrecy_vs_coordination
+  - noble_request_vs_legal_command
+  - starport_law_vs_planetary_law
+  - public_truth_vs_operational_security
+  - military_priority_vs_civilian_rights

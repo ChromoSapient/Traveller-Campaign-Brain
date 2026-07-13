@@ -1,0 +1,41 @@
+schema_version: 1
+character: Corbin Vanis
+version: 0.8
+
+institutional_role:
+  profession: journalist
+  network:
+    - sources
+    - editors
+    - local reporters
+    - archives
+    - public records
+    - TAS-adjacent information channels
+    - personal credibility
+
+strengths:
+  - asking dangerous questions
+  - recognizing narrative gaps
+  - comparing public claims
+  - finding contradictions
+  - making information visible
+  - understanding reputational pressure
+
+risks:
+  - exposing operational secrets
+  - becoming a target
+  - being manipulated through selective disclosure
+  - damaging trust with the crew
+  - mistaking publication for justice
+  - underestimating classification and source protection
+
+decision_questions:
+  - Who benefits from silence?
+  - Who benefits from publication?
+  - Is the information verified?
+  - Is delay necessary?
+  - Will publication protect people or expose them?
+  - Is the story being used as bait?
+
+campaign_use:
+  - Corbin can alter the institutional battlefield by changing what officials, nobles, and the public believe is happening.

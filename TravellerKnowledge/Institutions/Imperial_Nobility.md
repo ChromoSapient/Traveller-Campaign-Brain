@@ -1,75 +1,68 @@
-# Imperial Nobility Knowledge Base
+# Imperial Nobility
 
-## Status
+## Nature
 
-Initial working framework. Detailed cross-edition extraction remains pending.
+Imperial nobility is not a single centralized bureaucracy.
 
-## The Imperium Is Feudal and Administrative
+It is a layered system of title, patronage, social expectation, legal privilege, regional responsibility, and political access.
 
-Imperial nobility combines:
+## Sources of Power
 
-- hereditary status
-- delegated authority
-- social obligation
-- military and civil service
+A noble may possess influence through:
+
+- formal title
+- land or domain
+- office
+- family connections
+- military service
+- wealth
 - patronage
-- family networks
-- ceremonial legitimacy
+- reputation
+- access to decision-makers
+- ability to coordinate institutions
 
-Actual power varies by title, region, office, wealth, family, and personal reputation.
+A title without relationships can be decorative. A minor noble with trusted connections can be formidable.
 
-## Minor Members of Powerful Families
+## Noble Obligation
 
-A minor family member may possess:
+Imperial nobles are expected to embody:
 
-- access without command
-- social credibility without independent authority
-- inherited obligations
-- family scrutiny
-- expectations of service
-- vulnerability to being used as a proxy
-- resources that are conditional rather than owned outright
+- stewardship
+- loyalty to the Imperium
+- defense of local order
+- support of trade and communication
+- mediation
+- patronage
+- response to crisis
 
-## Titles as Tools
+Actual performance varies wildly.
 
-Titles may:
+## Informal Leverage
 
-- open doors
-- establish jurisdiction
-- trigger deference
-- invite resentment
-- create legal duty
-- expose the holder to family intervention
+Much noble influence is exercised through requests rather than commands.
 
-## Noblesse Oblige
+Useful forms include:
 
-A noble may be expected to:
+- arranging introductions
+- obtaining an audience
+- asking a port official to review a case
+- providing a letter of passage
+- guaranteeing conduct
+- vouching for ownership or identity
+- securing temporary accommodation
+- requesting discretion
+- making it socially expensive to refuse
 
-- mediate disputes
-- protect dependents
-- sponsor useful people
-- uphold family reputation
-- provide leadership during crisis
-- accept responsibility beyond personal fault
+## Ardric
 
-## Ardric Application
+Ardric's influence should not function as a universal override.
 
-Ardric should not be reduced to wealth or manners.
+His leverage works best when:
 
-His most useful tensions are:
+- the request is plausible
+- the official has discretion
+- the favor can be reciprocated
+- the matter is below the level of major strategic policy
+- Ardric's reputation remains intact
 
-- inherited status versus earned competence
-- family loyalty versus crew loyalty
-- access versus autonomy
-- obligation versus personal preference
-- being underestimated as ornamental
-- fearing that every personal failure becomes family evidence
-
-## Convergence Targets
-
-- Mongoose 2e *Third Imperium*
-- *Behind the Claw*
-- Classic and MegaTraveller noble material
-- GURPS Traveller social and political sources
-- Mongoose 1e careers and setting books
-- JTAS articles and adventures
+He is strongest as a bridge between systems, not as a magic keycard with a title.
