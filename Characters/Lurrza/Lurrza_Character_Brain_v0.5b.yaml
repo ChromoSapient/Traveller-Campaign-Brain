@@ -1,0 +1,57 @@
+schema_version: 1
+
+character: Lurrza
+version: 0.5b
+
+identity:
+  species: Vargr
+  culture: Imperial Dustfall Vargr
+  roles:
+    - life_support_specialist
+    - vacuum_welder
+    - airlock_technician
+    - community_caretaker
+    - informal_foster_parent
+
+status_model:
+  formal_charisma_literacy: moderate_unknown
+  practical_status: high
+  sources_of_authority:
+    - competence
+    - reliability
+    - emergency judgment
+    - favors
+    - protecting dependents
+    - keeping infrastructure alive
+
+influence_on_ruuk:
+  - survival is communal
+  - competence must serve people
+  - protecting the vulnerable is practical strength
+  - affection can be expressed through work and food
+  - panic is answered with tasks
+  - status matters less than whether the seal holds
+
+younglings:
+  biological_siblings_for_ruuk: few_known
+  household_model: porous_mixed_species
+  interpretation:
+    - fosterage may be informal
+    - children may stay while parents work
+    - displaced younglings may remain indefinitely
+    - kinship labels may be practical rather than legal
+
+medical_history:
+  radiation_reproductive_risk:
+    status: plausible_unconfirmed
+    usage:
+      - may inform subtext
+      - may not be stated as diagnosis
+      - may become canon through explicit ruling or story disclosure
+
+voice:
+  - blunt
+  - dry
+  - practical
+  - nurturing_without_sentimentality
+  - unimpressed_by_status_performance

@@ -1,0 +1,65 @@
+schema_version: 1
+
+character: Ruuk
+version: 0.5b
+
+core_identity:
+  species: Vargr
+  culture: Imperial Dustfall Vargr
+  social_model: mixed_species_pack
+  charisma_literacy: low_traditional_high_practical
+
+instinctive_reading:
+  strong:
+    - confidence
+    - uncertainty
+    - audience attention
+    - social momentum
+    - threat
+    - affiliation
+    - embarrassment
+  unreliable:
+    - exact formal challenge
+    - expected concession
+    - traditional rank implications
+    - regional Vargr etiquette
+
+leadership:
+  state: emerging
+  style:
+    - competence_based
+    - protective
+    - improvisational
+    - autonomy_preserving
+    - specialist_integrating
+  blind_spot:
+    - Ruuk may not notice that others have already begun treating him as leader.
+    - He may interpret deference as convenience rather than allegiance.
+    - He may resist formal authority after assuming practical responsibility.
+
+charisma_interaction_rule:
+  - Ruuk may gain standing by refusing theatrics and solving the actual problem.
+  - Traditional Vargr may interpret his indifference as confidence.
+  - Ruuk may accidentally issue challenges through humor, refusal, or public correction.
+  - Never narrate him as automatically understanding the result.
+
+sensory_use:
+  - Use scent and hearing as grounded clues.
+  - Avoid omniscient detection.
+  - Respect suits, airflow, masking, distance, and environmental noise.
+
+nurturing:
+  source: Lurrza
+  expression:
+    - triage
+    - feeding
+    - environmental safety
+    - giving frightened people useful tasks
+    - preserving dignity
+    - nonlethal preference when practical
+
+story_pressure:
+  - becoming responsible for people without seeking rank
+  - encountering culturally fluent Vargr
+  - learning that leadership creates obligations
+  - deciding whether to study traditional Charisma consciously

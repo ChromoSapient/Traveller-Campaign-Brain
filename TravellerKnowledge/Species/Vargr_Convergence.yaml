@@ -1,0 +1,73 @@
+schema_version: 1
+
+topic: Vargr
+
+consensus:
+
+  - fact_id: vargr.ancient_uplift
+    statement: Vargr descend from Terran canids altered and transplanted by the Ancients.
+    support:
+      - MGT2
+      - legacy_traveller
+    adoption_status: adopted
+
+  - fact_id: vargr.charisma_social_authority
+    statement: Charisma reflects social authority, prestige, reputation, and follower response rather than simple attractiveness.
+    support:
+      - MGT2
+      - MGT1
+      - CT
+    adoption_status: adopted
+
+  - fact_id: vargr.pack_flexible
+    statement: Vargr packs can be formed around kinship, work, danger, travel, crime, or shared purpose.
+    support:
+      - MGT2
+      - MGT1
+      - campaign
+    adoption_status: adopted
+
+  - fact_id: vargr.expression_multichannel
+    statement: Vargr communicate through body posture, ears, tail, voice, gaze, and scent as well as words.
+    support:
+      - MGT2
+      - MGT1
+      - CT
+    adoption_status: adopted
+
+campaign_specific:
+
+  - fact_id: glisten.vargr.corsair_origin
+    statement: The Glisten Vargr population descends from corsair or pirate remnants that ventured deep into Imperial space.
+    authority: explicit_referee_ruling
+    adoption_status: adopted
+
+  - fact_id: ruuk.charisma_literacy
+    statement: Ruuk possesses Vargr social instincts but lacks full cultural literacy in traditional Charisma conventions.
+    authority:
+      - explicit_referee_ruling
+      - campaign_characterization
+    adoption_status: adopted
+
+  - fact_id: lurrza.nurturing_influence
+    statement: Lurrza taught Ruuk a cross-species nurturing ethic rooted in Dustfall survival.
+    authority: explicit_referee_ruling
+    adoption_status: adopted
+
+unresolved:
+
+  - fact_id: lurrza.radiation_reproductive_risk
+    statement: Exterior repair radiation exposure made further pregnancy dangerous for Lurrza.
+    status: plausible_unconfirmed
+    required_resolution: explicit_referee_ruling_or_medical_story_event
+
+  - fact_id: glisten.corsair_source_passage
+    statement: A published source explicitly describes the Glisten corsair-remnant origin.
+    status: not_required_for_campaign_canon
+    research_value: provenance_only
+
+extraction_status:
+  MGT2_Aliens_Volume_1: partially_extracted
+  MGT1_Alien_Module_2_Vargr: located_pending_page_extraction
+  CT_Alien_Module_3_Vargr: located_pending_page_extraction
+  JTAS: inventory_pending
