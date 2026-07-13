@@ -1,0 +1,68 @@
+schema_version: 1
+
+character: Lurrza
+species: Vargr
+gender: female
+
+confidence:
+  overall: 4
+  voice: 3
+  values: 5
+  relationships: 5
+  history: 3
+  medical_history: 1
+
+identity:
+  home: Dustfall Station, Glisten system
+  cultural_identity:
+    - Imperial Vargr
+    - Dustfall spacer
+    - life-support specialist
+    - community caretaker
+
+profession:
+  primary:
+    - vacuum welder
+    - life-support specialist
+    - airlock repair technician
+  social_function:
+    - practical elder
+    - emergency problem-solver
+    - informal foster parent
+
+values:
+  - survival is communal
+  - competence earns trust
+  - children belong to the community before they belong to abstractions
+  - protecting others is not softness
+  - keeping air inside the station outranks preserving dignity
+
+relationship_to_ruuk:
+  influence:
+    - taught practical survival
+    - taught technical respect for life support
+    - modeled gruff affection
+    - taught nurturing across species boundaries
+    - taught that useful adults protect the vulnerable
+
+younglings:
+  biological_children:
+    status: few_known
+  community_children:
+    status: numerous
+    description:
+      - Lurrza is often surrounded by younglings of multiple species.
+      - Some may be fostered, temporarily sheltered, fed, supervised, or informally adopted.
+
+medical_history:
+  radiation_exposure:
+    status: plausible_unconfirmed
+    hypothesis:
+      - Years of exterior repair, damaged shielding, and emergency EVA work may have exposed Lurrza to cumulative radiation.
+      - Later pregnancies may have become medically dangerous.
+    rule:
+      - Do not state infertility, miscarriage history, or an exact diagnosis without explicit adoption.
+
+voice:
+  traits: [blunt, practical, dry, protective, unimpressed_by_theatrics]
+  affection_style: [feeding, repairing, assigning_useful_work, checking_seals_twice]

@@ -1,0 +1,35 @@
+schema_version: 1
+
+character: Ruuk
+
+identity:
+  species: Vargr
+  cultural_primary: Imperial
+  cultural_secondary:
+    - Dustfall spacer
+    - mixed-species frontier
+    - fragmentary Vargr inheritance
+  birthplace: Dustfall Station, Glisten system
+
+vargr_cognition:
+  inherited:
+    social_momentum_awareness: strong
+    confidence_sensitivity: strong
+    pack_forming_drive: strong
+    leadership_drive: emerging
+    body_language_expression: natural
+  culturally_learned:
+    formal_charisma_use: weak
+    charisma_contest_recognition: weak
+    traditional_pack_etiquette: fragmentary
+    status_concession_signals: fragmentary
+  practical_adaptations:
+    mixed_species_social_reading: strong
+    reputation_management: strong
+    deception: strong
+    competence_based_leadership: emerging_strong
+
+interpretive_rule:
+  - Ruuk can feel a Vargr social challenge without understanding its exact cultural grammar.
+  - He may accidentally alter Charisma standing through competence, refusal, humor, or indifference.
+  - Do not portray him as culturally fluent merely because he is biologically Vargr.

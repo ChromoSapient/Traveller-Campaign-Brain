@@ -1,0 +1,29 @@
+schema_version: 1
+
+topic: Glisten Vargr
+
+status:
+  campaign_status: adopted_with_source_verification_pending
+  published_source_confirmation: pending
+
+origin:
+  campaign_lock:
+    - The Vargr population in the Glisten system descends from remnants or survivors of a pirate or corsair raiding group that ventured deep into Imperial space.
+    - Their descendants became an Imperial Vargr community rather than a fragment of a normal Vargr Extents polity.
+  probable_sources:
+    - Behind the Claw
+    - Mysteries of the Ancients
+    - Spinward Marches or Glisten regional material
+
+cultural_effects:
+  - long separation from the Vargr Extents
+  - mixed-species households and work crews
+  - Imperial Anglic dominance
+  - partial survival of corsair stories without complete cultural continuity
+  - reputation tied to practical usefulness
+  - Vargr instincts expressed through local Dustfall customs
+
+research_tasks:
+  - verify the exact published wording of Glisten Vargr origins
+  - identify the era of the corsair settlement
+  - distinguish Glisten-wide Vargr culture from Dustfall-specific culture

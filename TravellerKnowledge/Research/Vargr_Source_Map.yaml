@@ -1,0 +1,33 @@
+schema_version: 1
+
+topic: Vargr
+
+primary_sources:
+  - edition: MGT2
+    title: Aliens of Charted Space, Volume 1
+    status: available
+  - edition: MGT1
+    title: Alien Module 2 - Vargr
+    path: "/_Gaming/_SciFi/Traveller/10 - Mongoose/1e/TTI - Alien Module 2 - Vargr.pdf"
+    status: available
+    use: [physiology, psychology, senses, reproduction, body_language, social_behavior]
+  - edition: CT
+    title: Alien Module 3 - Vargr
+    path: "/_Gaming/_SciFi/Traveller/01 - Classic/Aliens/Classic Traveller - Alien Module 03 - Vargr.pdf"
+    status: available
+
+regional_sources:
+  - title: Behind the Claw
+    research_question: [origin_of_Glisten_Vargr, Imperial_Vargr_communities]
+  - title: Mysteries of the Ancients
+    research_question: [Glisten_Vargr_population_history]
+
+secondary_sources:
+  - source: Traveller Wiki
+    status: research_index
+  - source: JTAS
+    status: pending_index
+
+campaign_sources:
+  - title: Ruuk's Story
+    use: [Dustfall_upbringing, Lurrza, mixed_species_environment, leadership, nurturing]

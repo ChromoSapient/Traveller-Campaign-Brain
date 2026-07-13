@@ -1,75 +1,55 @@
 # Vargr Knowledge Base
 
-## Status
+## A Necessary Distinction
 
-Initial convergence file. Primarily based on Mongoose 2e and campaign material; legacy-edition convergence remains pending.
+Vargr biology does not automatically confer complete Vargr cultural literacy.
 
-## Core Social Dynamics
+A Vargr may inherit sensitivity to confidence, hesitation, social momentum, pack-forming impulses, leadership drives, and expressive body language.
 
-Vargr status is highly sensitive to demonstrated charisma, confidence, reputation, and group response. Authority that cannot sustain recognition may dissolve quickly.
+A Vargr must still learn how status contests are conducted, how Charisma is displayed and interpreted, when a challenge begins, what concession means, and how followers expect leaders to behave.
 
-This does not mean every Vargr is fickle or incapable of long loyalty. Durable loyalty is often personal and relational rather than abstractly institutional.
+## Charisma
 
-## Communication
+Vargr Charisma is a socially recognized measure of prestige, confidence, authority, reputation, and the ability to gather or retain followers.
 
-Vargr communication includes posture, ear position, tail behavior, scent, distance, gaze, vocal rhythm, and verbal content.
+It is partly instinctive in effect and partly cultural in use.
 
-Writers should avoid treating visible body language as decorative punctuation. It may contradict or qualify spoken words.
+An Imperial-raised Vargr may feel the pressure without understanding the rules.
 
-## Pack and Belonging
+## Imperial Vargr
 
-"Pack" can describe family, gang, crew, military unit, workplace, political following, or temporary coalition.
+Imperial Vargr may be raised in mixed environments where Anglic, Imperial law, human social norms, and local occupational culture dominate.
 
-A Vargr may belong to several overlapping packs with different emotional and practical obligations.
+They are not lesser Vargr. They are culturally different Vargr.
 
-## Reputation
+Possible adaptations include practical reputation, mixed-species packs, contract literacy, human-rank fluency, and partial misunderstanding of traditional posturing.
 
-Reputation functions as social capital.
+## Ruuk
 
-Important questions include:
+Ruuk was raised in Imperial space in the Glisten system.
 
-- Who witnessed the act?
-- Who retells it?
-- Did the Vargr show courage, competence, generosity, or style?
-- Did the group accept the performance?
-- Was success attributed to the individual or the pack?
+He has Vargr instincts but lacks full traditional Vargr cultural literacy.
 
-## Leadership
+He often notices pressure, challenge, confidence, uncertainty, and audience response while missing the exact social stakes.
 
-Vargr leadership is often performative in the serious sense: confidence must be continually made credible through judgment, success, generosity, and social awareness.
+Traditional Vargr posturing often registers to him as needless theatrics.
 
-A leader who admits uncertainty skillfully may retain status. A leader who pretends certainty and exposes the pack to humiliation may not.
+His blind spot is specifically the culturally encoded meaning of Vargr-on-Vargr status behavior.
 
-## Outsider Misreadings
+## Emerging Leadership
 
-Humans often mistake:
+Ruuk's leadership is becoming visible through responsibility, coordination, protection of crew autonomy, risk acceptance, and practical decision-making.
 
-- charisma for vanity
-- flexible hierarchy for chaos
-- visible emotional signaling for lack of discipline
-- pack loyalty for inability to form wider institutions
+He leads by competence, trust, improvisation, protection, and getting people home.
 
-## Ruuk Application
+This may make him compelling to mixed-species crews while confusing culturally traditional Vargr.
 
-Ruuk's Dustfall upbringing emphasizes:
+## Writing Guidance
 
-- reputation built through competence
-- multiple overlapping packs
-- reading social momentum
-- sensitivity to confinement and dependence
-- practical loyalty rather than formal obedience
-- humor and sarcasm as status management
+When Ruuk meets a culturally fluent Vargr:
 
-## Provenance Notes
-
-Primary current sources:
-- *Aliens of Charted Space, Volume 1*
-- *Behind the Claw*
-- Ruuk campaign documents and story material
-
-Legacy convergence targets:
-- Classic Traveller Vargr material
-- MegaTraveller alien references
-- GURPS Traveller alien material
-- Mongoose 1e Vargr sources
-- JTAS articles
+- show him noticing body language
+- do not assume he understands the convention
+- let the other Vargr misread his nonparticipation
+- allow practical action to shift the contest unexpectedly
+- distinguish audience reaction from Ruuk's interpretation
