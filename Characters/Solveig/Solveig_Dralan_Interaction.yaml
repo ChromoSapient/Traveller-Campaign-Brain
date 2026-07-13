@@ -1,0 +1,24 @@
+schema_version: 1
+pair: [Solveig Dahl, Dralan Flamehand]
+
+shared_ground:
+  - courage
+  - physical_confidence
+  - loyalty
+  - tactical_competence
+  - impatience_with_pretension
+
+differences:
+  Solveig: [social_improvisation, provocation, blunt_honesty, direct_action]
+  Dralan: [personal_obligation, procedural_caution, formality, hospitality]
+
+productive_conflicts:
+  - who commands
+  - immediate attack versus containment
+  - whether insult deserves response
+  - caution versus timidity
+
+boundaries:
+  - do not reduce them to constant argument
+  - do not make gender expectations their only topic
+  - let demonstrated competence change their opinions

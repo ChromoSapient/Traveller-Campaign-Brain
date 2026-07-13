@@ -1,52 +1,9 @@
-# Darrian Knowledge Base
+# Darrian Cultural Framework
 
-## Historical Core
+The Maghiz remains a civilizational warning against uncontrolled experimentation, expert overconfidence, and inadequate containment.
 
-Darrian civilization achieved extraordinary technological sophistication before the Maghiz devastated its interstellar society.
+Darrian culture is not anti-science. It values expertise, reproducibility, preservation of knowledge, controlled experimentation, and historical memory.
 
-The Maghiz is not merely history. It is a cultural wound shaping attitudes toward knowledge, risk, and uncontrolled experimentation.
+Darrian restraint is disciplined caution rather than timidity.
 
-## Cultural Tendencies
-
-- respect for expertise
-- long historical memory
-- confidence without complete technological innocence
-- caution around poorly understood high technology
-- willingness to preserve knowledge
-- awareness that civilization can collapse quickly
-
-## Science and Ethics
-
-Darrian caution should not become anti-science.
-
-A Darrian approach may ask:
-
-- Is the system understood?
-- Can it be contained?
-- Who bears the risk?
-- What knowledge is lost by refusing study?
-- What happens if the experts are wrong?
-
-## Relations with Aslan
-
-Darrian society includes long experience with Aslan populations and institutions.
-
-This creates room for hybrid identities like Dralan's without requiring either culture to disappear.
-
-## Dralan Application
-
-Dralan can simultaneously:
-
-- value conservative Aslan honor
-- respect Darrian expertise
-- distrust uncontrolled Ancient technology
-- see preservation of knowledge as a duty
-- prefer proportional, informed action
-
-## Convergence Targets
-
-- *Behind the Claw*
-- Sword Worlds material on Darrian relations
-- legacy Darrian sources
-- JTAS articles
-- Mongoose 1e regional supplements
+Dralan's Darrian side appears through respect for specialists, quarantine and containment habits, distrust of false archaeological claims, and reluctance to activate poorly understood technology.

@@ -1,16 +1,12 @@
-# Traveller Campaign Brain v0.6: Robotics and Tech World Convergence
+# Traveller Campaign Brain v0.7
 
-This patch establishes the campaign's robotics, robot-law, memory-identity, Tech World, and Roamer foundations.
+Darrian, Aslan, and Sword World interaction convergence.
 
-## Major Locks
+Major locks:
+- Dralan is a genuine Aslan-Darrian synthesis.
+- His honor is personal and obligation-centered.
+- His Darrian side favors expertise, containment, and preservation of knowledge.
+- His cooking is craft, hospitality, and diplomacy, not comic garnish.
+- Solveig and Dralan share courage and practical competence but differ over command, risk, and social formality.
 
-- Roamer is socially and morally self-owning.
-- Ardric's recorded ownership of Roamer is legal cover only.
-- Imperial jurisdictions commonly treat robots as property and owners as liable for their actions.
-- Robot personhood, legal ownership, self-awareness, and sentience are separate questions.
-- Forced memory access, deletion, rewriting, or duplication violates Roamer's autonomy.
-- Tech World is technologically sophisticated but not automatically ethically enlightened.
-
-Suggested commit message:
-
-`Add v0.6 robotics and Tech World convergence`
+Suggested commit message: `Add v0.7 Darrian Aslan and Sword World convergence`

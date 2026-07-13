@@ -1,0 +1,42 @@
+schema_version: 1
+character: Dralan Flamehand
+version: 0.7
+
+identity:
+  species: Aslan
+  culture: Aslan_Darrian_synthesis
+  roles: [warrior, militia_veteran, chef, spacer]
+
+core_values:
+  - personal_obligation
+  - courage
+  - competence
+  - hospitality
+  - loyalty
+  - controlled_use_of_dangerous_knowledge
+  - protection_of_companions
+
+leadership:
+  style: [direct, protective, tactical, visibly_accountable]
+  blind_spots:
+    - may assume accepted obligations are more binding than others expect
+    - may undervalue indirect social strategy
+
+gastronomy:
+  functions: [art, hospitality, identity, reconciliation, discipline]
+  rule: Cooking is not comic decoration.
+
+relationships:
+  Ruuk:
+    basis: [life_debt, mutual_rescue, pack_bond, complementary_skills]
+  Solveig:
+    shared: [courage, combat_competence, bluntness, loyalty]
+    friction: [command, risk, formality, gender_assumptions]
+    potential: [mutual_respect, tactical_partnership, culinary_rivalry]
+
+decision_questions:
+  - What obligation has been accepted?
+  - Who is under my protection?
+  - Is the threat understood?
+  - Does delay increase danger?
+  - Can knowledge be preserved without releasing the hazard?

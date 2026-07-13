@@ -1,0 +1,23 @@
+schema_version: 1
+topic: Darrian_Aslan_SwordWorld_interaction
+
+adopted:
+  - fact_id: dralan.hybrid_identity
+    statement: Dralan combines Aslan personal obligation with Darrian procedural caution.
+  - fact_id: dralan.food_as_hospitality
+    statement: Dralan uses cooking as craft, hospitality, ritual, and social bridge.
+  - fact_id: swordworld.preparedness
+    statement: Sword World culture values readiness, toughness, independence, and practical competence.
+  - fact_id: darrian.maghiz_caution
+    statement: The Maghiz shapes Darrian caution toward poorly controlled high technology.
+  - fact_id: dralan.cunnonic_militia
+    statement: Dralan served with the Darrian Militia on Cunnonic.
+  - fact_id: dralan.ruuk_lifedebt
+    statement: Dralan declared a life-debt to Ruuk after combat and medical rescue.
+
+tensions:
+  - action_vs_containment
+  - pragmatism_vs_expertise
+  - personal_obligation_vs_procedure
+  - competing_command_styles
+  - culturally_inherited_gender_expectations
