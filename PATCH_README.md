@@ -1,29 +1,16 @@
-# Traveller Campaign Brain v0.5b: Vargr Source Convergence
+# Traveller Campaign Brain v0.6: Robotics and Tech World Convergence
 
-This patch completes the first source-convergence pass for Vargr material.
+This patch establishes the campaign's robotics, robot-law, memory-identity, Tech World, and Roamer foundations.
 
-## Scope
+## Major Locks
 
-- Separates biology, instinct, culture, and campaign-specific adaptation.
-- Locks the Glisten corsair-remnant origin as campaign canon.
-- Adds provenance-aware consensus and contradiction tracking.
-- Refines Ruuk's Imperial Vargr profile.
-- Refines Lurrza's cultural and nurturing influence.
-- Adds reusable interaction patterns for culturally fluent Vargr meeting Ruuk.
-
-## Source Status
-
-Directly incorporated:
-- Mongoose Traveller 2e *Aliens of Charted Space, Volume 1*
-- Mongoose Traveller 2e *Behind the Claw*
-- Ruuk campaign material
-- explicit referee rulings
-
-Located and queued for deeper page-level extraction:
-- Mongoose Traveller 1e *Alien Module 2: Vargr*
-- Classic Traveller *Alien Module 3: Vargr*
-- JTAS Vargr articles
+- Roamer is socially and morally self-owning.
+- Ardric's recorded ownership of Roamer is legal cover only.
+- Imperial jurisdictions commonly treat robots as property and owners as liable for their actions.
+- Robot personhood, legal ownership, self-awareness, and sentience are separate questions.
+- Forced memory access, deletion, rewriting, or duplication violates Roamer's autonomy.
+- Tech World is technologically sophisticated but not automatically ethically enlightened.
 
 Suggested commit message:
 
-`Add v0.5b Vargr source convergence`
+`Add v0.6 robotics and Tech World convergence`

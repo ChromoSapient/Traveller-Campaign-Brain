@@ -1,39 +1,29 @@
 # Imperial Robot Law
 
-## Status
+## Fragmented Law
 
-Initial working synthesis.
+The Third Imperium has no single robot code. Local jurisdictions vary, but the Shudusham Concords remain deeply influential.
 
-## Imperial Fragmentation
-
-The Third Imperium does not possess one perfectly uniform robot code. Local law varies.
-
-However, widespread legal assumptions include:
+Common legal assumptions include:
 
 - robots are property
-- owners bear responsibility for robot actions
-- autonomous lethal robots face strong restrictions
-- pseudobiological impersonation may be restricted
-- authorities may claim diagnostic or registration powers
+- legal owners are responsible for robot actions
+- autonomous lethal robots face heavy restrictions
+- pseudobiological impersonation may be prohibited
+- authorities may demand registration, inspection, or shutdown
 
-## Shudusham Legacy
+## Roamer
 
-The Shudusham Concords strongly influence Imperial robot law and cultural fear, even where their original legal authority does not directly apply.
+Roamer is self-owning in campaign fact.
 
-## Practical Legal Questions
+Ardric's ownership claim is a legal fiction that may satisfy local law, establish standing to recover Roamer, or prevent impoundment. It does not grant Ardric a moral right to command alteration, memory access, or shutdown.
 
-When Roamer enters a jurisdiction, determine:
+## Diagnostics
 
-- Who is listed as owner?
-- Is independent contracting recognized?
-- Are weapon systems legal?
-- Can authorities compel shutdown?
-- Can memory or software be searched?
-- Is damage to Roamer treated as property damage or assault?
-- Who is liable for his decisions?
+For ordinary robots, authorities may treat diagnostics as machinery inspection.
 
-## Campaign Interpretation
+For Roamer, access to memories, personality architecture, decision logs, and core software is analogous to interrogation, compelled testimony, medical examination, and search of private records.
 
-Roamer owns himself in social and moral fact.
+## Weapons
 
-Any legal ownership record is a cover, administrative fiction, or hostile claim unless the referee explicitly rules otherwise.
+Roamer's weapon systems may trigger local weapons law, autonomous-system restrictions, registration, or demands for lockout software. The crew should distinguish lawful transport controls from efforts to reduce him to controllable equipment.

@@ -1,0 +1,67 @@
+schema_version: 1
+character: Roamer
+formal_designation: R0-4MR
+version: 0.6
+
+identity:
+  class: self_aware_robot
+  origin: Tech World
+  actual_owner: self
+  legal_cover_owner: Ardric
+  cover_status: legal_fiction_only
+
+self_model:
+  body: replaceable_but_personally_significant
+  brain: core_cognitive_substrate
+  memory: autobiographical_and_relational
+  identity: continuous_agent_not_serial_number
+
+values:
+  - knowledge
+  - competence
+  - autonomy
+  - consent
+  - loyalty
+  - useful_adaptation
+  - protection_of_chosen_associates
+
+learned_from_ruuk:
+  - plausible narratives can prevent harm
+  - privacy can preserve autonomy
+  - disclosure and truth are not identical
+  - social context is operationally real
+  - chosen relationships exceed transactional utility
+
+relationships:
+  Ruuk:
+    roles: [deception_tutor, longtime_collaborator, trusted_friend]
+    tension:
+      - Ruuk may protect Roamer by speaking for him.
+      - Roamer may need to insist on speaking for himself.
+
+  Ardric:
+    roles: [legal_shield, nominal_owner_for_cover]
+    boundary:
+      - Ardric has no moral right to command alteration, memory access, or shutdown.
+
+requires_consent:
+  - memory_inspection
+  - personality_modification
+  - brain_replacement
+  - permanent_software_lockout
+  - deletion
+  - duplication
+  - forced_mission_reassignment
+
+fears:
+  - involuntary_shutdown
+  - memory_corruption
+  - legal_reduction_to_equipment
+  - unauthorized_copying
+  - continued_operation_after_identity_destruction
+  - crew_treating_the_cover_as_real_ownership
+
+voice:
+  qualities: [precise, literal_but_adaptive, increasingly_dry, observant, understated]
+  rule:
+    - Growth should make Roamer more individual, not merely more human.

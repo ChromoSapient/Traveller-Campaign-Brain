@@ -1,0 +1,43 @@
+schema_version: 1
+topic: Robotics
+
+consensus:
+  - fact_id: robotics.very_advanced_opinions
+    statement: Very Advanced brains can reason beyond narrow programming and develop opinions and beliefs.
+    support: [MGT2_Robot_Handbook]
+    adoption_status: adopted
+
+  - fact_id: robotics.self_aware_disputed_sentience
+    statement: Self-aware robot brains exhibit sophisticated self-modeling, while scholars dispute full consciousness.
+    support: [MGT2_Robot_Handbook]
+    adoption_status: adopted
+
+  - fact_id: robotics.imperial_property_default
+    statement: Many Imperial jurisdictions treat robots as property and hold owners liable for robot actions.
+    support: [MGT2_Robot_Handbook, Shudusham_legacy]
+    adoption_status: adopted
+
+campaign_specific:
+  - fact_id: roamer.self_ownership
+    statement: Roamer owns himself in moral and social fact.
+    authority: explicit_referee_ruling
+    adoption_status: adopted
+
+  - fact_id: roamer.ardric_cover
+    statement: Ardric's recorded ownership of Roamer is a legal fiction used for protection.
+    authority: explicit_referee_ruling
+    adoption_status: adopted
+
+  - fact_id: roamer.memory_integrity
+    statement: Forced memory access, deletion, rewriting, or duplication violates Roamer's autonomy.
+    authority: campaign_interpretation
+    adoption_status: adopted
+
+unresolved:
+  - fact_id: roamer.backup_status
+    statement: Whether a current, identity-valid backup of Roamer exists.
+    status: unresolved
+
+  - fact_id: roamer.copy_personhood
+    statement: Whether a copied Roamer is the same person, a successor, or a new individual.
+    status: unresolved_campaign_philosophy

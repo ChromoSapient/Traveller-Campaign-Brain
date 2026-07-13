@@ -7,33 +7,32 @@
 - [x] v0.3 Simulation Layer
 - [x] v0.4 Traveller Knowledge Foundation
 - [x] v0.5a Imperial Vargr and Lurrza Foundation
-- [x] v0.5b Vargr Source Convergence, first pass
+- [x] v0.5b Vargr Source Convergence
+- [x] v0.6 Robotics and Tech World Convergence, first pass
 
-## Remaining Vargr Research
+## Remaining Robotics Research
 
-- [ ] Mongoose 1e page-level physiology and psychology extraction
-- [ ] Classic Traveller comparison
-- [ ] JTAS Vargr article inventory
-- [ ] Traveller Wiki provenance pass
-- [ ] detailed cross-edition contradiction notes
+- [ ] exact memory-transfer and brain-replacement rules
+- [ ] published Tech World source extraction
+- [ ] legacy-edition robot-law comparison
+- [ ] JTAS robot-rights inventory
+- [ ] Roamer hardware and brain specification audit
 
 These are enrichment tasks, not blockers for campaign use.
 
 ## Next Major Milestone
 
-### v0.6 Robotics and Tech World Convergence
+### v0.7 Darrian, Aslan, and Sword World Interaction
 
-- robot personhood
-- ownership and legal cover
-- self-aware brains
-- memory integrity
-- Tech World culture
-- maintenance dependence
-- Roamer character brain update
+- Dralan's hybrid identity
+- Aslan honor and clan behavior
+- Darrian scientific caution
+- Sword World cultural pressure
+- Solveig and Dralan interaction guidance
+- regional historical tensions
 
 ## Later
 
-### v0.7 Darrian, Aslan, and Sword World Interaction
 ### v0.8 Imperial Institutions
 ### v0.9 Adventure and JTAS Lore Index
 ### v1.0 Integrated Knowledge Graph
