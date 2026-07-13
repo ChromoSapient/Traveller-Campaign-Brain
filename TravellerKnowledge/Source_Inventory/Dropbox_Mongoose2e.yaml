@@ -1,0 +1,50 @@
+schema_version: 1
+source_root: "/_Gaming/_SciFi/Traveller/10 - Mongoose/2e"
+inventory_date: "2026-07-13"
+status: inventoried
+
+campaign_critical:
+
+  - title: "Aliens of Charted Space Volume 1"
+    topics: [Vargr, Aslan, alien_culture]
+    priority: campaign_critical
+
+  - title: "Aliens of Charted Space Volume 2"
+    topics: [Hivers, Droyne, alien_culture]
+    priority: campaign_critical
+
+  - title: "Behind the Claw"
+    topics: [Spinward_Marches, Glisten, Darrian, Sword_Worlds, Imperial_frontier]
+    priority: campaign_critical
+
+  - title: "Sword Worlds"
+    topics: [Sword_Worlds, Solveig]
+    priority: campaign_critical
+
+  - title: "Robot Handbook"
+    topics: [robots, robot_law, artificial_personhood, Roamer]
+    priority: campaign_critical
+
+  - title: "Third Imperium"
+    topics: [Imperium, nobility, institutions, history]
+    priority: high
+
+  - title: "Clans of the Aslan"
+    topics: [Aslan, clans, honor, family, Dralan]
+    priority: high
+
+  - title: "Starship Operators Manual"
+    topics: [shipboard_life, engineering, operations, jump_routines]
+    priority: high
+
+  - title: "Bu and Embla's Guide to Starports of the Marches"
+    topics: [starports, Spinward_Marches, daily_life]
+    priority: high
+
+  - title: "World Builder's Handbook"
+    topics: [worldbuilding, environments, society]
+    priority: medium
+
+notes:
+  - Multiple versions and duplicates exist; index canonical working copies rather than every duplicate.
+  - Rules errata and FAQs should be tracked separately from lore extraction.

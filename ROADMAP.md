@@ -3,62 +3,61 @@
 ## Completed
 
 - [x] v0.1 Repository architecture
-- [x] v0.2 Initial character and culture deepening
+- [x] v0.2 Character and culture deepening
 - [x] v0.3 Simulation Layer
+- [x] v0.4 Traveller Knowledge Foundation
 
-## v0.3 Deliverables
+## v0.4 Deliverables
 
-- [x] Character confidence scoring
-- [x] Decision engines
-- [x] Interaction matrices
-- [x] Crew Brain
-- [x] Memory Brain
-- [x] Transcript update schema
-- [x] Change extraction rules
+- [x] Canon methodology
+- [x] Provenance schema
+- [x] Edition index
+- [x] Lore convergence workflow
+- [x] Source inventories
+- [x] JTAS indexing framework
+- [x] Initial high-priority knowledge files
 
 ## Planned
 
-### v0.4 Culture Expansion
-- Vargr
-- Darrian
-- Imperial nobility
-- Tech World
-- Glisten
-- General Third Imperium
-- Droyne
+### v0.5 Vargr Convergence
+- Mongoose 2e
+- Mongoose 1e
+- Classic Traveller
+- MegaTraveller
+- GURPS Traveller
+- Traveller5
+- JTAS
+- campaign adoption update for Ruuk and Lurrza
 
-### v0.5 Adventure Spine
-- Mysteries of the Ancients
-- Secrets of the Ancients
-- Wrath of the Ancients
-- Reveal gates
-- Clue dependencies
-- Canon-preserving adaptation notes
+### v0.6 Robotics and Tech World Convergence
+- cross-edition robot law
+- self-aware brain lore
+- maintenance and ownership
+- Tech World source mining
+- Roamer dependency update
 
-### v0.6 Location Brain
-- Glisten
-- Callia
-- Pagaton
-- Lydia
-- Orchid of the Black Pelagic
-- Garnette
+### v0.7 Darrian, Aslan, and Sword World Interaction
+- cultural convergence
+- Dralan hybrid model
+- Solveig and Dralan interaction guidance
+- regional historical contradictions
 
-### v0.7 Transcript Intelligence
-- Session ingestion checklist
-- Automated update packet format
-- Diff summaries
-- Canon conflict reports
+### v0.8 Imperial Institutions
+- nobility
+- Scouts
+- Navy
+- starports
+- TAS
+- intelligence services
+- Ardric dependency update
 
-### v0.8 Mystery Engine
-- Evidence ledger
-- False interpretations
-- Knowledge by character and faction
-- Reveal order
+### v0.9 Adventure and JTAS Lore Index
+- full issue inventory
+- campaign-critical article extraction
+- article provenance records
+- adventure everyday-life extraction
 
-### v0.9 Story State Integration
-- Scene input packets
-- Character-state snapshots
-- Recommended next scenes
-
-### v1.0 Campaign Operating System
-- Integrated story-generation workflow
+### v1.0 Integrated Knowledge Graph
+- campaign state links
+- story input packets
+- provenance-aware scene generation

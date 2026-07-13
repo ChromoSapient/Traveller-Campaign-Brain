@@ -1,0 +1,17 @@
+schema_version: 1
+
+source:
+  source_id: "edition.publisher.short_title"
+  title: ""
+  edition: ""
+  publisher: ""
+  publication_year: null
+  source_type: "rulebook|setting|adventure|magazine|article|campaign_document"
+  path_or_reference: ""
+  copyright_owner: ""
+  extraction_status: "unindexed|inventoried|indexed|partially_extracted|extracted"
+  priority: "low|medium|high|campaign_critical"
+  topics: []
+  unique_contributions: []
+  known_conflicts: []
+  notes: ""

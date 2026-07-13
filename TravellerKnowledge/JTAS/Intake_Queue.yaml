@@ -1,0 +1,28 @@
+schema_version: 1
+collection_path: "/_Gaming/_SciFi/Traveller/Magazines/Journal of the Travellers Aid Society"
+
+priority_topics:
+  - Vargr
+  - Glisten
+  - Spinward Marches
+  - Imperial nobility
+  - robots
+  - Darrian
+  - Sword Worlds
+  - Hivers
+  - Droyne
+  - shipboard life
+  - jump travel
+  - archaeology
+  - Ancients
+  - starports
+  - trade
+  - Imperial law
+
+workflow:
+  - inventory all issues
+  - build article table of contents
+  - tag campaign-critical articles
+  - extract high-value lore facts
+  - add provenance records
+  - update dependency index

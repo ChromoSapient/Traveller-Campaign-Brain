@@ -1,0 +1,95 @@
+schema_version: 1
+
+editions:
+
+  Classic_Traveller:
+    code: CT
+    role:
+      - foundational setting assumptions
+      - frontier tone
+      - concise institutions and procedures
+      - early JTAS lore
+    mechanical_status: legacy
+    lore_status: active_source
+
+  MegaTraveller:
+    code: MT
+    role:
+      - politics and institutions
+      - Rebellion-era administration
+      - social consequences of large-scale instability
+    mechanical_status: legacy
+    lore_status: active_source
+
+  Traveller_The_New_Era:
+    code: TNE
+    role:
+      - collapse and recovery
+      - engineering under scarcity
+      - damaged infrastructure and frontier survival
+    mechanical_status: legacy
+    lore_status: contextual_source
+
+  Marc_Millers_Traveller:
+    code: T4
+    role:
+      - early Imperial history
+      - Long Night and foundational-era perspective
+    mechanical_status: legacy
+    lore_status: active_source
+
+  GURPS_Traveller:
+    code: GT
+    role:
+      - sociology
+      - economics
+      - daily life
+      - alternate-timeline Third Imperium
+    mechanical_status: foreign_system
+    lore_status: active_with_timeline_flag
+
+  Traveller_d20:
+    code: T20
+    role:
+      - equipment and institutional expansion
+      - alternative mechanical expressions
+    mechanical_status: foreign_system
+    lore_status: active_source
+
+  Mongoose_Traveller_1e:
+    code: MGT1
+    role:
+      - extensive setting and career expansion
+      - adventures and regional detail
+      - material not reprinted in 2e
+    mechanical_status: legacy_mongoose
+    lore_status: active_source
+
+  Mongoose_Traveller_2e:
+    code: MGT2
+    role:
+      - current campaign rules default
+      - current Mongoose setting presentation
+      - active product line
+    mechanical_status: default
+    lore_status: primary_but_not_exclusive
+
+  Traveller5:
+    code: T5
+    role:
+      - deep system modeling
+      - worldbuilding
+      - technological and scientific extrapolation
+    mechanical_status: specialist
+    lore_status: active_source
+
+  Journal_of_the_Travellers_Aid_Society:
+    code: JTAS
+    role:
+      - everyday life
+      - obscure institutions
+      - equipment
+      - customs
+      - adventure-facing lore
+    mechanical_status: mixed
+    lore_status: high_value_cross_edition

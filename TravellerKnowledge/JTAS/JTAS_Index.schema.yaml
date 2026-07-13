@@ -1,0 +1,25 @@
+schema_version: 1
+
+issue:
+  issue_id: ""
+  series: ""
+  issue_number: ""
+  publication_date: ""
+  edition_context: ""
+  source_path: ""
+  indexed: false
+
+articles:
+  - article_id: ""
+    title: ""
+    author: ""
+    page_range: ""
+    article_type: "lore|rules|adventure|equipment|ship|creature|news|opinion"
+    topics: []
+    regions: []
+    species: []
+    institutions: []
+    campaign_relevance: []
+    timeline_flags: []
+    extraction_status: "unreviewed|indexed|extracted"
+    notes: ""

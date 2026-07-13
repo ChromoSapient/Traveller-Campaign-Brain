@@ -1,0 +1,42 @@
+schema_version: 1
+
+topics:
+
+  Vargr:
+    campaign_dependencies:
+      - Characters/Ruuk.md
+      - Characters/Lurrza.md
+      - Locations/Glisten.md
+      - Locations/Dustfall.md
+    knowledge_files:
+      - TravellerKnowledge/Species/Vargr.md
+
+  Robotics:
+    campaign_dependencies:
+      - Characters/Roamer.md
+      - Cultures/Tech_World.md
+      - Campaign/Relationship_Graph.yaml
+    knowledge_files:
+      - TravellerKnowledge/Technology/Robotics.md
+      - TravellerKnowledge/Law/Robot_Law.md
+
+  Darrian:
+    campaign_dependencies:
+      - Characters/Dralan.md
+      - Cultures/Darrian.md
+    knowledge_files:
+      - TravellerKnowledge/Cultures/Darrian.md
+
+  Imperial_Nobility:
+    campaign_dependencies:
+      - Characters/Ardric.md
+      - Cultures/Imperial_Nobility.md
+    knowledge_files:
+      - TravellerKnowledge/Institutions/Imperial_Nobility.md
+
+  Ancients:
+    campaign_dependencies:
+      - Mysteries/Clue_Graph.yaml
+      - Story/Author_Brain.md
+    knowledge_files:
+      - TravellerKnowledge/History/Ancients.md

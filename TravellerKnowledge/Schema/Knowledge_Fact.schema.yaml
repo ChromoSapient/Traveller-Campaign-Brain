@@ -1,0 +1,45 @@
+schema_version: 1
+
+required_fields:
+  - fact_id
+  - topic
+  - statement
+  - provenance
+  - confidence
+  - adoption_status
+
+fact:
+  fact_id: "stable.dot.separated.identifier"
+  topic: "human-readable topic"
+  statement: "concise paraphrased claim"
+
+  provenance:
+    - edition: "CT|MT|TNE|T4|GT|T20|MGT1|MGT2|T5|JTAS|Campaign"
+      source_title: "book, article, transcript, or ruling"
+      page_or_location: "page, chapter, issue, session, or section"
+      source_type: "rulebook|setting|adventure|magazine|transcript|ruling|campaign_document"
+      support: "primary|supporting|contradictory|contextual"
+      notes: ""
+
+  confidence:
+    source_quality: 0
+    cross_edition_support: 0
+    campaign_support: 0
+    overall: 0
+
+  adoption_status: "adopted|compatible|alternate|superseded|rejected|unresolved"
+
+  campaign_effect:
+    affected_files: []
+    affected_characters: []
+    affected_locations: []
+    notes: ""
+
+  conflict:
+    status: "none|open|resolved"
+    conflicting_fact_ids: []
+    resolution: ""
+
+  review:
+    last_reviewed: ""
+    reviewer: ""

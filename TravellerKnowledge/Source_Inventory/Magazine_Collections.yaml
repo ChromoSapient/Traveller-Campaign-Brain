@@ -1,0 +1,39 @@
+schema_version: 1
+source_root: "/_Gaming/_SciFi/Traveller/Magazines"
+inventory_date: "2026-07-13"
+status: folder_inventory_complete
+
+high_priority_collections:
+  - Journal of the Travellers Aid Society
+  - The Travellers' Digest
+  - Challenge
+  - MegaTraveller Journal
+  - The Traveller Chronicle
+  - Signs & Portents
+  - Imperiallines
+  - Freelance Traveller Magazine
+
+secondary_collections:
+  - High Passage
+  - Third Imperium
+  - Signal GK
+  - White Dwarf Magazine Articles
+  - Space Gamer
+  - Ares
+  - Dragon
+  - Stellar Reaches
+  - Continuum
+  - Colonial Times
+  - Far Traveller
+  - Cepheus Journal
+  - Xboat
+
+indexing_policy:
+  - record issue number
+  - record article title
+  - record author when available
+  - assign topic tags
+  - mark edition and timeline
+  - distinguish official, licensed, and fan material
+  - record page range
+  - avoid copying full article text
