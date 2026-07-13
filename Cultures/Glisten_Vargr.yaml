@@ -3,17 +3,22 @@ schema_version: 1
 topic: Glisten Vargr
 
 status:
-  campaign_status: adopted_with_source_verification_pending
-  published_source_confirmation: pending
+  campaign_status: adopted
+  published_source_confirmation: not_required_for_campaign_canon
+  source_verification_status: not_confirmed_in_current_search
 
 origin:
   campaign_lock:
     - The Vargr population in the Glisten system descends from remnants or survivors of a pirate or corsair raiding group that ventured deep into Imperial space.
     - Their descendants became an Imperial Vargr community rather than a fragment of a normal Vargr Extents polity.
+    - This origin remains canon for the campaign even if no published passage can be located.
   probable_sources:
     - Behind the Claw
     - Mysteries of the Ancients
     - Spinward Marches or Glisten regional material
+  authority:
+    type: explicit_referee_ruling
+    precedence: campaign_canon
 
 cultural_effects:
   - long separation from the Vargr Extents
@@ -24,6 +29,10 @@ cultural_effects:
   - Vargr instincts expressed through local Dustfall customs
 
 research_tasks:
-  - verify the exact published wording of Glisten Vargr origins
-  - identify the era of the corsair settlement
+  - continue looking for a published parallel or antecedent when convenient
+  - identify the era of the corsair settlement if a source is found
   - distinguish Glisten-wide Vargr culture from Dustfall-specific culture
+
+usage_rule:
+  - Do not weaken or qualify this origin in campaign prose merely because published-source confirmation remains absent.
+  - Any later published source should enrich or reconcile the campaign version, not silently replace it.
