@@ -9,30 +9,40 @@
 - [x] v0.5 Vargr convergence
 - [x] v0.6 Robotics and Tech World convergence
 - [x] v0.7 Darrian, Aslan, and Sword World interaction
-- [x] v0.8 Imperial Institutions, first pass
+- [x] v0.8 Imperial Institutions
+- [x] v0.9 Adventure and JTAS Lore Index, first pass
 
-## Remaining v0.8 Research
+## Remaining v0.9 Research
 
-- [ ] Imperial noble rank and privilege extraction
-- [ ] Scout Service branch and duty comparison
-- [ ] Imperial Navy jurisdiction and command extraction
-- [ ] TAS membership and archive detail
-- [ ] intelligence-service comparison
-- [ ] Corbin transcript and publication-history audit
+- [ ] page-level indexing for the Ancient trilogy
+- [ ] JTAS issue inventory
+- [ ] Ancient-site named reference map
+- [ ] NPC and organization alias resolution
+- [ ] hook scoring and retrieval tests
+- [ ] source conflict audit
 
-These are enrichment tasks, not blockers for campaign use.
+These are enrichment tasks, not blockers for initial campaign use.
 
 ## Next Major Milestone
 
-### v0.9 Adventure and JTAS Lore Index
-
-- published adventure indexing
-- JTAS topic inventory
-- Ancient-site references
-- Omicron-adjacent concepts
-- regional NPC and organization cross-links
-- campaign hook extraction
-
-## Later
-
 ### v1.0 Integrated Knowledge Graph
+
+- normalized entities
+- relationship graph
+- canon precedence engine
+- retrieval rules
+- contradiction tracking
+- scene recommendation support
+- campaign state validation
+- test queries
+
+## Readiness Gate
+
+The repository is ready for practical use when v1.0 can answer:
+
+- Who knows this fact?
+- What source supports it?
+- Is it campaign canon?
+- What conflicts with it?
+- Which NPCs and factions care?
+- What scene opportunities follow?

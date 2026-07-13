@@ -1,0 +1,79 @@
+schema_version: 1
+index: campaign_hooks
+
+hook_schema:
+  title: string
+  trigger: string
+  interested_parties: list
+  immediate_problem: string
+  hidden_layer: string
+  useful_assets: list
+  escalation: list
+  failure_consequence: string
+  canon_dependencies: list
+
+hooks:
+  - title: The Artifact That Has Already Been Cataloged
+    trigger: A supposedly new Ancient object matches a sealed Imperial reference.
+    interested_parties: [Omicron, Corbin, Ardric, rival_recovery_team]
+    immediate_problem: Someone else knows what the crew found.
+    hidden_layer: The old catalog entry may describe a different object with identical behavior.
+    useful_assets: [Corbin_sources, Ardric_access, Roamer_analysis, Ruuk_infiltration]
+    escalation:
+      - quiet inquiry
+      - surveillance
+      - seizure_attempt
+      - contradictory_claimants
+    failure_consequence: The object disappears into a compartmentalized program.
+
+  - title: Case Darrian, Revised
+    trigger: A Sword World contingency document contains recent references to Ancient technology.
+    interested_parties: [Sword_World_security, Darrian_scientists, Solveig, Dralan]
+    immediate_problem: The plan appears to anticipate a threat nobody has publicly identified.
+    hidden_layer: The update may be based on stolen or fabricated intelligence.
+    useful_assets: [Solveig_cultural_access, Dralan_Darrian_context, Corbin_verification]
+    escalation:
+      - political_denial
+      - archive_lockdown
+      - military_readiness
+      - diplomatic_crisis
+    failure_consequence: The crew becomes the explanation for the leak.
+
+  - title: Roamer's Prior Owner
+    trigger: A legal registry reveals an older ownership chain inconsistent with current records.
+    interested_parties: [Roamer, Ardric, Tech_World_firm, local_court]
+    immediate_problem: The claimant can legally demand seizure.
+    hidden_layer: The old record may conceal a research program or duplicate identity.
+    useful_assets: [Ardric_guarantee, Corbin_publicity, Ruuk_deception]
+    escalation:
+      - customs_hold
+      - injunction
+      - technical_examination
+      - memory_claim
+    failure_consequence: Roamer is treated as evidence or property.
+
+  - title: Dustfall Remembers
+    trigger: An old corsair insignia appears on a current artifact-recovery crew.
+    interested_parties: [Lurrza, Glisten_Vargr, local_security, rival_corsair_descendants]
+    immediate_problem: The symbol has local historical meaning.
+    hidden_layer: It may connect to the origin of Glisten's Vargr community.
+    useful_assets: [Lurrza_memory, Ruuk_reputation, Dustfall_contacts]
+    escalation:
+      - social_challenge
+      - claim_of_inheritance
+      - hidden_cache
+      - faction_split
+    failure_consequence: Ruuk is publicly assigned a legacy he does not understand.
+
+  - title: The JTAS Article That Vanished
+    trigger: Corbin finds citations to an article missing from every current archive.
+    interested_parties: [TAS, Omicron, academics, collector]
+    immediate_problem: Someone removed a widely distributed publication.
+    hidden_layer: The article may have contained a reproducible Ancient-site identifier.
+    useful_assets: [Corbin_archives, TAS_contacts, Roamer_data_recovery]
+    escalation:
+      - archive_discrepancies
+      - source_hunt
+      - suppressed_witness
+      - live_site_activation
+    failure_consequence: The identifier spreads without context.

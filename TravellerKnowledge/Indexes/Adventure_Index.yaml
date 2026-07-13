@@ -1,0 +1,61 @@
+schema_version: 1
+index: published_adventures
+
+entries:
+  - id: mysteries_of_the_ancients
+    title: Mysteries of the Ancients
+    source_type: published_adventure
+    campaign_relevance:
+      - Ancient_artifacts
+      - Imperial_interest
+      - escalating_discovery
+      - dangerous_provenance
+      - hidden_agendas
+    adoption_status: active_plot_framework
+    usage_rule:
+      - Preserve the campaign's current chronology and cast.
+      - Use published sequence as scaffolding, not a railroad.
+      - Replace incompatible NPC assumptions with campaign equivalents.
+      - Preserve mystery escalation and consequence.
+
+  - id: secrets_of_the_ancients
+    title: Secrets of the Ancients
+    source_type: published_adventure
+    campaign_relevance:
+      - Ancient_origins
+      - high_level_revelation
+      - false_assumptions
+      - transformative_technology
+      - political_consequences
+    adoption_status: future_reference
+    usage_rule:
+      - Do not prematurely reveal endgame truths.
+      - Mine for motifs, locations, and escalation structures.
+      - Keep player-facing certainty below referee-facing certainty.
+
+  - id: wrath_of_the_ancients
+    title: Wrath of the Ancients
+    source_type: published_adventure
+    campaign_relevance:
+      - existential_threat
+      - weaponized_Ancient_technology
+      - factional_response
+      - large_scale_consequences
+      - moral_pressure
+    adoption_status: future_reference
+    usage_rule:
+      - Avoid importing campaign-breaking scale before earned.
+      - Use threat architecture and faction reactions before apocalyptic escalation.
+
+fields:
+  recommended_extraction:
+    - premise
+    - trigger
+    - central_mystery
+    - factions
+    - artifacts
+    - locations
+    - escalation
+    - revelations
+    - reusable_scenes
+    - campaign_conflicts

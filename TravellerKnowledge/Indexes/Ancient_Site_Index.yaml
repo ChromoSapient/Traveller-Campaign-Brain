@@ -1,0 +1,74 @@
+schema_version: 1
+index: Ancient_sites_and_artifacts
+
+classification:
+  by_function:
+    - transport
+    - energy
+    - communication
+    - computation
+    - biological_modification
+    - planetary_engineering
+    - weapon
+    - containment
+    - unknown
+
+  by_condition:
+    - active
+    - dormant
+    - damaged
+    - fragmented
+    - reconstructed
+    - misidentified
+    - fraudulent
+
+  by_risk:
+    - low
+    - controlled
+    - severe
+    - catastrophic
+    - unknown
+
+  by_provenance:
+    - confirmed_Ancient
+    - likely_Ancient
+    - derivative
+    - false_claim
+    - campaign_specific
+
+campaign_entries:
+  - id: calefaction_device
+    type: planetary_engineering
+    condition: active_then_destroyed
+    risk: catastrophic
+    provenance: confirmed_campaign_Ancient
+    consequences:
+      - planetary_orbital_change
+      - earthquakes
+      - mass_casualty_risk
+      - Imperial_and_Omicron_interest
+
+  - id: duisk_extraction_technology
+    type: transport_or_rescue
+    condition: operational
+    risk: unknown
+    provenance: Droyne_Ancient_related
+    consequences:
+      - impossible_rescue
+      - unanswered_capability_questions
+
+  - id: current_mysteries_plot_artifacts
+    type: multiple
+    condition: unresolved
+    risk: escalating
+    provenance: published_and_campaign_hybrid
+    consequences:
+      - faction_attention
+      - crew_entanglement
+      - revelation_pressure
+
+usage_rules:
+  - Never treat unknown function as harmless.
+  - Separate what the crew knows from what the referee knows.
+  - Track who has handled, scanned, copied, or claimed each object.
+  - Record every activation consequence.

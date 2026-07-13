@@ -1,0 +1,71 @@
+schema_version: 1
+index: regional_npcs_and_organizations
+
+npcs:
+  Ruuk:
+    roles: [infiltrator, medic, scout, emerging_leader, Ancient_curiosity]
+    links: [Lurrza, Dralan, Roamer, Garnette, Glisten, Dustfall]
+
+  Dralan:
+    roles: [warrior, chef, Darrian_militia_veteran, protector]
+    links: [Ruuk, Solveig, Darrian_space, Cunnonic]
+
+  Solveig:
+    roles: [former_law_enforcement, intelligence_experience, tactical_actor]
+    links: [Ruuk, Dralan, Sword_Worlds, Imperial_security]
+
+  Roamer:
+    roles: [self_aware_robot, technical_specialist, legal_anomaly]
+    links: [Ruuk, Ardric, Tech_World, robot_law]
+
+  Ardric:
+    roles: [Imperial_noble, patron, guarantor, institutional_bridge]
+    links: [Glisten, Roamer_cover, Imperial_officials]
+
+  Corbin:
+    roles: [journalist, investigator, public_narrative_actor]
+    links: [TAS, media, Omicron_story, Garnette]
+
+  Lurrza:
+    roles: [Dustfall_technical_authority, caretaker, Vargr_cultural_anchor]
+    links: [Ruuk, Glisten, Dustfall]
+
+  Duisk:
+    roles: [Droyne_contact, rescuer, Ancient_related_capability]
+    links: [Ruuk, Calefaction, Droyne]
+
+organizations:
+  ARF_Ltd:
+    type: artifact_recovery_company
+    status: campaign_owned
+    assets: [crew_expertise, ship_access, artifact_experience]
+
+  Omicron_Division:
+    type: secretive_Imperial_adjacent_actor
+    status: partially_known
+    interests: [Ancients, containment, interrogation, recovery]
+
+  TAS:
+    type: information_and_travel_network
+    status: published
+    interests: [trusted_information, members, reporting]
+
+  Imperial_Navy:
+    type: military_institution
+    status: published
+    interests: [strategic_security, frontier_defense, dangerous_technology]
+
+  Scout_Service:
+    type: exploration_and_communications_institution
+    status: published
+    interests: [routes, surveys, anomalies, frontier_continuity]
+
+  Garnette:
+    type: crew_ship_and_social_unit
+    status: campaign_core
+    note: Treat the ship and crew as an operational organization.
+
+usage_rules:
+  - Every new source NPC should link to at least one location, faction, or existing relationship.
+  - Avoid orphan NPCs with no campaign pathway.
+  - Prefer relational hooks over isolated biography.

@@ -1,0 +1,23 @@
+schema_version: 1
+schema: source_provenance
+
+fields:
+  source_id: string
+  title: string
+  edition: string
+  source_type: one_of[rulebook, setting_book, adventure, JTAS, campaign_document, referee_ruling]
+  publication_status: one_of[published, campaign_private, inferred]
+  page_or_location: string
+  extracted_claim: string
+  claim_type: one_of[fact, rule, interpretation, scenario_assumption, rumor]
+  campaign_status: one_of[adopted, modified, rejected, unresolved, superseded]
+  confidence: one_of[high, medium, low]
+  conflicts_with: list
+  notes: string
+
+rules:
+  - Scenario assumptions do not automatically become setting facts.
+  - Campaign rulings may override published material.
+  - Modified adoption must record what changed.
+  - Unsupported synthesis must be labeled interpretation.
+  - Every hard canon claim should retain provenance.

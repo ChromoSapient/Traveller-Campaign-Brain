@@ -1,0 +1,39 @@
+schema_version: 1
+index: Omicron_adjacent_concepts
+
+definition:
+  Omicron_adjacency: >
+    A source concept resembles Omicron in mission, secrecy, authority, methods,
+    or interest, but is not automatically the same organization.
+
+dimensions:
+  - Ancient_artifact_control
+  - Imperial_black_program
+  - classified_research
+  - covert_recovery
+  - containment
+  - intelligence_compartmentalization
+  - deniable_operations
+  - scientific_security
+  - noble_or_military_sponsorship
+
+rules:
+  - Similar function does not prove shared identity.
+  - Shared personnel, funding, symbols, procedures, or records are required for hard linkage.
+  - Use adjacency to generate hypotheses, not conclusions.
+  - Preserve false leads when they are plausible.
+
+campaign_model:
+  known_traits:
+    - secretive
+    - compartmentalized
+    - interested_in_Ancient_technology
+    - capable_of_boarding_and_interrogation
+    - politically_sensitive
+  unknowns:
+    - exact_chain_of_command
+    - legal_authority
+    - relationship_to_Navy
+    - relationship_to_nobility
+    - internal_factions
+    - full_operational_scope

@@ -1,0 +1,47 @@
+schema_version: 1
+index: JTAS_topics
+
+status: framework_ready_inventory_pending
+
+topic_buckets:
+  - Ancients
+  - robots
+  - Vargr
+  - Aslan
+  - Darrians
+  - Sword_Worlds
+  - Imperial_Navy
+  - Scout_Service
+  - nobility
+  - intelligence_services
+  - starports
+  - trade
+  - crime
+  - archaeology
+  - psionics
+  - minor_races
+  - ships
+  - equipment
+  - patrons
+  - rumors
+  - worlds
+  - organizations
+
+entry_schema:
+  article_title: string
+  issue: string
+  pages: string
+  topic_tags: list
+  region_tags: list
+  canon_weight: one_of[published_primary, published_secondary, legacy, optional]
+  campaign_relevance: list
+  extracted_facts: list
+  reusable_hooks: list
+  conflicts: list
+  notes: string
+
+usage_rules:
+  - JTAS articles are supporting lore unless explicitly adopted.
+  - Record article provenance precisely.
+  - Distinguish setting facts from scenario-specific assumptions.
+  - Do not merge similarly named organizations without evidence.
