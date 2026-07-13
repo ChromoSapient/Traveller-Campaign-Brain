@@ -1,0 +1,99 @@
+schema_version: 1
+
+session:
+  session_id: required
+  source_file: required
+  game_date:
+    value: optional
+    confidence: optional
+  real_date: optional
+  participants: []
+  locations: []
+
+extract:
+
+  chronology:
+    events:
+      - date
+      - order
+      - duration
+      - confidence
+      - source_reference
+
+  state_changes:
+    ship:
+      - damage
+      - repairs
+      - fuel
+      - cargo
+      - ownership
+      - location
+    characters:
+      - injury
+      - recovery
+      - equipment
+      - money
+      - status
+      - location
+    factions:
+      - action
+      - knowledge_gain
+      - disposition_change
+
+  character_changes:
+    observations:
+      - character
+      - behavior
+      - context
+      - interpretation
+      - confidence
+      - source_reference
+    promoted_changes:
+      - file
+      - field
+      - old_value
+      - new_value
+      - justification
+
+  relationships:
+    - pair
+    - event
+    - direction
+    - magnitude
+    - evidence
+    - confidence
+
+  mysteries:
+    clues:
+      - clue_id
+      - observed_fact
+      - initial_interpretation
+      - who_knows
+      - source_reference
+    contradictions:
+      - existing_claim
+      - new_evidence
+      - resolution_status
+
+  memorable_moments:
+    - participants
+    - summary
+    - emotional_tags
+    - why_it_matters
+    - confidence
+
+  referee_rulings:
+    - ruling
+    - supersedes
+    - affected_files
+
+outputs:
+  - session_summary
+  - timeline_patch
+  - campaign_state_patch
+  - character_patch
+  - relationship_patch
+  - mystery_patch
+  - memory_patch
+  - continuity_report
+  - five_next_scene_recommendations

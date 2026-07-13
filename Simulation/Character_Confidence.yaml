@@ -1,0 +1,82 @@
+schema_version: 1
+scale:
+  0: unknown
+  1: weakly inferred
+  2: plausible
+  3: supported
+  4: strongly established
+  5: explicit canon
+
+characters:
+  Ruuk:
+    overall: 5
+    voice: 5
+    values: 5
+    stress_response: 4
+    relationships: 5
+    long_term_arc: 4
+    notes:
+      - Extensive prose, letters, character sheet, and campaign canon.
+  Dralan:
+    overall: 4
+    voice: 3
+    values: 4
+    stress_response: 3
+    relationships: 4
+    long_term_arc: 4
+    notes:
+      - Strong cultural and relational foundation; more transcript evidence desired for dialogue rhythm.
+  Tapir Tracks:
+    overall: 4
+    voice: 3
+    values: 4
+    stress_response: 3
+    relationships: 4
+    long_term_arc: 3
+    notes:
+      - Hiver cognition is well supported; individual habits need more transcript extraction.
+  Solveig Dahl:
+    overall: 3
+    voice: 3
+    values: 4
+    stress_response: 3
+    relationships: 3
+    long_term_arc: 3
+    notes:
+      - Culture and profession are strong; personal emotional history remains less complete.
+  Roamer:
+    overall: 4
+    voice: 4
+    values: 4
+    stress_response: 3
+    relationships: 4
+    long_term_arc: 4
+    notes:
+      - Strong origin, legal, and relational foundation; internal subjective experience remains intentionally distinct and partially unknown.
+  Ardric:
+    overall: 2
+    voice: 2
+    values: 2
+    stress_response: 1
+    relationships: 2
+    long_term_arc: 2
+    notes:
+      - Noble context is established; individual characterization needs transcripts and player clarification.
+  Corbin:
+    overall: 2
+    voice: 2
+    values: 2
+    stress_response: 2
+    relationships: 2
+    long_term_arc: 3
+    notes:
+      - Manipulation, recovery, and journalism are established; ordinary behavior and voice need development.
+  Mercedes:
+    overall: 1
+    voice: 1
+    values: 1
+    stress_response: 1
+    relationships: 1
+    long_term_arc: 1
+    notes:
+      - Intentionally evidence-led. Do not fill gaps prematurely.

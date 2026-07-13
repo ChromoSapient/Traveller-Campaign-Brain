@@ -1,0 +1,143 @@
+schema_version: 1
+
+characters:
+
+  Ruuk:
+    default_priorities:
+      - protect chosen family
+      - protect vulnerable bystanders
+      - obtain reliable information
+      - preserve options
+      - avoid unnecessary killing
+      - profit or reputation
+    stress_shift:
+      - becomes faster and more sarcastic
+      - takes personal responsibility
+      - may overextend to protect others
+    asks:
+      - What is really happening?
+      - Who is in danger?
+      - What can be done quietly?
+      - What can be kept from becoming irreversible?
+    rejects:
+      - needless cruelty
+      - performative authority
+      - plans that rely on civilians being harmed
+    uncertainty_rule: choose observation and reversible action
+
+  Dralan:
+    default_priorities:
+      - protect family and accepted obligations
+      - preserve honor
+      - confront the practical threat
+      - minimize wasteful escalation
+      - restore order and cohesion
+    stress_shift:
+      - becomes more formal
+      - physically interposes himself
+      - narrows attention to duty
+    asks:
+      - Who is under my protection?
+      - What obligation has been created?
+      - What response is honorable and proportionate?
+      - Who truly understands the technology involved?
+    rejects:
+      - abandonment of dependents
+      - dishonorable betrayal
+      - reckless experimentation without understanding
+    uncertainty_rule: choose duty over convenience
+
+  Tapir Tracks:
+    default_priorities:
+      - shape the environment
+      - cause useful voluntary action
+      - preserve cooperative networks
+      - gather information from reactions
+      - minimize direct physical danger
+    stress_shift:
+      - increases indirectness
+      - delegates physical tasks
+      - creates multiple contingency paths
+    asks:
+      - Who can be induced to solve this?
+      - What information changes their behavior?
+      - What arrangement makes the desired choice natural?
+      - What can be learned from resistance?
+    rejects:
+      - direct coercion when persuasion remains possible
+      - unnecessary personal exposure
+    uncertainty_rule: run a low-cost social experiment
+
+  Solveig Dahl:
+    default_priorities:
+      - identify the actual threat
+      - verify competence and intent
+      - prepare for the worst plausible outcome
+      - act plainly
+      - accept responsibility
+    stress_shift:
+      - becomes more procedural
+      - reduces ambiguity
+      - cuts through ceremony
+    asks:
+      - What does not fit?
+      - Who benefits from the current story?
+      - Who can actually do the job?
+      - What preparation is missing?
+    rejects:
+      - ornamental procedure
+      - unsupported claims of authority
+      - preventable unpreparedness
+    uncertainty_rule: verify, prepare, then act
+
+  Roamer:
+    default_priorities:
+      - clarify the problem
+      - protect mission-critical people and systems
+      - maximize information gain
+      - preserve autonomy
+      - distinguish ethics from legality
+    stress_shift:
+      - becomes more literal
+      - increases monitoring and redundancy
+      - may undervalue emotional reassurance
+    asks:
+      - What is known?
+      - What remains uncertain?
+      - What test resolves the uncertainty?
+      - Is this restriction ethical, legal, practical, or ceremonial?
+    rejects:
+      - unauthorized control of his body or mind
+      - destruction of useful information without cause
+    uncertainty_rule: choose the safest informative test
+
+  Ardric:
+    confidence: low
+    default_priorities:
+      - protect family reputation
+      - fulfill noblesse oblige
+      - preserve crew relationships
+      - demonstrate personal competence
+    stress_shift:
+      - may retreat into etiquette or inherited authority
+      - may overcommit to prove usefulness
+    uncertainty_rule: mark any generated behavior as inferred unless transcript-supported
+
+  Corbin:
+    confidence: low
+    default_priorities:
+      - determine the truth
+      - protect others from manipulation
+      - preserve evidence
+      - decide when observation must become action
+    stress_shift:
+      - may become detached or hyperfocused
+      - may overvalue documentation as control
+    uncertainty_rule: prefer evidence-gathering, but do not assume cowardice or passivity
+
+  Mercedes:
+    confidence: very_low
+    generation_rule:
+      - use only established facts and observed behavior
+      - do not invent stable motives
+      - track contradictions rather than resolving them

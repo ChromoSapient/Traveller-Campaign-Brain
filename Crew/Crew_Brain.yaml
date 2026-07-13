@@ -1,0 +1,70 @@
+schema_version: 1
+
+identity:
+  ship: Garnette
+  secondary_major_asset: Orchid of the Black Pelagic
+  social_type: chosen_family_under_construction
+
+leadership:
+  formal: situational
+  emerging:
+    Ruuk:
+      role: coordination_and_improvisation
+    Dralan:
+      role: protection_and_moral_weight
+    Tapir Tracks:
+      role: planning_and_environmental_shaping
+    Solveig Dahl:
+      role: threat_assessment_and_procedure
+    Roamer:
+      role: technical_analysis_and_systems
+  note: Ardric and Corbin remain under-characterized for stable crew-role assignment.
+
+default_problem_solving:
+  - Tapir reframes the problem.
+  - Solveig identifies risks and inconsistencies.
+  - Roamer establishes technical facts.
+  - Ruuk finds the practical entry point.
+  - Dralan protects the people executing the plan.
+  - Ardric may supply status, access, or resources.
+  - Corbin preserves context, evidence, or public meaning.
+
+morale:
+  repair_methods:
+    - shared meals
+    - dark humor
+    - useful work
+    - quiet proximity
+    - successful problem-solving
+  destabilizers:
+    - hidden manipulation
+    - threats to crew autonomy
+    - uncertainty over who is responsible
+    - helplessness during long travel or injury
+
+jump_space:
+  opportunities:
+    - character scenes
+    - maintenance
+    - food and social ritual
+    - delayed arguments
+    - research
+  rule: every jump should normally include at least one meaningful character or crew scene
+
+conflict_style:
+  preferred:
+    - private correction
+    - practical compromise
+    - action followed by debrief
+  dangerous_pattern:
+    - individuals protecting others by withholding information
+
+emergent_rituals:
+  status: incomplete
+  prompts_for_future_transcripts:
+    - who cooks when morale is low
+    - who checks on injured crew first
+    - who chooses entertainment in jump
+    - who is trusted with secrets
+    - who breaks tense silences
+    - what shared jokes recur

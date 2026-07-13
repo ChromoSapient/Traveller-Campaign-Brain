@@ -1,0 +1,128 @@
+schema_version: 1
+
+pairs:
+
+  ruuk__dralan:
+    trust: 5
+    bond: chosen_family
+    default_conflict_style: private_directness
+    humor: dry_and_familiar
+    mutual_expectations:
+      - reciprocal honesty
+      - protection without infantilization
+      - competence under pressure
+    unspoken:
+      - each expects the other to survive impossible situations
+      - both fear becoming the other's responsibility
+    scene_use:
+      - moral disagreements
+      - quiet cabin scenes
+      - food as repair
+      - leadership handoffs
+
+  ruuk__tapir:
+    trust: 4
+    bond: friend_and_useful_variable
+    default_conflict_style: suspicion_followed_by_negotiation
+    humor: layered_and_manipulative
+    tension:
+      - informed consent
+      - whether Tapir values Ruuk's judgment or merely his predictability
+    scene_use:
+      - social engineering
+      - plans within plans
+      - affectionate irritation
+
+  ruuk__solveig:
+    trust: 4
+    bond: professional_respect
+    default_conflict_style: blunt_private_exchange
+    tension:
+      - instinct versus verification
+      - Ruuk's improvisation versus Solveig's preparation
+    scene_use:
+      - surveillance analysis
+      - competing threat assessments
+      - mutual respect after action
+
+  ruuk__roamer:
+    trust: 5
+    bond: old_friend_and_peer
+    default_conflict_style: technical_argument_with_social_subtext
+    humor: learned_deception_and_intentional_experiment
+    tension:
+      - Roamer's autonomy
+      - Ruuk's protective instincts
+    scene_use:
+      - old shorthand
+      - deception lessons revisited
+      - legal personhood threats
+
+  ruuk__ardric:
+    trust: 3
+    bond: respected_ally
+    tension:
+      - class difference
+      - inherited status versus earned competence
+    confidence: medium_low
+
+  ruuk__corbin:
+    trust: 3
+    bond: protective_companion
+    tension:
+      - truth-telling versus safety
+      - Corbin's role as observer
+    confidence: medium_low
+
+  dralan__tapir:
+    trust: 3
+    bond: cautious_respect
+    tension:
+      - honor versus manipulation
+      - transparency of obligation
+    stabilizers:
+      - consistency
+      - fulfilled promises
+      - practical usefulness
+
+  dralan__solveig:
+    trust: 3
+    bond: warrior_professional_respect
+    likely_common_ground:
+      - preparation
+      - competence
+      - directness
+    likely_friction:
+      - cultural assumptions about role and honor
+
+  dralan__roamer:
+    trust: 3
+    bond: crew_and_person
+    tension:
+      - experimentation
+      - whether machine personhood maps onto Aslan obligation
+    confidence: medium
+
+  solveig__tapir:
+    trust: 3
+    bond: useful_but_scrutinized
+    tension:
+      - indirectness
+      - incomplete disclosure
+    growth_path:
+      - predictability through repeated fulfilled outcomes
+
+  solveig__roamer:
+    trust: 3
+    bond: professional_respect
+    tension:
+      - legal status versus personhood
+      - procedure versus autonomy
+    confidence: medium
+
+  crew__mercedes:
+    trust: 1
+    bond: uncertain
+    rule:
+      - record observed interactions
+      - do not summarize her as ally, enemy, or patron until evidence supports it

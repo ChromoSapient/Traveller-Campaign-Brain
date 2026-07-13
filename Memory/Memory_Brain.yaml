@@ -1,0 +1,65 @@
+schema_version: 1
+
+memory_policy:
+  include:
+    - firsts
+    - promises
+    - betrayals
+    - rescues
+    - shared meals
+    - gifts
+    - private confessions
+    - moments of mercy
+    - moments that changed trust
+  exclude:
+    - routine actions without emotional or narrative consequence
+
+memories:
+
+  ruuk:
+    - id: dustfall_lessons
+      type: formative
+      status: established
+      summary: Learned survival, reputation, salvage, deception, and curiosity in Dustfall Station.
+      emotional_tags: [ambition, guilt, curiosity, loyalty]
+    - id: lurrza_home_recovery
+      type: family
+      status: established
+      summary: Recovered at home after major augment surgery amid Lurrza's cooking, Dralan's respectful kitchen presence, and constant younglings.
+      emotional_tags: [home, vulnerability, belonging]
+    - id: roamer_first_deception_lessons
+      type: shared_history
+      status: established
+      summary: Ruuk taught Roamer how social falsehoods can reduce friction and enable access.
+      emotional_tags: [trust, mentorship, adaptation]
+
+  ruuk_and_dralan:
+    - id: cabin_shared_life
+      type: ongoing
+      status: established
+      summary: Sharing a cabin aboard Garnette turned practical proximity into family.
+      emotional_tags: [family, trust, routine]
+    - id: food_as_repair
+      type: recurring_pattern
+      status: inferred
+      summary: Dralan's cooking repeatedly functions as care and social repair.
+      emotional_tags: [care, stability, belonging]
+
+  crew:
+    - id: calefaction_survival
+      type: ordeal
+      status: established
+      summary: Shared survival during the Calefaction crisis strengthened responsibility, fear, and trust.
+      emotional_tags: [trauma, survival, responsibility]
+    - id: omicron_boarding
+      type: institutional_threat
+      status: established
+      summary: Omicron scrutiny made the crew aware that powerful institutions were tracking their discoveries and history.
+      emotional_tags: [suspicion, solidarity, exposure]
+
+open_memory_questions:
+  - When did Dralan first think of the crew as family?
+  - When did Solveig first trust Tapir's judgment?
+  - What was Roamer's first intentionally successful joke?
+  - When did Ardric first act as crew rather than patron?
+  - When did Corbin choose action over observation?
