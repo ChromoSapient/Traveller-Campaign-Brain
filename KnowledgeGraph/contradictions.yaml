@@ -1,0 +1,36 @@
+schema_version: 1
+
+contradictions:
+  - id: contradiction.ship_name
+    claims:
+      - Garnette
+      - Garnett's
+      - Garnette's
+    preferred: Garnette
+    status: resolved
+    reason: explicit_referee_ruling
+    validation_code: INVALID_SHIP_NAME
+
+  - id: contradiction.roamer_ownership
+    claims:
+      - Roamer_is_self_owning
+      - Ardric_owns_Roamer
+    preferred: Roamer_is_self_owning
+    status: resolved
+    reason: Ardric ownership is legal fiction only.
+    validation_code: INVALID_ROAMER_OWNERSHIP
+
+  - id: contradiction.lurrza_location
+    scope:
+      mainline: several_jumps_away
+      glisten_heist_branch: in_Glisten
+    status: branch_specific
+    validation_code: BRANCH_LOCATION_MISMATCH
+
+  - id: contradiction.mobility_scan
+    claims:
+      - casual_scan_detects_augment
+      - augment_is_passive_invisitech
+    preferred: augment_is_passive_invisitech
+    status: resolved
+    validation_code: INVALID_AUGMENT_DETECTION

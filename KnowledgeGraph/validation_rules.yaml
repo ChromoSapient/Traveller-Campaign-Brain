@@ -1,0 +1,35 @@
+schema_version: 1
+
+validation_rules:
+  - code: INVALID_SHIP_NAME
+    pattern: ["Garnett's", "Garnette's"]
+    severity: error
+    message: Use Garnette.
+
+  - code: INVALID_ROAMER_OWNERSHIP
+    pattern:
+      - Ardric owns Roamer
+      - Roamer belongs to Ardric
+    severity: error
+    message: Ardric is legal cover only. Roamer is self-owning.
+
+  - code: INVALID_AUGMENT_DETECTION
+    pattern:
+      - casual scan detects Ruuk's mobility augment
+      - routine scanner reveals Ruuk's augment
+    severity: error
+    message: Ruuk's mobility augment is passive invisitech and not casually scannable.
+
+  - code: INVALID_ROAMER_NAME
+    pattern:
+      - R0-4MR
+    severity: warning
+    message: Prefer Roamer in prose unless formal designation is needed.
+
+  - code: BRANCH_LOCATION_MISMATCH
+    severity: error
+    message: Check Lurrza's location against the active branch.
+
+  - code: PREMATURE_ANCIENT_REVELATION
+    severity: warning
+    message: Keep player-facing certainty below referee-facing certainty.

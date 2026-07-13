@@ -1,0 +1,41 @@
+schema_version: 1
+
+queries:
+  canon:
+    description: Return highest-precedence matching fact.
+    include:
+      - preferred_fact
+      - authority
+      - sources
+      - contradictions
+
+  knowledge:
+    description: Return only facts known by a specified entity.
+    include:
+      - fact
+      - certainty
+      - conflicts
+
+  relationships:
+    description: Return direct graph edges for an entity.
+    include:
+      - subject
+      - relation
+      - object
+
+  hooks:
+    description: Return hooks connected to current cast, place, and active arc.
+    filters:
+      - branch
+      - active_entities
+      - unresolved_status
+      - location_relevance
+
+  scenes:
+    description: Generate scene candidates from active pressure and unresolved obligations.
+    requirements:
+      - purpose
+      - cast
+      - trigger
+      - complication
+      - consequence

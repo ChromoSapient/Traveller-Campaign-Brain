@@ -1,0 +1,59 @@
+schema_version: 1
+
+scenes:
+  - id: scene.jump_lydia.001
+    title: The Quiet Packet
+    trigger: Corbin finds a sealed data fragment in his recovered records.
+    cast: [char.corbin, char.ruuk, robot.roamer]
+    location: ship.garnette
+    purpose:
+      - advance_mysteries_arc
+      - test_information_trust
+      - establish_partial_clue
+    complication: The fragment contains an Omicron classification mark but fails authentication.
+    consequence: The crew must decide whether the mark is forged, obsolete, or compartmentalized.
+
+  - id: scene.jump_lydia.002
+    title: Dralan's Containment Drill
+    trigger: Dralan insists the crew rehearse artifact containment procedures before arrival.
+    cast: [char.dralan, char.solveig, char.ruuk]
+    location: ship.garnette
+    purpose:
+      - character_interaction
+      - operational_preparation
+      - expose_risk_assumptions
+    complication: Solveig's faster plan is tactically sound but violates Dralan's containment model.
+    consequence: The disagreement establishes who will command if an artifact activates.
+
+  - id: scene.jump_lydia.003
+    title: Roamer Declines the Diagnostic
+    trigger: A maintenance routine requests deep memory access.
+    cast: [robot.roamer, char.ruuk, char.ardric]
+    location: ship.garnette
+    purpose:
+      - reinforce_Roamer_autonomy
+      - test_crew_boundaries
+    complication: The diagnostic is genuinely useful and time-sensitive.
+    consequence: The crew must solve the problem without treating consent as an inconvenience.
+
+  - id: scene.jump_lydia.004
+    title: Lurrza's Old Warning
+    trigger: Ruuk reviews an old message from Lurrza about people who collect dangerous things.
+    cast: [char.ruuk, char.dralan]
+    location: ship.garnette
+    purpose:
+      - deepen_Ruuk
+      - connect_Dustfall_to_current_arc
+    complication: The warning references a name Ruuk has recently seen in Omicron material.
+    consequence: A family memory becomes an actionable lead.
+
+  - id: scene.jump_lydia.005
+    title: The Arrival Window Narrows
+    trigger: Garnette receives updated emergence and traffic data for Lydia.
+    cast: [org.garnette_crew]
+    location: ship.garnette
+    purpose:
+      - transition_to_arrival
+      - create_operational_pressure
+    complication: Another vessel will arrive within the same narrow window and is running dark.
+    consequence: The crew must choose caution, concealment, or an aggressive first move.

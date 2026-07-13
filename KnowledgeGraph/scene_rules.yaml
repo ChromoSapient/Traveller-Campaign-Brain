@@ -1,0 +1,29 @@
+schema_version: 1
+
+scene_rules:
+  required_fields:
+    - id
+    - title
+    - trigger
+    - cast
+    - location
+    - purpose
+    - complication
+    - consequence
+
+  scoring:
+    active_arc_relevance: 4
+    unresolved_obligation: 3
+    current_location_fit: 3
+    character_focus: 2
+    faction_pressure: 2
+    repeated_beat_penalty: -3
+    invalid_canon_penalty: -100
+
+  constraints:
+    - Use Roamer rather than R0-4MR unless formal designation matters.
+    - Never rename Garnette.
+    - Do not use casual scans to detect Ruuk's mobility augment.
+    - Do not treat Ardric as Roamer's actual owner.
+    - Do not import branch-specific facts into another branch.
+    - Complications must arise from valid security, faction, timing, or character pressure.

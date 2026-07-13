@@ -1,28 +1,33 @@
-# Traveller Campaign Brain v0.9: Adventure and JTAS Lore Index
+# Traveller Campaign Brain v1.0: Integrated Knowledge Graph
 
-This patch creates the campaign-facing lore index that connects published adventures, JTAS material, Ancient sites, organizations, NPCs, and reusable hooks.
+This patch converts the repository from a structured lore archive into a usable campaign engine.
 
-## Scope
+## Capabilities
 
-- published adventure indexing
-- JTAS topic inventory
-- Ancient-site reference map
-- Omicron-adjacent concept index
-- regional NPC and organization cross-links
-- campaign hook extraction
-- source confidence and adoption status
-- scene-safe retrieval guidance
+- normalized entity IDs
+- explicit relationship graph
+- fact-level provenance
+- canon precedence resolution
+- branch-aware campaign state
+- NPC knowledge-state tracking
+- contradiction registry
+- validation rules
+- query templates
+- scene recommendation support
+- Python utilities and tests
 
-## Major Campaign Locks
+## Core Campaign Locks
 
-- Published adventures provide reusable structure, not mandatory plot.
-- Campaign canon overrides published assumptions when the two conflict.
-- Ancient material is indexed by function, danger, provenance, and story use.
-- Omicron-adjacent concepts are tracked as thematic and institutional parallels, not automatically identical organizations.
-- Hooks must be actionable, localizable, and tied to known campaign assets or relationships.
-- The index separates source fact, campaign adoption, and referee invention.
-- Retrieval should prefer specific source references over broad lore summaries.
+- The ship name is **Garnette**.
+- Roamer is self-owning; Ardric is legal cover only.
+- Glisten Vargr corsair ancestry is campaign canon.
+- Ruuk and Dralan share a cabin aboard Garnette.
+- Lurrza is Ruuk's mother.
+- Branch-specific facts must not leak into mainline chronology.
+- Published adventure structure is scaffolding, not a railroad.
+- Unknown Ancient technology is never assumed safe.
+- Scene recommendations must include complications unless explicitly suppressed.
 
 Suggested commit message:
 
-`Add v0.9 adventure and JTAS lore index`
+`Add v1.0 integrated knowledge graph`

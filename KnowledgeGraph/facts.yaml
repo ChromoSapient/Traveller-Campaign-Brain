@@ -1,0 +1,70 @@
+schema_version: 1
+
+facts:
+  - id: fact.ship.garnette_name
+    subject: ship.garnette
+    predicate: name
+    object: Garnette
+    status: campaign_canon
+    authority: explicit_referee_ruling
+    sources:
+      - ROADMAP.md
+      - campaign_chronology
+
+  - id: fact.roamer.self_ownership
+    subject: robot.roamer
+    predicate: actual_owner
+    object: robot.roamer
+    status: campaign_canon
+    authority: explicit_referee_ruling
+    sources:
+      - Characters/Roamer/Roamer_Character_Brain_v0.6.yaml
+
+  - id: fact.roamer.ardric_cover
+    subject: robot.roamer
+    predicate: legal_cover_owner
+    object: char.ardric
+    status: campaign_canon
+    authority: explicit_referee_ruling
+
+  - id: fact.ruuk.lurrza_mother
+    subject: char.ruuk
+    predicate: mother
+    object: char.lurrza
+    status: campaign_canon
+    authority: campaign_narrative
+
+  - id: fact.ruuk.dralan_shared_cabin
+    subject: char.ruuk
+    predicate: shares_cabin_with
+    object: char.dralan
+    status: campaign_canon
+    authority: explicit_referee_ruling
+
+  - id: fact.glisten_vargr.corsair_origin
+    subject: place.glisten
+    predicate: vargr_population_origin
+    object: corsair_survivor_descendants
+    status: campaign_canon
+    authority: explicit_referee_ruling
+
+  - id: fact.ruuk.mobility_invisitech
+    subject: char.ruuk
+    predicate: mobility_augment_scan_profile
+    object: passive_non_scannable
+    status: campaign_canon
+    authority: explicit_referee_ruling
+
+  - id: fact.omicron.partial_knowledge
+    subject: org.omicron
+    predicate: knowledge_status
+    object: partially_known
+    status: campaign_canon
+    authority: campaign_state
+
+  - id: fact.ancient.unknown_not_safe
+    subject: artifact.calefaction_device
+    predicate: default_risk_assumption
+    object: unknown_is_not_safe
+    status: adopted_interpretation
+    authority: repository_rule

@@ -1,0 +1,29 @@
+schema_version: 1
+
+precedence:
+  - rank: 1
+    authority: explicit_referee_ruling
+  - rank: 2
+    authority: current_campaign_chronology
+  - rank: 3
+    authority: campaign_canon_file
+  - rank: 4
+    authority: current_edition_primary_source
+  - rank: 5
+    authority: current_edition_regional_source
+  - rank: 6
+    authority: legacy_source
+  - rank: 7
+    authority: JTAS_supporting_material
+  - rank: 8
+    authority: adopted_interpretation
+  - rank: 9
+    authority: hypothesis
+  - rank: 10
+    authority: speculation
+
+rules:
+  - Branch-specific facts apply only inside their named branch.
+  - In-world belief does not override referee truth.
+  - Superseded facts remain recorded but must not be returned as current canon.
+  - Published adventure assumptions may be modified to preserve campaign chronology.

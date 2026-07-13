@@ -1,0 +1,32 @@
+schema_version: 1
+
+campaign_state:
+  branch: mainline_mysteries
+  date: unresolved_current_live_edge
+  current_transit:
+    status: in_jump
+    destination: place.lydia
+
+  active_ship: ship.garnette
+  active_crew:
+    - char.ruuk
+    - char.dralan
+    - char.solveig
+    - robot.roamer
+    - char.ardric
+    - char.corbin
+
+  active_arc: arc.mysteries
+
+  open_mysteries:
+    - org.omicron exact authority
+    - Duisk's capabilities and motives
+    - Ancient artifact provenance
+    - relationship between published Mysteries plot and campaign events
+
+  active_constraints:
+    - preserve current chronology
+    - use Garnette spelling
+    - use Roamer in prose
+    - do not expose endgame Ancient truths early
+    - include valid complications in recommended scenes

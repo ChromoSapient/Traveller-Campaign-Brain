@@ -1,0 +1,77 @@
+schema_version: 1
+
+relationships:
+  - subject: char.ruuk
+    relation: child_of
+    object: char.lurrza
+    status: campaign_canon
+
+  - subject: char.dralan
+    relation: owes_life_debt_to
+    object: char.ruuk
+    status: campaign_canon
+
+  - subject: robot.roamer
+    relation: trusted_friend_of
+    object: char.ruuk
+    status: campaign_canon
+
+  - subject: robot.roamer
+    relation: legal_cover_owned_by
+    object: char.ardric
+    status: campaign_canon
+
+  - subject: robot.roamer
+    relation: actual_owner
+    object: robot.roamer
+    status: campaign_canon
+
+  - subject: ship.garnette
+    relation: operated_by
+    object: org.garnette_crew
+    status: campaign_canon
+
+  - subject: char.ruuk
+    relation: member_of
+    object: org.garnette_crew
+    status: campaign_canon
+
+  - subject: char.dralan
+    relation: member_of
+    object: org.garnette_crew
+    status: campaign_canon
+
+  - subject: char.solveig
+    relation: member_of
+    object: org.garnette_crew
+    status: campaign_canon
+
+  - subject: robot.roamer
+    relation: member_of
+    object: org.garnette_crew
+    status: campaign_canon
+
+  - subject: org.garnette_crew
+    relation: owns_or_controls
+    object: org.arf
+    status: campaign_canon
+
+  - subject: char.ruuk
+    relation: raised_at
+    object: place.dustfall
+    status: campaign_canon
+
+  - subject: place.dustfall
+    relation: located_in
+    object: place.glisten
+    status: campaign_canon
+
+  - subject: org.omicron
+    relation: interested_in
+    object: artifact.calefaction_device
+    status: campaign_canon
+
+  - subject: arc.mysteries
+    relation: currently_involves
+    object: org.garnette_crew
+    status: campaign_canon

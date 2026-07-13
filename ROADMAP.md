@@ -10,39 +10,33 @@
 - [x] v0.6 Robotics and Tech World convergence
 - [x] v0.7 Darrian, Aslan, and Sword World interaction
 - [x] v0.8 Imperial Institutions
-- [x] v0.9 Adventure and JTAS Lore Index, first pass
+- [x] v0.9 Adventure and JTAS Lore Index
+- [x] v1.0 Integrated Knowledge Graph, first operational release
 
-## Remaining v0.9 Research
-
-- [ ] page-level indexing for the Ancient trilogy
-- [ ] JTAS issue inventory
-- [ ] Ancient-site named reference map
-- [ ] NPC and organization alias resolution
-- [ ] hook scoring and retrieval tests
-- [ ] source conflict audit
-
-These are enrichment tasks, not blockers for initial campaign use.
-
-## Next Major Milestone
-
-### v1.0 Integrated Knowledge Graph
+## v1.0 Operational Features
 
 - normalized entities
 - relationship graph
-- canon precedence engine
-- retrieval rules
+- canon precedence
+- fact provenance
+- knowledge states
 - contradiction tracking
-- scene recommendation support
-- campaign state validation
-- test queries
+- branch-aware campaign state
+- validation
+- scene recommendation
+- test suite
 
-## Readiness Gate
+## Post-1.0 Enrichment
 
-The repository is ready for practical use when v1.0 can answer:
+- page-level source indexing
+- complete chronology normalization
+- deeper graph traversal
+- alias resolution
+- schema validation
+- transcript ingestion
+- improved scene scoring
+- persistent session-state updates
 
-- Who knows this fact?
-- What source supports it?
-- Is it campaign canon?
-- What conflicts with it?
-- Which NPCs and factions care?
-- What scene opportunities follow?
+## Readiness
+
+The repository is ready for practical campaign use and iterative refinement.

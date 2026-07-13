@@ -1,0 +1,104 @@
+schema_version: 1
+
+entities:
+  - id: char.ruuk
+    type: character
+    name: Ruuk
+    aliases: [Blue-Arc]
+    status: active
+
+  - id: char.dralan
+    type: character
+    name: Dralan Flamehand
+    status: active
+
+  - id: char.solveig
+    type: character
+    name: Solveig Dahl
+    status: active
+
+  - id: char.ardric
+    type: character
+    name: Ardric Vellarn D'Ravayne
+    status: active
+
+  - id: char.corbin
+    type: character
+    name: Corbin Vanis
+    status: active
+
+  - id: char.lurrza
+    type: character
+    name: Lurrza
+    status: active
+
+  - id: char.duisk
+    type: character
+    name: Duisk
+    status: active
+
+  - id: robot.roamer
+    type: robot
+    name: Roamer
+    aliases: [R0-4MR]
+    status: active
+
+  - id: ship.garnette
+    type: ship
+    name: Garnette
+    status: active
+
+  - id: org.garnette_crew
+    type: organization
+    name: Garnette Crew
+    status: active
+
+  - id: org.arf
+    type: organization
+    name: ARF Ltd.
+    status: active
+
+  - id: org.omicron
+    type: organization
+    name: Omicron Division
+    status: partially_known
+
+  - id: org.tas
+    type: organization
+    name: Travellers' Aid Society
+    status: active
+
+  - id: org.imperial_navy
+    type: organization
+    name: Imperial Navy
+    status: active
+
+  - id: org.scout_service
+    type: organization
+    name: Imperial Interstellar Scout Service
+    status: active
+
+  - id: place.glisten
+    type: system
+    name: Glisten
+    status: active
+
+  - id: place.dustfall
+    type: station
+    name: Dustfall Station
+    status: active
+
+  - id: place.lydia
+    type: world
+    name: Lydia
+    status: active
+
+  - id: artifact.calefaction_device
+    type: artifact
+    name: Calefaction Planetary Device
+    status: destroyed_or_disabled
+
+  - id: arc.mysteries
+    type: plot_arc
+    name: Mysteries of the Ancients
+    status: active

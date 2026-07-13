@@ -1,0 +1,46 @@
+schema_version: 1
+
+knowledge:
+  - fact: fact.ship.garnette_name
+    knower: org.garnette_crew
+    certainty: confirmed
+
+  - fact: fact.roamer.self_ownership
+    knower: robot.roamer
+    certainty: confirmed
+
+  - fact: fact.roamer.self_ownership
+    knower: char.ruuk
+    certainty: confirmed
+
+  - fact: fact.roamer.self_ownership
+    knower: char.ardric
+    certainty: confirmed
+
+  - fact: fact.roamer.ardric_cover
+    knower: org.garnette_crew
+    certainty: confirmed
+
+  - fact: fact.ruuk.lurrza_mother
+    knower: org.garnette_crew
+    certainty: confirmed
+
+  - fact: fact.glisten_vargr.corsair_origin
+    knower: char.lurrza
+    certainty: confirmed
+
+  - fact: fact.glisten_vargr.corsair_origin
+    knower: char.ruuk
+    certainty: incomplete
+
+  - fact: fact.omicron.partial_knowledge
+    knower: char.ruuk
+    certainty: partial
+
+  - fact: fact.omicron.partial_knowledge
+    knower: char.corbin
+    certainty: partial
+
+  - fact: fact.omicron.partial_knowledge
+    knower: char.solveig
+    certainty: partial
