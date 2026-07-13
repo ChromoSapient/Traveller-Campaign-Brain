@@ -1,0 +1,18 @@
+schema_version: 1
+relationships:
+  ruuk__dralan:
+    current_label: family
+    status: deeply_trusted
+    notes: [share a cabin aboard Garnette, co-protagonists]
+  ruuk__tapir:
+    current_label: trusted_companion
+    status: long-term
+    tension: [Hiver manipulation can be affectionate, useful, and invasive at once]
+  ruuk__solveig: {current_label: trusted_ally, status: evolving}
+  ruuk__roamer: {current_label: old_friend_and_peer, status: evolving}
+  ruuk__ardric: {current_label: respected_ally, status: evolving}
+  ruuk__corbin: {current_label: protective_companion, status: evolving}
+  crew__mercedes:
+    current_label: uncertain
+    status: low_certainty
+    notes: [observations must remain separate from assumptions]

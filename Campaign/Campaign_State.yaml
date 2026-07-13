@@ -1,0 +1,36 @@
+schema_version: 1
+campaign_title: Mysterious Secrets of Wrathful Ancients
+system: Mongoose Traveller 2e
+live_edge:
+  date: "1107-021"
+  status: "Provisional; update from latest transcript before new canon scenes"
+primary_ship: Garnette
+secondary_major_asset: Orchid of the Black Pelagic
+crew:
+  - Ruuk
+  - Dralan Flamehand
+  - Tapir Tracks
+  - Solveig Dahl
+  - Ardric Vellarn D'Ravayne
+  - Corbin Vanis
+  - Roamer
+active_threads:
+  - Mysteries of the Ancients campaign spine
+  - Omicron Division interest
+  - Mercedes Taramaka
+  - Bernadetta Khaled and Garnette history
+  - Ancient artifacts, false artifacts, and planted evidence
+  - Orchid investigation
+canon_locks:
+  ship_name: Garnette
+  robot_name_in_prose: Roamer
+  ruuk_mother: Lurrza
+  ruuk_and_dralan_share_cabin: true
+  dralan_role: co-protagonist
+  mobility_augment:
+    passive: true
+    invisitech: true
+    casually_scannable: false
+  neuralcomm:
+    default_mode: listen-first
+    active_only_on_instruction: true

@@ -1,0 +1,22 @@
+schema_version: 1
+mysteries:
+  ancient_false_artifacts:
+    status: active
+    known: [multiple apparent Ancient finds have proved false or planted]
+    questions:
+      - who benefits from directing investigators toward the fakes
+      - whether the fakes conceal a real pattern
+  omicron_interest:
+    status: active
+    known: [Omicron has questioned and monitored people linked to Garnette and Calefaction]
+    questions:
+      - what Omicron believes the crew knows
+      - who within Omicron is directing the effort
+  mercedes:
+    status: active
+    evidence_policy: observation_first
+    questions:
+      - relationship to Bernadetta
+      - relationship to Garnette
+      - knowledge of Calefaction
+      - relationship to Omicron
