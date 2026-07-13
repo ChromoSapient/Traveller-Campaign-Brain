@@ -1,9 +1,24 @@
-# Traveller Campaign Brain v0.2 Patch
+# Traveller Campaign Brain v0.3: Simulation Layer
 
-Copy the folders in this archive into the repository root and allow the listed files to replace their v0.1 versions.
+This patch adds the first working simulation layer for the campaign.
+
+## Included
+
+- Character confidence model
+- Decision engines for the core cast
+- Pairwise interaction matrices
+- Crew Brain
+- Memory Brain
+- Transcript update schema
+- Character-change extraction rules
+- Simulation-layer author guidance
+- v0.3 extraction log
+- Updated roadmap
+
+## Install
+
+Copy the folders in this archive into the repository root.
 
 Suggested commit message:
 
-`Deepen cultural and character brains for v0.2`
-
-This patch updates six working files and adds one extraction log.
+`Add v0.3 simulation layer`
