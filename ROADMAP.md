@@ -13,33 +13,35 @@
 - [x] v0.9 Adventure and JTAS Lore Index
 - [x] v1.0 Integrated Knowledge Graph
 - [x] v1.1 Garnette and ship-identity correction
+- [x] v1.2 Live edge normalization
 
-## v1.1 Operational Features
+## v1.2 Operational Features
 
-- accurate Garnette Type-S identity
-- Mercedes ownership and crew permission model
-- Garnette deck and scene-space reference
-- published performance and modifications
-- hidden-feature knowledge controls
-- RTS permanent-loss state
-- Tapir custody and absence state
-- ship-conflation validation
-- project routing manifest
-- regression tests
+- concrete current date and location
+- active mainline branch identifier
+- Pagaton departure-state snapshot
+- present and absent cast
+- planned Binges stop separated from completed travel
+- indirect Lydia objective separated from current location
+- chronology live-edge anchor
+- draft and alternate-branch isolation policy
+- unresolved-live-edge validation
+- live-edge regression tests
+- project router v1.2
 
 ## Next Operational Step
 
-- install compact Project Instructions
-- upload Project_Operating_Manual.md to the ChatGPT project
-- run retrieval and prose acceptance tests
-- normalize complete campaign chronology
-- begin practical campaign use
+- upload v1.2 files
+- run live-edge regression tests
+- run prose and Proceed acceptance tests
+- update the live edge after each completed session or substantial adopted scene
 
-## Post-1.1 Enrichment
+## Future Enrichment
 
+- normalize earlier campaign chronology
 - current cabin assignments
-- reconciled modified deck plan
-- current cargo snapshot
+- reconciled modified Garnette deck plan
+- current cargo manifest
 - exact post-Glisten ship configuration
 - page-level source indexing
 - transcript ingestion

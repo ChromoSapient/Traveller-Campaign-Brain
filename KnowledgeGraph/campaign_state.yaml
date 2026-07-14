@@ -1,29 +1,67 @@
 schema_version: 1
+state_version: 1.2
 
 campaign_state:
-  branch: mainline_pre_tapir_escape
-  date: unresolved_current_live_edge
-  current_location: unresolved_in_this_correction
+  branch: mainline_pagaton_departure
+  canon_status: active_mainline
+  date: "056-1107"
+
+  current_location:
+    system: Pagaton
+    area: just_outside_respis
+    environment: planetside
+    aboard: ship.garnette
+
+  current_activity:
+    status: preparing_to_depart
+    last_completed_scene:
+      id: pagaton_departure_preparation
+      summary: >
+        The crew returned to Garnette after leaving Mercedes Taramaka and
+        began discussing its departure from Pagaton.
 
   active_ship: ship.garnette
+
   active_crew:
     - char.ruuk
     - char.dralan
-    - char.solveig
     - robot.roamer
     - char.ardric
+    - char.solveig
     - char.corbin
 
   absent_characters:
     - character: char.tapir_tracks
-      reason: bounty_hunter_custody
+      last_confirmed_status: bounty_hunter_custody
       escaped: false
+      escape_confirmed_in_play: false
       rejoined: false
+      aboard_garnette: false
+      planned_rendezvous:
+        location: Binges
+        status: hoped_for_not_confirmed
 
   unavailable_assets:
     - asset: ship.restless_tentacle_syndrome
       reason: seized_by_bounty_hunters
       return_expected: false
+
+  travel_plan:
+    has_departed_pagaton: false
+    next_destination: Binges
+    next_destination_status: discussed_not_departed
+    immediate_objectives:
+      - sell_current_cargo
+      - attempt_rendezvous_with_tapir
+    eventual_destination: Lydia
+    eventual_destination_status: intended_not_departed
+    route_strategy: indirect_route_to_reduce_risk_of_being_followed
+    route_finalized: false
+
+  cargo:
+    current_cargo_aboard: true
+    sale_planned_at: Binges
+    exact_manifest: unresolved
 
   ownership:
     ship.garnette:
@@ -40,6 +78,8 @@ campaign_state:
     - Ancient artifact provenance
     - relationship between published Mysteries plot and campaign events
     - discovery status of Garnette's hidden published features
+    - whether Tapir successfully escapes and reaches Binges
+    - whether the crew is being followed
 
   active_constraints:
     - preserve current chronology
@@ -48,5 +88,7 @@ campaign_state:
     - do not place Tapir with the party before his escape and reunion occur in play
     - do not return RTS
     - do not transfer RTS spaces or capabilities to Garnette
+    - do not treat Binges or Lydia as the current location
+    - do not treat planned travel as completed travel
     - do not expose endgame Ancient truths early
     - include valid complications in recommended scenes

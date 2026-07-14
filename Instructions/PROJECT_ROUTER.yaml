@@ -1,11 +1,13 @@
 schema_version: 1
-router_version: 1.1
+router_version: 1.2
 project: Mysterious Secrets of Wrathful Ancients
 repository: ChromoSapient/Traveller-Campaign-Brain
 branch: main
 
 project_source_manual:
   filename: Project_Operating_Manual.md
+  accepted_project_source_aliases:
+    - Project_Operating_Manual(2).md
   location: ChatGPT_project_files
   purpose:
     - prose_conventions
@@ -17,9 +19,11 @@ always_read:
   - KnowledgeGraph/campaign_state.yaml
   - KnowledgeGraph/canon_precedence.yaml
   - KnowledgeGraph/contradictions.yaml
+  - Instructions/BRANCH_AND_DRAFT_POLICY.yaml
 
 task_routes:
   prose:
+    - Chronology/Campaign_Chronology.yaml
     - KnowledgeGraph/scene_rules.yaml
     - KnowledgeGraph/entities.yaml
     - KnowledgeGraph/relationships.yaml
@@ -27,9 +31,16 @@ task_routes:
     - KnowledgeGraph/knowledge_states.yaml
 
   recommendations:
+    - Chronology/Campaign_Chronology.yaml
     - KnowledgeGraph/scene_rules.yaml
     - KnowledgeGraph/campaign_state.yaml
     - Story/Campaign_Hook_Index.yaml
+
+  live_edge:
+    - KnowledgeGraph/campaign_state.yaml
+    - Chronology/Campaign_Chronology.yaml
+    - Instructions/BRANCH_AND_DRAFT_POLICY.yaml
+    - KnowledgeGraph/validation_rules.yaml
 
   characters:
     - KnowledgeGraph/entities.yaml
@@ -53,10 +64,12 @@ task_routes:
     - Characters/Tapir/Tapir_Current_Status.yaml
     - Ships/Restless_Tentacle_Syndrome/RTS_Status.yaml
     - KnowledgeGraph/campaign_state.yaml
+    - Chronology/Campaign_Chronology.yaml
 
   chronology:
     - KnowledgeGraph/campaign_state.yaml
     - Chronology/Campaign_Chronology.yaml
+    - Instructions/BRANCH_AND_DRAFT_POLICY.yaml
 
   traveller_rules:
     - Reference/Source_Provenance_Schema.yaml
@@ -64,7 +77,7 @@ task_routes:
 
 failure_rule: >
   If a required source cannot be accessed, identify the unavailable file.
-  Do not invent canon-dependent facts or substitute remembered ship details.
+  Do not invent canon-dependent facts or substitute remembered campaign state.
 
 refresh_triggers:
   - referee_canon_correction
@@ -74,4 +87,5 @@ refresh_triggers:
   - ownership_question
   - character_location_question
   - ship_capability_question
+  - live_edge_question
   - explicit_verification_request

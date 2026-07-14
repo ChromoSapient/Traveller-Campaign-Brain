@@ -1,29 +1,33 @@
-# Traveller Campaign Brain v1.1: Garnette and Ship Identity Correction
+# Traveller Campaign Brain v1.2: Live Edge Normalization
 
-This patch corrects the conflation of Garnette with Restless Tentacle Syndrome and records Garnette's published and campaign-established capabilities, ownership, spaces, limitations, and hidden features.
+This patch establishes the current played-canon live edge and removes the unresolved date and location placeholders introduced during the v1.1 ship correction.
 
-## Critical Corrections
+## Canonical Live Edge
 
-- Garnette is a modified 100-ton Type-S Suleiman-class scout/courier.
-- Garnette was formerly the Scout Service vessel Baleveny.
-- Mercedes Taramaka is Garnette's actual owner.
-- Bernadetta Khaled was Garnette's former operator and captain.
-- The Garnette crew operates the vessel with Mercedes' continuing permission.
-- Ownership has not transferred to the crew.
-- Restless Tentacle Syndrome was Tapir Tracks' separate 300-ton Hiver transport.
-- Bounty hunters seized RTS when they arrested Tapir.
-- RTS will not return.
-- Tapir is currently absent and in custody.
-- Tapir's expected escape and reunion have not occurred in play.
+- Date: 056-1107
+- System: Pagaton
+- Position: planetside, just outside Respis
+- Ship: Garnette
+- Status: crew aboard and preparing to depart
+- Present: Ruuk, Dralan, Roamer, Ardric, Solveig, Corbin
+- Tapir Tracks: absent; last confirmed in bounty-hunter custody
+- Next intended jump: Binges
+- Immediate objectives: sell cargo and attempt a rendezvous with Tapir after his anticipated escape
+- Eventual objective: reach Lydia by an indirect route intended to make pursuit more difficult
+- Garnette has not departed Pagaton.
 
-## Source Basis
+## Draft Boundary
 
-Published details are drawn from *Mysteries of the Ancients*, principally book pages 73-76 and 92-94. Campaign rulings control names, ownership, current possession, Tapir's status, and RTS's permanent loss.
+Unplayed alternate-branch prose does not enter canon chronology, campaign state, facts, knowledge states, or character memory unless the referee explicitly adopts it.
 
-## Manual Upload
+The branch policy is stored as an operating instruction. No excluded draft scene is named or recorded as a campaign event.
 
-Upload the files using their included repository paths. Existing KnowledgeGraph files in this package are full replacements, not fragments.
+## Upload Method
+
+Upload every file using its included repository-relative path.
+
+Files marked as replacements overwrite the existing repository file at the same path. New files create their directories if necessary.
 
 Suggested commit message:
 
-`Add v1.1 Garnette ship identity correction`
+`Add v1.2 live edge normalization`

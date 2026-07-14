@@ -1,0 +1,31 @@
+schema_version: 1
+policy_version: 1.0
+
+active_branch:
+  id: mainline_pagaton_departure
+  status: canonical_active_branch
+
+canon_admission_rules:
+  - Played events may enter chronology after their date, location, participants, and outcome are established.
+  - Explicit referee rulings may establish canon even when an event was resolved off-screen.
+  - Planned actions remain intentions until play or an explicit referee ruling confirms completion.
+  - Unplayed narrative drafts remain outside campaign canon.
+  - Alternate-branch prose remains isolated from the active branch.
+  - Draft prose creates no character knowledge, equipment changes, injuries, relationships, travel, or consequences.
+  - Draft material may be reused later only after being adapted to the then-current campaign state and explicitly adopted.
+  - Never infer that a draft became canon because it was written in a prior conversation.
+
+repository_boundary:
+  canon_records:
+    - KnowledgeGraph/campaign_state.yaml
+    - KnowledgeGraph/facts.yaml
+    - KnowledgeGraph/knowledge_states.yaml
+    - KnowledgeGraph/relationships.yaml
+    - Chronology/Campaign_Chronology.yaml
+  instruction_records:
+    - Instructions/BRANCH_AND_DRAFT_POLICY.yaml
+    - Instructions/PROJECT_ROUTER.yaml
+
+failure_rule: >
+  When source material and active canon disagree, preserve the active branch and
+  identify the noncanonical or unresolved material rather than merging them.

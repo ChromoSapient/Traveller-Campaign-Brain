@@ -1,0 +1,77 @@
+schema_version: 1
+chronology_version: 1.0
+scope: normalized_live_edge_anchor
+
+events:
+  - id: pagaton_mercedes_meeting_complete
+    date: "056-1107"
+    sequence: 1
+    location:
+      system: Pagaton
+      settlement: Respis
+    participants:
+      - char.ruuk
+      - char.dralan
+      - robot.roamer
+      - char.ardric
+      - char.solveig
+      - char.corbin
+      - char.mercedes_taramaka
+    event: >
+      The crew completed its meeting with Mercedes Taramaka and left her.
+    status: confirmed
+    authority: explicit_referee_ruling
+
+  - id: pagaton_return_to_garnette
+    date: "056-1107"
+    sequence: 2
+    location:
+      system: Pagaton
+      area: just_outside_respis
+      aboard: ship.garnette
+    participants:
+      - char.ruuk
+      - char.dralan
+      - robot.roamer
+      - char.ardric
+      - char.solveig
+      - char.corbin
+    event: >
+      The party returned to Garnette and began preparing to depart Pagaton.
+    status: confirmed
+    authority: explicit_referee_ruling
+
+live_edge:
+  event_id: pagaton_return_to_garnette
+  date: "056-1107"
+  branch: mainline_pagaton_departure
+  location:
+    system: Pagaton
+    area: just_outside_respis
+    environment: planetside
+    aboard: ship.garnette
+  status: preparing_to_depart
+  present:
+    - char.ruuk
+    - char.dralan
+    - robot.roamer
+    - char.ardric
+    - char.solveig
+    - char.corbin
+  absent:
+    - char.tapir_tracks
+
+planned_actions:
+  - action: jump_to_binges
+    status: discussed_not_completed
+  - action: sell_current_cargo_at_binges
+    status: intended
+  - action: attempt_rendezvous_with_tapir_at_binges
+    status: intended_outcome_not_guaranteed
+  - action: continue_toward_lydia_by_indirect_route
+    status: intended_future_plan
+    purpose: reduce_risk_of_being_followed
+
+chronology_notes:
+  - Earlier chronology remains to be normalized in a later pass.
+  - Future intentions are recorded separately from completed events.

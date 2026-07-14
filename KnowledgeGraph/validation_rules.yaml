@@ -41,7 +41,7 @@ validation_rules:
       - Tapir aboard Garnette
       - Tapir joined them aboard Garnette
     severity: error
-    message: Tapir is absent and in bounty-hunter custody until his escape and reunion occur in play.
+    message: Tapir is absent until his escape and reunion are established in play.
 
   - code: INVALID_RTS_AVAILABILITY
     pattern:
@@ -73,7 +73,35 @@ validation_rules:
 
   - code: BRANCH_LOCATION_MISMATCH
     severity: error
-    message: Check Lurrza's location against the active branch.
+    message: Check character and faction locations against the active branch.
+
+  - code: UNRESOLVED_LIVE_EDGE
+    forbidden_values:
+      - unresolved_current_live_edge
+      - unresolved_in_this_correction
+    applies_to:
+      - KnowledgeGraph/campaign_state.yaml
+      - Chronology/Campaign_Chronology.yaml
+    severity: error
+    message: The active campaign date and location must be concrete.
+
+  - code: DESTINATION_LOCATION_CONFLATION
+    severity: error
+    message: >
+      Binges and Lydia are intended destinations. The current location remains
+      Pagaton until a departure and subsequent arrival are established.
+
+  - code: PLANNED_EVENT_AS_COMPLETED
+    severity: error
+    message: >
+      Do not convert an intended jump, cargo sale, rendezvous, escape, or route
+      into a completed event without play or an explicit referee ruling.
+
+  - code: UNPLAYED_DRAFT_CANONIZATION
+    severity: error
+    message: >
+      Unplayed drafts and alternate-branch prose must not be imported into canon
+      chronology, campaign state, facts, knowledge, or character memory.
 
   - code: PREMATURE_ANCIENT_REVELATION
     severity: warning
