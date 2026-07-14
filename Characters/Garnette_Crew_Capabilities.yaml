@@ -1,0 +1,610 @@
+schema_version: 1
+record_version: 1.0
+last_updated: "2026-07-14"
+authority: explicit_referee_ruling
+source:
+  filename: Secrets of the Ancients crew.xlsx
+  worksheet: Sheet1
+  range: A1:H173
+  note: >
+    This workbook is the current authority for crew characteristics, raw skill
+    levels, and assigned shipboard jobs. It supersedes older character-stat
+    summaries where they disagree.
+
+usage_rules:
+  - Use raw skill levels from this file when deciding whether a character is qualified for a task.
+  - Do not treat an assigned crew job as proof of training in every related skill.
+  - Apply characteristic DMs, equipment, software, augments, and assistance separately.
+  - A skill at level 0 removes the untrained penalty but does not indicate professional expertise.
+  - A missing skill is untrained unless another current canon file explicitly grants it.
+  - Do not silently move characters into roles for which they lack the relevant skill.
+  - When several characters can fill a role, prefer the character with the strongest relevant raw skill and characteristic DM.
+  - Temporary role coverage is allowed, but describe it as emergency, supervised, assisted, or software-supported when appropriate.
+
+crew:
+  - id: robot.roamer
+    name: Roamer
+    formal_designation: R0-4MR
+    species: Robot
+    age: 20
+    homeworld: Tech-World
+    characteristics:
+      STR: 7
+      DEX: 8
+      END: 9
+      INT: 12
+      EDU: 12
+      SOC: 6
+    assigned_jobs:
+      primary: Engineer
+      secondary:
+        - Mechanic
+        - Drone Pilot
+    skills:
+      Admin: 0
+      Deception: 0
+      Profession_Robotics: 0
+      Science_Life: 0
+      Science_Biology: 0
+      Science_Genetics: 0
+      Science_Psionicology: 0
+      Science_Xenology: 0
+      Science_Cybernetics: 0
+      Science_Robotics: 1
+      Science_Archaeology: 2
+      Science_Economics: 0
+      Science_History: 0
+      Science_Linguistics: 0
+      Science_Philosophy: 0
+      Science_Psychology: 0
+      Science_Sophontology: 0
+      Electronics_Comms: 0
+      Electronics_Computers: 1
+      Electronics_Remote_Ops: 1
+      Electronics_Sensors: 1
+      Engineer_M_Drive: 0
+      Engineer_J_Drive: 1
+      Engineer_Life_Support: 0
+      Engineer_Power: 0
+      Mechanic: 0
+      Navigation: 4
+      Pilot_Small_Craft: 0
+      Pilot_Spacecraft: 1
+      Pilot_Capital_Ships: 0
+      Vacc_Suit: null
+      Athletics_STR: 0
+      Athletics_DEX: 0
+      Athletics_END: 1
+      Survival: 0
+      Explosives: 1
+      Gun_Combat_Archaic: 0
+      Gun_Combat_Energy: 1
+      Gun_Combat_Slug: 0
+      Recon: 1
+    support_modifiers:
+      admin_software: 1
+      science_robotics_tool_or_software: 2
+      science_archaeology_tool_or_software: 2
+      electronics_software: 1
+      engineering_software: 1
+      mechanic_software: 1
+      survival_environmental_sensors: 1
+      explosives_software: 1
+      recon_environmental_sensors: 1
+      athletics_hardware:
+        STR: 0
+        DEX: 0
+        END: 1
+    role_assessment:
+      Engineer: qualified
+      Mechanic: basic_software_supported
+      Drone_Pilot: qualified
+      Pilot: qualified_backup
+      Astrogator: not_qualified
+    notes:
+      - Navigation 4 is hardware-based and is not Astrogation.
+      - Roamer is the crew's strongest engineer and remote-operations specialist.
+
+  - id: char.ruuk
+    name: Ruuk
+    species: Vargr
+    sex: male
+    age: 38
+    homeworld: Glisten
+    characteristics:
+      STR: 6
+      DEX: 15
+      END: 7
+      INT: 10
+      EDU: 10
+      SOC: 6
+    assigned_jobs:
+      primary: Medic
+      secondary:
+        - Drone Pilot
+    skills:
+      Art: 0
+      Art_Performer: 0
+      Language: 0
+      Medic: 1
+      Persuade: 1
+      Deception: 2
+      Streetwise: 1
+      Profession_Scrounging: 2
+      Profession_Security: 2
+      Profession_Spacer: 0
+      Electronics_Comms: 0
+      Electronics_Computers: 1
+      Electronics_Remote_Ops: 0
+      Electronics_Sensors: 0
+      Pilot_Small_Craft: 1
+      Pilot_Spacecraft: 0
+      Pilot_Capital_Ships: 0
+      Vacc_Suit: 0
+      Athletics_STR: 0
+      Athletics_DEX: 2
+      Athletics_END: 0
+      Stealth: 2
+      Gun_Combat_Archaic: 0
+      Gun_Combat_Energy: 0
+      Gun_Combat_Slug: 2
+      Melee_Unarmed: 1
+      Melee_Blade: 0
+      Melee_Bludgeon: 0
+      Melee_Natural: 0
+      Recon: 2
+    role_assessment:
+      Medic: qualified
+      Drone_Pilot: familiar_only
+      Security: highly_qualified
+      Small_Craft_Pilot: qualified
+      Engineer: not_qualified
+      Astrogator: not_qualified
+    notes:
+      - Raw Medic is 1. Apply current medkit, Expert software, and other equipment bonuses separately.
+      - Ruuk is the strongest infiltration, physical-security, stealth, and slug-pistol specialist.
+
+  - id: char.dralan
+    name: Dralan Flamehand
+    species: Aslan
+    cultural_origin: Darrian
+    sex: male
+    age: 38
+    homeworld: Darrian
+    characteristics:
+      STR: 12
+      DEX: 12
+      END: 10
+      INT: 6
+      EDU: 8
+      SOC: 6
+    assigned_jobs:
+      primary: Security
+      secondary:
+        - Chef
+    skills:
+      Carouse: 1
+      Persuade: 1
+      Art_Visual_Media: 0
+      Art_Exotic_Media: 0
+      Art_Gastronomy: 1
+      Vacc_Suit: 0
+      Athletics_STR: 0
+      Athletics_DEX: 0
+      Athletics_END: 0
+      Stealth: 1
+      Survival: 0
+      Gun_Combat_Archaic: 0
+      Gun_Combat_Energy: 1
+      Gun_Combat_Slug: 1
+      Heavy_Weapons_Artillery: 0
+      Heavy_Weapons_Man_Portable: 1
+      Heavy_Weapons_Vehicle: 0
+      Leadership: 1
+      Melee_Unarmed: 0
+      Melee_Blade: 1
+      Melee_Bludgeon: 0
+      Melee_Natural: 3
+      Recon: 1
+    role_assessment:
+      Security: highly_qualified
+      Chef: qualified
+      Heavy_Weapons: qualified
+      Pilot: not_qualified
+      Engineer: not_qualified
+      Medic: not_qualified
+    notes:
+      - Dralan is the strongest close-combatant and primary heavy-weapons operator.
+      - Do not assign technical ship operations to Dralan without direct supervision.
+
+  - id: char.solveig
+    name: Solveig Dahl
+    pronunciation: SOOL-vie
+    species: Human
+    sex: female
+    age: 35
+    homeworld: Narsil
+    characteristics:
+      STR: 8
+      DEX: 9
+      END: 11
+      INT: 12
+      EDU: 9
+      SOC: 6
+    assigned_jobs:
+      primary: Sensors
+      secondary:
+        - Comms
+        - Astrogator
+    skills:
+      Admin: 1
+      Advocate: 1
+      Carouse: 1
+      Persuade: 1
+      Streetwise: 2
+      Investigate: 1
+      Language: 0
+      Astrogation: 1
+      Electronics_Comms: 2
+      Electronics_Computers: 0
+      Electronics_Remote_Ops: 0
+      Electronics_Sensors: 0
+      Mechanic: 1
+      Vacc_Suit: 0
+      Stealth: 0
+      Gun_Combat_Archaic: 0
+      Gun_Combat_Energy: 0
+      Gun_Combat_Slug: 1
+      Melee_Unarmed: 2
+      Melee_Blade: 1
+      Melee_Bludgeon: 0
+      Recon: 0
+    role_assessment:
+      Comms: highly_qualified
+      Astrogator: qualified
+      Sensors: familiar_only
+      Investigator: qualified
+      Mechanic: qualified
+      Pilot: not_qualified
+    notes:
+      - Solveig is the crew's primary communications operator and one of two trained astrogators.
+      - Her Sensors 0 supports routine watchstanding but not expert sensor analysis.
+
+  - id: char.tapir_tracks
+    name: Tapir Tracks
+    species: Hiver
+    age: 38
+    homeworld: Nelpa
+    characteristics:
+      STR: 5
+      DEX: 9
+      END: 6
+      INT: 13
+      EDU: 10
+      RES: 12
+    assigned_jobs:
+      primary: Captain
+      secondary:
+        - Astrogator
+    skills:
+      Broker: 1
+      Carouse: 1
+      Deception: 2
+      Persuade: 3
+      Streetwise: 2
+      Investigate: 1
+      Science_Archaeology: 0
+      Science_Economics: 0
+      Science_History: 0
+      Science_Linguistics: 0
+      Science_Philosophy: 0
+      Science_Psychology: 0
+      Science_Sociology: 2
+      Astrogation: 1
+      Electronics_Comms: 0
+      Electronics_Computers: 0
+      Electronics_Remote_Ops: 0
+      Electronics_Sensors: 0
+      Flyer_Airship: 0
+      Flyer_Grav: 0
+      Flyer_Ornithopter: 0
+      Flyer_Rotor: 0
+      Flyer_Wing: 0
+      Mechanic: 0
+      Vacc_Suit: 0
+      Stealth: 1
+      Survival: 1
+      Gun_Combat_Archaic: 0
+      Gun_Combat_Energy: 2
+      Gun_Combat_Slug: 0
+      Leadership: 1
+      Tactics_Economic: 2
+      Tactics_Military: 0
+      Tactics_Naval: 0
+    role_assessment:
+      Captain: qualified_social_and_commercial
+      Astrogator: qualified
+      Broker: qualified
+      Pilot: not_qualified
+      Sensors: familiar_only
+    notes:
+      - Tapir is absent from the current party until escape and reunion occur in play.
+      - Captain is an authority and decision role; it does not make Tapir a pilot.
+
+  - id: char.ardric
+    name: Ardric Dravayne
+    aliases:
+      - Ardric Vellarn D'Ravayne
+    species: Human
+    cultural_origin: Sylean
+    sex: male
+    age: 38
+    characteristics:
+      STR: 7
+      DEX: 9
+      END: 7
+      INT: 10
+      EDU: 8
+      SOC: 11
+    assigned_jobs:
+      primary: Pilot
+    skills:
+      Jack_of_All_Trades: 1
+      Admin: 0
+      Advocate: 0
+      Carouse: 1
+      Deception: 1
+      Diplomat: 0
+      Persuade: 1
+      Streetwise: 0
+      Art_Performer: 0
+      Art_Instrument: 1
+      Gambler: 0
+      Investigate: 1
+      Language_Gvegh: 1
+      Language_Trokh: 1
+      Drive_Hovercraft: 0
+      Drive_Mole: 0
+      Drive_Track: 1
+      Drive_Walker: 0
+      Drive_Wheeled: 1
+      Electronics_Comms: 0
+      Electronics_Computers: 0
+      Electronics_Remote_Ops: 0
+      Electronics_Sensors: 1
+      Flyer_Airship: 0
+      Flyer_Grav: 1
+      Flyer_Ornithopter: 0
+      Flyer_Rotor: 0
+      Flyer_Wing: 1
+      Mechanic: 0
+      Pilot_Small_Craft: 0
+      Pilot_Spacecraft: 1
+      Pilot_Capital_Ships: 0
+      Vacc_Suit: 0
+      Gun_Combat_Archaic: 0
+      Gun_Combat_Energy: 0
+      Gun_Combat_Slug: 1
+      Melee_Unarmed: 0
+      Melee_Blade: 1
+      Melee_Bludgeon: 0
+      Recon: 1
+    role_assessment:
+      Pilot: qualified
+      Sensors: qualified_backup
+      Ground_Driver: qualified
+      Social_Face: qualified
+      Astrogator: not_qualified
+      Engineer: not_qualified
+    notes:
+      - Ardric is the primary spacecraft pilot.
+      - Jack-of-All-Trades 1 reduces untrained penalties but does not create trained expertise.
+
+  - id: char.corbin
+    name: Corbin Vanis
+    species: Human
+    cultural_origin: Vilani
+    sex: male_uncertain
+    age: 38
+    homeworld: Glisten
+    characteristics:
+      STR: 6
+      DEX: 10
+      END: 8
+      INT: 12
+      EDU: 12
+      SOC: 7
+    assigned_jobs:
+      primary: Gunner
+      secondary:
+        - Steward
+        - Pilot
+    skills:
+      Advocate: 1
+      Carouse: 0
+      Deception: 0
+      Persuade: 0
+      Steward: 0
+      Streetwise: 1
+      Art_Holography: 0
+      Art_Writing: 1
+      Investigate: 2
+      Drive_Hovercraft: 0
+      Drive_Mole: 0
+      Drive_Track: 0
+      Drive_Walker: 0
+      Drive_Wheeled: 0
+      Electronics_Comms: 1
+      Electronics_Computers: 3
+      Electronics_Remote_Ops: 0
+      Electronics_Sensors: 0
+      Flyer_Airship: 0
+      Flyer_Grav: 0
+      Flyer_Ornithopter: 0
+      Flyer_Rotor: 0
+      Flyer_Wing: 0
+      Pilot_Small_Craft: 0
+      Pilot_Spacecraft: 1
+      Pilot_Capital_Ships: 0
+      Vacc_Suit: 0
+      Survival: 0
+      Gunner_Turret: 1
+      Gunner_Ortillery: 0
+      Gunner_Screen: 0
+      Gunner_Capital: 0
+      Gun_Combat_Archaic: 0
+      Gun_Combat_Energy: 0
+      Gun_Combat_Slug: 0
+    role_assessment:
+      Gunner: qualified
+      Pilot: qualified
+      Computers: highly_qualified
+      Investigator: highly_qualified
+      Steward: familiar_only
+      Astrogator: not_qualified
+      Engineer: not_qualified
+    notes:
+      - Garnette currently has no established ship weapon, so Corbin's gunner role may be dormant.
+      - Corbin is the crew's strongest computer operator and investigator.
+
+role_matrix:
+  Captain:
+    primary: char.tapir_tracks
+    backups:
+      - char.ardric
+    constraints:
+      - Tapir is currently absent and cannot exercise aboard-ship command until reunion.
+      - Ardric is a practical acting-command option based on pilot and social competence, not a formal skill grant.
+
+  Pilot:
+    primary: char.ardric
+    backups:
+      - char.corbin
+      - robot.roamer
+      - char.ruuk
+    notes:
+      - Ardric, Corbin, and Roamer have Pilot (spacecraft) 1.
+      - Ruuk has Pilot (small craft) 1 but only Pilot (spacecraft) 0.
+
+  Astrogator:
+    primary: char.solveig
+    backups:
+      - char.tapir_tracks
+    constraints:
+      - Tapir is unavailable until reunion.
+      - No other listed crew member has Astrogation.
+
+  Engineer:
+    primary: robot.roamer
+    backups: []
+    constraints:
+      - No biological crew member in the workbook has Engineer training.
+      - Emergency assistance should use Mechanic, Electronics, software, or task-chain support rather than pretending another character is an engineer.
+
+  Mechanic:
+    primary: char.solveig
+    backups:
+      - robot.roamer
+      - char.ardric
+      - char.tapir_tracks
+    notes:
+      - Solveig has Mechanic 1.
+      - Roamer, Ardric, and Tapir have Mechanic 0; Roamer also has tool/software support.
+
+  Comms:
+    primary: char.solveig
+    backups:
+      - char.corbin
+      - robot.roamer
+      - char.ruuk
+
+  Sensors:
+    primary: char.ardric
+    backups:
+      - robot.roamer
+      - char.solveig
+      - char.corbin
+      - char.ruuk
+    notes:
+      - Ardric and Roamer have Electronics (sensors) 1.
+      - Solveig's assigned Sensors job is supported only by Sensors 0, though her INT 12 makes her competent at routine work.
+
+  Medic:
+    primary: char.ruuk
+    backups: []
+    constraints:
+      - No other crew member has Medic training in the workbook.
+      - Medical software or equipment may assist but should not be treated as a trained biological medic unless current rules permit the specific task.
+
+  Security:
+    primary: char.dralan
+    backups:
+      - char.ruuk
+      - char.solveig
+    notes:
+      - Dralan handles overt physical security and combat.
+      - Ruuk handles covert access, infiltration, and technical security.
+      - Solveig is strongest in unarmed restraint and investigative procedure.
+
+  Gunner:
+    primary: char.corbin
+    backups: []
+    constraints:
+      - Garnette has no established weapon fit in current canon.
+
+  Computers:
+    primary: char.corbin
+    backups:
+      - char.ruuk
+      - robot.roamer
+
+  Remote_Operations:
+    primary: robot.roamer
+    backups:
+      - char.ruuk
+      - char.solveig
+      - char.tapir_tracks
+      - char.ardric
+      - char.corbin
+    notes:
+      - Only Roamer has Electronics (remote ops) 1; all listed backups have level 0.
+
+  Face_and_Negotiation:
+    primary: char.tapir_tracks
+    backups:
+      - char.ardric
+      - char.ruuk
+      - char.solveig
+    constraints:
+      - Tapir is currently absent.
+
+  Investigation:
+    primary: char.corbin
+    backups:
+      - char.solveig
+      - char.tapir_tracks
+      - char.ardric
+
+continuity_checks:
+  - code: ROLE_WITHOUT_SKILL
+    rule: >
+      Before assigning a technical or professional task, verify that the character
+      has the relevant skill in this file or explicitly describe untrained,
+      assisted, supervised, or software-supported performance.
+  - code: JOB_IS_NOT_SKILL
+    rule: >
+      A crew-job label does not override the recorded skill level. Solveig is
+      assigned Sensors but has Sensors 0; Tapir is Captain but has no Pilot skill;
+      Corbin is Steward but has Steward 0.
+  - code: TAPIR_UNAVAILABLE
+    rule: >
+      Do not assign Tapir any current aboard-Garnette task until his escape and
+      reunion are established in play.
+  - code: NO_BACKUP_ENGINEER
+    rule: >
+      Roamer is the only trained Engineer. Damage or absence affecting Roamer
+      materially constrains Garnette operations.
+  - code: NO_BACKUP_MEDIC
+    rule: >
+      Ruuk is the only trained Medic. Damage or absence affecting Ruuk materially
+      constrains medical care.
