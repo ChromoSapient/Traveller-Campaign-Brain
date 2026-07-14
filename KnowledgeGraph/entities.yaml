@@ -37,6 +37,23 @@ entities:
     name: Duisk
     status: active
 
+  - id: char.tapir_tracks
+    type: character
+    name: Tapir Tracks
+    status: absent_in_custody
+
+  - id: char.mercedes_taramaka
+    type: character
+    name: Mercedes Taramaka
+    source_aliases: [Mercedes Karamaka]
+    status: active
+
+  - id: char.bernadetta_khaled
+    type: character
+    name: Bernadetta Khaled
+    source_aliases: [Bernadatta Khaled, Bernadette Khaled]
+    status: deceased
+
   - id: robot.roamer
     type: robot
     name: Roamer
@@ -46,11 +63,26 @@ entities:
   - id: ship.garnette
     type: ship
     name: Garnette
+    class: Type-S Suleiman-class scout/courier
+    displacement_tons: 100
     status: active
+
+  - id: ship.restless_tentacle_syndrome
+    type: ship
+    name: Restless Tentacle Syndrome
+    aliases: [RTS, Joyous Venture, Whimsey, Home]
+    class: Hiver personal transport
+    displacement_tons: 300
+    status: seized_and_permanently_unavailable
 
   - id: org.garnette_crew
     type: organization
     name: Garnette Crew
+    status: active
+
+  - id: org.bounty_hunters
+    type: organization
+    name: Tapir's Bounty Hunters
     status: active
 
   - id: org.arf
@@ -88,6 +120,11 @@ entities:
     name: Dustfall Station
     status: active
 
+  - id: place.callia
+    type: world
+    name: Callia
+    status: active
+
   - id: place.lydia
     type: world
     name: Lydia
@@ -97,6 +134,11 @@ entities:
     type: artifact
     name: Calefaction Planetary Device
     status: destroyed_or_disabled
+
+  - id: artifact.garnette_ancient_transponder
+    type: artifact
+    name: Garnette Ancient Transponder
+    status: hidden_discovery_unresolved
 
   - id: arc.mysteries
     type: plot_arc

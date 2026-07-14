@@ -1,0 +1,37 @@
+schema_version: 1
+ship_id: ship.garnette
+version: 1.1
+
+legal_owner:
+  entity: char.mercedes_taramaka
+  status: campaign_canon
+  transfer_to_party: false
+
+operational_history:
+  - operator: Imperial_Interstellar_Scout_Service
+    ship_name: Baleveny
+    status: former
+  - operator: char.mercedes_taramaka
+    ship_name: Garnette
+    status: former_direct_operator
+  - operator: char.bernadetta_khaled
+    ship_name: Garnette
+    status: former_operator_with_owner_permission
+  - operator: org.garnette_crew
+    ship_name: Garnette
+    status: current_operator_with_owner_permission
+
+current_arrangement:
+  permission: continuing
+  permission_formality: informal_or_not_fully_documented
+  owner_attitude: content_for_crew_to_continue_using_ship
+  exact_registry_and_insurance_status: unresolved
+  crew_has_possession: true
+  crew_has_legal_title: false
+
+story_consequences:
+  - Mercedes can speak with authority about the ship's history and use.
+  - The crew should not sell, permanently transfer, or pledge Garnette as their own property.
+  - Port records, liens, insurance, or former Scout records may expose ownership complications.
+  - Mercedes' approval currently removes immediate pressure to surrender the ship.
+  - Ownership questions should create credible legal or relational consequences, not erase the crew's established permission.

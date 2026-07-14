@@ -1,0 +1,77 @@
+schema_version: 1
+router_version: 1.1
+project: Mysterious Secrets of Wrathful Ancients
+repository: ChromoSapient/Traveller-Campaign-Brain
+branch: main
+
+project_source_manual:
+  filename: Project_Operating_Manual.md
+  location: ChatGPT_project_files
+  purpose:
+    - prose_conventions
+    - recommendation_protocol
+    - session_workflow
+    - transcript_processing
+
+always_read:
+  - KnowledgeGraph/campaign_state.yaml
+  - KnowledgeGraph/canon_precedence.yaml
+  - KnowledgeGraph/contradictions.yaml
+
+task_routes:
+  prose:
+    - KnowledgeGraph/scene_rules.yaml
+    - KnowledgeGraph/entities.yaml
+    - KnowledgeGraph/relationships.yaml
+    - KnowledgeGraph/facts.yaml
+    - KnowledgeGraph/knowledge_states.yaml
+
+  recommendations:
+    - KnowledgeGraph/scene_rules.yaml
+    - KnowledgeGraph/campaign_state.yaml
+    - Story/Campaign_Hook_Index.yaml
+
+  characters:
+    - KnowledgeGraph/entities.yaml
+    - KnowledgeGraph/relationships.yaml
+    - KnowledgeGraph/facts.yaml
+    - KnowledgeGraph/knowledge_states.yaml
+
+  garnette:
+    - Ships/Garnette/Garnette_Ship_Brain.yaml
+    - Ships/Garnette/Garnette_Spaces.yaml
+    - Ships/Garnette/Garnette_Capabilities.yaml
+    - Ships/Garnette/Garnette_Ownership.yaml
+    - Ships/Garnette/Garnette_Unknowns_and_Decisions.md
+
+  ships:
+    - Ships/Garnette/Garnette_Ship_Brain.yaml
+    - Ships/Restless_Tentacle_Syndrome/RTS_Status.yaml
+    - KnowledgeGraph/contradictions.yaml
+
+  tapir:
+    - Characters/Tapir/Tapir_Current_Status.yaml
+    - Ships/Restless_Tentacle_Syndrome/RTS_Status.yaml
+    - KnowledgeGraph/campaign_state.yaml
+
+  chronology:
+    - KnowledgeGraph/campaign_state.yaml
+    - Chronology/Campaign_Chronology.yaml
+
+  traveller_rules:
+    - Reference/Source_Provenance_Schema.yaml
+    - TravellerKnowledge/Indexes/Adventure_Index.yaml
+
+failure_rule: >
+  If a required source cannot be accessed, identify the unavailable file.
+  Do not invent canon-dependent facts or substitute remembered ship details.
+
+refresh_triggers:
+  - referee_canon_correction
+  - completed_scene
+  - completed_session
+  - branch_change
+  - ownership_question
+  - character_location_question
+  - ship_capability_question
+  - explicit_verification_request

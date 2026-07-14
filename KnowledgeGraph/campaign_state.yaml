@@ -1,11 +1,9 @@
 schema_version: 1
 
 campaign_state:
-  branch: mainline_mysteries
+  branch: mainline_pre_tapir_escape
   date: unresolved_current_live_edge
-  current_transit:
-    status: in_jump
-    destination: place.lydia
+  current_location: unresolved_in_this_correction
 
   active_ship: ship.garnette
   active_crew:
@@ -16,6 +14,24 @@ campaign_state:
     - char.ardric
     - char.corbin
 
+  absent_characters:
+    - character: char.tapir_tracks
+      reason: bounty_hunter_custody
+      escaped: false
+      rejoined: false
+
+  unavailable_assets:
+    - asset: ship.restless_tentacle_syndrome
+      reason: seized_by_bounty_hunters
+      return_expected: false
+
+  ownership:
+    ship.garnette:
+      owner: char.mercedes_taramaka
+      operator: org.garnette_crew
+      permission: continuing
+      title_transferred: false
+
   active_arc: arc.mysteries
 
   open_mysteries:
@@ -23,10 +39,14 @@ campaign_state:
     - Duisk's capabilities and motives
     - Ancient artifact provenance
     - relationship between published Mysteries plot and campaign events
+    - discovery status of Garnette's hidden published features
 
   active_constraints:
     - preserve current chronology
     - use Garnette spelling
     - use Roamer in prose
+    - do not place Tapir with the party before his escape and reunion occur in play
+    - do not return RTS
+    - do not transfer RTS spaces or capabilities to Garnette
     - do not expose endgame Ancient truths early
     - include valid complications in recommended scenes

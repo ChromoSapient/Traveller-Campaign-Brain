@@ -1,0 +1,26 @@
+schema_version: 1
+character_id: char.tapir_tracks
+version: 1.1
+
+name: Tapir Tracks
+species: Hiver
+
+current_status:
+  presence: absent
+  custody: held_by_bounty_hunters
+  arrested: true
+  escaped: false
+  rejoined_party: false
+  aboard_garnette: false
+
+future_expectation:
+  referee_expectation: Tapir_may_escape_and_rejoin
+  status: not_yet_occurred_in_play
+  canon_rule: >
+    Do not portray Tapir as free, present, communicating freely, or aboard
+    Garnette until an in-game event establishes his escape and reunion.
+
+ship_status:
+  former_ship: ship.restless_tentacle_syndrome
+  access_to_former_ship: lost
+  former_ship_returning_with_tapir: false

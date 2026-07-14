@@ -7,9 +7,177 @@ facts:
     object: Garnette
     status: campaign_canon
     authority: explicit_referee_ruling
+
+  - id: fact.garnette.class
+    subject: ship.garnette
+    predicate: class
+    object: Type-S_Suleiman_scout_courier
+    status: campaign_canon
+    authority: current_edition_adventure_source
     sources:
-      - ROADMAP.md
-      - campaign_chronology
+      - Mysteries_of_the_Ancients_pages_73_76
+
+  - id: fact.garnette.displacement
+    subject: ship.garnette
+    predicate: displacement_tons
+    object: 100
+    status: campaign_canon
+    authority: current_edition_adventure_source
+
+  - id: fact.garnette.owner
+    subject: ship.garnette
+    predicate: legal_owner
+    object: char.mercedes_taramaka
+    status: campaign_canon
+    authority: explicit_referee_ruling
+
+  - id: fact.garnette.operator
+    subject: ship.garnette
+    predicate: current_operator
+    object: org.garnette_crew
+    status: campaign_canon
+    authority: current_campaign_chronology
+
+  - id: fact.garnette.permission
+    subject: org.garnette_crew
+    predicate: permission_to_operate
+    object: granted_by_mercedes
+    status: campaign_canon
+    authority: explicit_referee_ruling
+
+  - id: fact.garnette.title_not_transferred
+    subject: org.garnette_crew
+    predicate: owns_garnette
+    object: false
+    status: campaign_canon
+    authority: explicit_referee_ruling
+
+  - id: fact.garnette.jump
+    subject: ship.garnette
+    predicate: jump_rating
+    object: 2
+    status: campaign_canon
+    authority: current_edition_adventure_source
+
+  - id: fact.garnette.thrust
+    subject: ship.garnette
+    predicate: manoeuvre_thrust
+    object: 2
+    status: campaign_canon
+    authority: current_edition_adventure_source
+
+  - id: fact.garnette.armour
+    subject: ship.garnette
+    predicate: armour_rating
+    object: 4
+    status: campaign_canon
+    authority: current_edition_adventure_source
+
+  - id: fact.garnette.sensors
+    subject: ship.garnette
+    predicate: sensor_grade
+    object: military
+    status: campaign_canon
+    authority: current_edition_adventure_source
+
+  - id: fact.garnette.interference_bonus
+    subject: ship.garnette
+    predicate: interference_sensor_comms_dm
+    object: 1
+    status: campaign_canon
+    authority: current_edition_adventure_source
+
+  - id: fact.garnette.staterooms
+    subject: ship.garnette
+    predicate: standard_stateroom_count
+    object: 4
+    status: campaign_canon
+    authority: current_edition_adventure_source
+
+  - id: fact.garnette.ruuk_dralan_cabin
+    subject: char.ruuk
+    predicate: shares_cabin_with
+    object: char.dralan
+    status: campaign_canon
+    authority: explicit_referee_ruling
+
+  - id: fact.garnette.air_raft
+    subject: ship.garnette
+    predicate: carries_air_raft
+    object: false
+    status: campaign_canon
+    authority: current_edition_adventure_source
+
+  - id: fact.garnette.probe_drones
+    subject: ship.garnette
+    predicate: carries_stock_probe_drones
+    object: false
+    status: campaign_canon
+    authority: current_edition_adventure_source
+
+  - id: fact.garnette.weapon_fit
+    subject: ship.garnette
+    predicate: current_ship_weapons
+    object: none_established
+    status: campaign_canon
+    authority: current_edition_adventure_source
+
+  - id: fact.garnette.turret
+    subject: ship.garnette
+    predicate: current_turret
+    object: removed_and_replaced_by_sensor_dome
+    status: campaign_canon
+    authority: current_edition_adventure_source
+
+  - id: fact.garnette.ancient_transponder
+    subject: ship.garnette
+    predicate: contains
+    object: artifact.garnette_ancient_transponder
+    status: referee_truth
+    authority: current_edition_adventure_source
+    visibility: referee_only_until_discovered
+
+  - id: fact.rts.displacement
+    subject: ship.restless_tentacle_syndrome
+    predicate: displacement_tons
+    object: 300
+    status: campaign_canon
+    authority: campaign_canon_file
+
+  - id: fact.rts.seized
+    subject: ship.restless_tentacle_syndrome
+    predicate: current_control
+    object: org.bounty_hunters
+    status: campaign_canon
+    authority: explicit_referee_ruling
+
+  - id: fact.rts.return
+    subject: ship.restless_tentacle_syndrome
+    predicate: will_return_as_party_asset
+    object: false
+    status: campaign_canon
+    authority: explicit_referee_ruling
+
+  - id: fact.tapir.custody
+    subject: char.tapir_tracks
+    predicate: current_status
+    object: absent_in_bounty_hunter_custody
+    status: campaign_canon
+    authority: explicit_referee_ruling
+
+  - id: fact.tapir.escape
+    subject: char.tapir_tracks
+    predicate: has_escaped
+    object: false
+    status: campaign_canon
+    authority: explicit_referee_ruling
+
+  - id: fact.tapir.rejoined
+    subject: char.tapir_tracks
+    predicate: has_rejoined_party
+    object: false
+    status: campaign_canon
+    authority: explicit_referee_ruling
 
   - id: fact.roamer.self_ownership
     subject: robot.roamer
@@ -17,8 +185,6 @@ facts:
     object: robot.roamer
     status: campaign_canon
     authority: explicit_referee_ruling
-    sources:
-      - Characters/Roamer/Roamer_Character_Brain_v0.6.yaml
 
   - id: fact.roamer.ardric_cover
     subject: robot.roamer
@@ -33,13 +199,6 @@ facts:
     object: char.lurrza
     status: campaign_canon
     authority: campaign_narrative
-
-  - id: fact.ruuk.dralan_shared_cabin
-    subject: char.ruuk
-    predicate: shares_cabin_with
-    object: char.dralan
-    status: campaign_canon
-    authority: explicit_referee_ruling
 
   - id: fact.glisten_vargr.corsair_origin
     subject: place.glisten

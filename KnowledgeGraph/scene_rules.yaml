@@ -23,7 +23,37 @@ scene_rules:
   constraints:
     - Use Roamer rather than R0-4MR unless formal designation matters.
     - Never rename Garnette.
+    - Treat Garnette as a modified 100-ton Type-S scout/courier.
+    - Mercedes Taramaka owns Garnette; the crew operates it with permission.
+    - Do not assign RTS spaces or capabilities to Garnette.
+    - Do not place Tapir in scenes with the party before his escape and reunion occur in play.
+    - RTS is unavailable and will not return.
     - Do not use casual scans to detect Ruuk's mobility augment.
     - Do not treat Ardric as Roamer's actual owner.
     - Do not import branch-specific facts into another branch.
-    - Complications must arise from valid security, faction, timing, or character pressure.
+    - Complications must arise from valid security, faction, timing, environmental, resource, or character pressure.
+
+  garnette_space_rules:
+    established:
+      - bridge
+      - office
+      - airlock
+      - transverse_corridor
+      - four_standard_staterooms
+      - workshop_and_multipurpose_lab
+      - common_room
+      - well_equipped_galley
+      - food_and_wine_locker
+      - cargo_hold
+      - former_secure_cargo_section
+      - engineering
+      - fuel_processing
+      - sensor_dome_access
+    forbidden_without_referee_approval:
+      - Hiver_command_chamber
+      - Hiver_habitat_pod
+      - observation_dome
+      - automated_repair_drone_shafts
+      - air_raft_bay
+      - probe_drone_chamber
+      - functional_turret

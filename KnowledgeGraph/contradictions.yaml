@@ -11,6 +11,58 @@ contradictions:
     reason: explicit_referee_ruling
     validation_code: INVALID_SHIP_NAME
 
+  - id: contradiction.garnette_vs_rts
+    claims:
+      - Garnette_is_the_300_ton_Hiver_transport
+      - Garnette_is_a_100_ton_modified_Type_S
+    preferred: Garnette_is_a_100_ton_modified_Type_S
+    status: resolved
+    reason: explicit_referee_correction_and_published_adventure_source
+    validation_code: SHIP_IDENTITY_CONFLATION
+
+  - id: contradiction.garnette_owner
+    claims:
+      - Garnette_owned_by_party
+      - Garnette_owned_by_Mercedes
+    preferred: Garnette_owned_by_Mercedes
+    status: resolved
+    reason: explicit_referee_ruling
+    validation_code: INVALID_GARNETTE_OWNERSHIP
+
+  - id: contradiction.garnette_stock_craft
+    claims:
+      - stock_stat_block_lists_air_raft_and_probe_drones
+      - narrative_configuration_converted_those_spaces
+    preferred: narrative_configuration_converted_those_spaces
+    status: resolved
+    reason: vessel_specific_narrative_overrides_generic_stat_block
+    validation_code: INVALID_GARNETTE_CRAFT
+
+  - id: contradiction.garnette_turret
+    claims:
+      - empty_double_turret_installed
+      - turret_removed_and_replaced_by_sensor_dome
+    preferred: turret_removed_and_replaced_by_sensor_dome
+    status: resolved
+    reason: later_vessel_specific_description
+    validation_code: INVALID_GARNETTE_TURRET
+
+  - id: contradiction.tapir_presence
+    claims:
+      - Tapir_is_aboard_Garnette
+      - Tapir_is_in_bounty_hunter_custody
+    preferred: Tapir_is_in_bounty_hunter_custody
+    status: resolved_until_future_play
+    validation_code: INVALID_TAPIR_PRESENCE
+
+  - id: contradiction.rts_availability
+    claims:
+      - RTS_is_available_or_will_return
+      - RTS_was_seized_and_will_not_return
+    preferred: RTS_was_seized_and_will_not_return
+    status: resolved
+    validation_code: INVALID_RTS_AVAILABILITY
+
   - id: contradiction.roamer_ownership
     claims:
       - Roamer_is_self_owning

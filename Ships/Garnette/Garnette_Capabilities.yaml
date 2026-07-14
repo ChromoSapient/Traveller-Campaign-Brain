@@ -1,0 +1,115 @@
+schema_version: 1
+ship_id: ship.garnette
+version: 1.1
+
+published_core:
+  hull:
+    displacement_tons: 100
+    configuration: streamlined
+    hull_points: 40
+  armour:
+    material: crystaliron
+    rating: 4
+  drives:
+    manoeuvre_thrust: 2
+    jump_rating: 2
+    power_plant:
+      type: fusion
+      tech_level: 12
+      power: 60
+  fuel:
+    tons: 23
+    jump_capacity: jump_2
+    endurance_weeks: 12
+    scoops: installed
+    processor:
+      installed: true
+      rate_tons_per_day: 40
+  bridge_tons: 10
+  computer: Computer/5bis
+  sensors:
+    grade: military
+  crew_positions:
+    - pilot
+    - astrogator
+    - engineer
+  staterooms:
+    standard: 4
+  workshop:
+    installed: true
+    published_tons: 6
+    current_use: multipurpose_laboratory_and_workshop
+  cargo:
+    published_stat_block_tons: 11
+    exact_current_usable_tons: unresolved
+    reason_unresolved: >
+      The printed stat block retains stock craft and probe-drone entries even
+      though the narrative states those spaces were converted.
+
+actual_narrative_configuration:
+  weapons:
+    functional_turret: false
+    carried_ship_weapons: none_established
+    former_turret_fit: empty_double_turret
+    current_fit: sensor_and_communications_dome
+    structural_warning: >
+      Distorted turret-ring structure would impose DM-2 on turret attacks
+      unless the mount were fixed and the ship aimed as a whole.
+  craft:
+    air_raft: removed
+    docking_space: converted_or_unavailable
+  drones:
+    stock_probe_drones: removed
+  converted_spaces:
+    - common_room
+    - well_equipped_galley
+    - food_and_wine_locker
+
+enhanced_electronics:
+  expanded_communications_array: true
+  additional_antennae: true
+  interference_hardening:
+    effect: DM+1
+    applies_to:
+      - sensor_checks
+      - communications_checks
+    condition: relevant_interference_such_as_ionising_radiation
+
+operations:
+  atmospheric_entry_and_landing: true
+  wilderness_fuel_collection: true
+  independent_fuel_refining: true
+  speculative_trade: true
+  cargo_loading_ramp: true
+  laboratory_and_fabrication_support: true
+  military_grade_sensor_operations: true
+
+hidden_referee_feature:
+  id: artifact.garnette_ancient_transponder
+  visibility: referee_only_until_discovered_in_play
+  campaign_discovery_status: unresolved
+  default_switch_state: off
+  functions:
+    - communicates_with_some_Ancient_facilities
+    - grants_access_to_some_Ancient_landing_areas
+    - may_answer_Ancient_friend_or_foe_interrogation
+    - has_prevented_automated_Ancient_defences_from_attacking
+  risks_when_active:
+    - erratic_drive_performance
+    - mathematical_errors
+    - guidance_disruption
+    - jump_operation_disruption
+    - unpredictable_electronic_interaction
+  schematics_status: absent
+  physical_description: sealed_dense_black_box_wired_into_guidance_and_comms
+
+software:
+  - Manoeuvre
+  - Jump_Control_2
+  - Library
+  - Intellect
+
+published_economics:
+  maintenance_credits_per_month: 3079
+  base_purchase_cost_mcr: 41.045
+  note: Historical and current market value may differ because of modifications, provenance, damage, and reputation.

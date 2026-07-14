@@ -1,0 +1,82 @@
+schema_version: 1
+ship_id: ship.garnette
+version: 1.1
+
+identity:
+  name: Garnette
+  former_name: Baleveny
+  source_aliases:
+    - Balevney
+  class: Type-S Suleiman-class scout/courier
+  displacement_tons: 100
+  tech_level: 12
+  configuration: streamlined
+  status: active
+  active_party_ship: true
+
+provenance:
+  original_service: Imperial Interstellar Scout Service
+  original_role:
+    - exploration
+    - survey
+    - courier
+    - intelligence_data_operations
+  combat_history:
+    - crippling laser damage
+    - at least one partially penetrating missile hit
+    - withdrawn from service as uneconomical to repair
+  restoration:
+    rebuilder_or_early_private_operator: Mercedes Taramaka
+    recommissioned_as_garnette: 998
+    note: Main computer and data storage were replaced during reconstruction.
+
+campaign_role:
+  legal_owner: char.mercedes_taramaka
+  current_operator: org.garnette_crew
+  authority_to_operate: continuing_permission_from_owner
+  ownership_transferred_to_crew: false
+  former_operator: char.bernadetta_khaled
+  acquired_by_party_at: place.callia
+  acquisition_context: >
+    The party found Garnette after killing the invisible, memory-blanking
+    creature that killed Bernadetta Khaled and her crew.
+
+current_condition:
+  general: operational_and_spaceworthy
+  age: old
+  maintenance: well_maintained
+  repair_character:
+    - sticking_doors
+    - slightly_uneven_deck_sections
+    - eccentric_utility_routing
+    - occasional_exposed_ducting_or_wiring
+    - repaired_structural_members
+    - delayed_lighting_and_iris_valve_response
+  post_glisten_status:
+    heat_damage_repaired: true
+    exact_post_repair_system_changes: unresolved
+
+scene_identity:
+  visual_character:
+    - visibly_old
+    - numerous_repairs
+    - evidence_of_severe_historic_combat_damage
+    - clean_shared_areas
+    - practical_modifications
+  acoustic_character:
+    - old_iris_valves
+    - drive_vibration
+    - occasional_hesitation_in_automated_systems
+  spatial_character:
+    - compact_Type_S_interior
+    - limited_privacy
+    - narrow_circulation
+    - multipurpose_rooms
+
+hard_boundaries:
+  - Garnette is not Restless Tentacle Syndrome.
+  - Garnette has no Hiver command chamber.
+  - Garnette has no Hiver habitat pod.
+  - Garnette has no RTS observation dome.
+  - Garnette does not possess RTS repair-drone automation.
+  - Do not add unrecorded rooms, weapons, craft, or drones.

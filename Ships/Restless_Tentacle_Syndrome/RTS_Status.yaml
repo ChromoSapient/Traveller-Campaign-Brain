@@ -1,0 +1,29 @@
+schema_version: 1
+ship_id: ship.restless_tentacle_syndrome
+version: 1.1
+
+identity:
+  name: Restless Tentacle Syndrome
+  preferred_short_name: RTS
+  type: Hiver_personal_transport
+  displacement_tons: 300
+  former_names:
+    - Joyous Venture
+    - Whimsey
+    - Home
+
+ownership_and_control:
+  former_operator: char.tapir_tracks
+  current_control: org.bounty_hunters
+  seizure_context: seized_when_Tapir_was_arrested
+
+campaign_status:
+  availability: permanently_unavailable_to_party
+  return_expected: false
+  final_disposition: unknown
+  may_appear_in_current_scenes: false
+
+hard_rules:
+  - RTS will not return to the campaign as a party asset.
+  - Tapir's eventual return does not restore access to RTS.
+  - Do not assign RTS rooms, automation, repair drones, command chamber, observation dome, or Hiver habitat to Garnette.

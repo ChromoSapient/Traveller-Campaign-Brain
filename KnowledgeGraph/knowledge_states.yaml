@@ -5,6 +5,46 @@ knowledge:
     knower: org.garnette_crew
     certainty: confirmed
 
+  - fact: fact.garnette.owner
+    knower: org.garnette_crew
+    certainty: confirmed
+
+  - fact: fact.garnette.permission
+    knower: org.garnette_crew
+    certainty: confirmed
+
+  - fact: fact.garnette.class
+    knower: org.garnette_crew
+    certainty: confirmed
+
+  - fact: fact.garnette.air_raft
+    knower: org.garnette_crew
+    certainty: confirmed
+
+  - fact: fact.garnette.probe_drones
+    knower: org.garnette_crew
+    certainty: confirmed
+
+  - fact: fact.rts.seized
+    knower: org.garnette_crew
+    certainty: confirmed
+
+  - fact: fact.rts.return
+    knower: referee
+    certainty: confirmed
+
+  - fact: fact.tapir.custody
+    knower: org.garnette_crew
+    certainty: confirmed
+
+  - fact: fact.tapir.escape
+    knower: referee
+    certainty: confirmed
+
+  - fact: fact.tapir.rejoined
+    knower: referee
+    certainty: confirmed
+
   - fact: fact.roamer.self_ownership
     knower: robot.roamer
     certainty: confirmed
@@ -44,3 +84,6 @@ knowledge:
   - fact: fact.omicron.partial_knowledge
     knower: char.solveig
     certainty: partial
+
+notes:
+  - The Garnette Ancient transponder is not assigned to any character knowledge state until its discovery is confirmed from play.

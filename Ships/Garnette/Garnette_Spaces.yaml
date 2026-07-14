@@ -1,0 +1,272 @@
+schema_version: 1
+ship_id: ship.garnette
+version: 1.1
+
+decks:
+  main_upper_deck:
+    - id: garnette.sensors
+      name: Sensor compartment
+      function:
+        - military_grade_sensor_support
+        - enhanced_communications_support
+      scene_uses:
+        - sensor_diagnostics
+        - interference_hunting
+        - tracing_anomalous_contacts
+      constraints:
+        - compact_service_access
+        - partly_rebuilt_systems
+
+    - id: garnette.bridge
+      name: Bridge
+      function:
+        - piloting
+        - astrogation
+        - command
+        - communications
+        - sensor_operations
+      condition:
+        - clean
+        - old
+        - well_maintained
+        - minimal_clutter
+      scene_uses:
+        - arrival_and_departure
+        - jump_plotting
+        - tactical_decisions
+        - watches
+        - communications
+      constraints:
+        - standard_compact_Type_S_bridge
+        - not_a_Hiver_command_chamber
+
+    - id: garnette.office
+      name: Office
+      former_use:
+        - intelligence_analysis
+        - mission_planning
+        - Bernadetta's_Ancients_research
+      inherited_character:
+        - shelves_for_paper_books
+        - extensive_vertical_display_surfaces
+        - compact_work_area
+      current_scene_uses:
+        - private_conversations
+        - Corbin_research
+        - Ardric_correspondence
+        - sensitive_data_review
+        - interviews
+      current_contents: unresolved
+
+    - id: garnette.airlock
+      name: Main airlock
+      function:
+        - docking
+        - EVA
+        - boarding_control
+      adjacent_features:
+        - transverse_corridor
+        - equipment_locker
+      scene_uses:
+        - arrivals
+        - boarding
+        - vacc_suit_preparation
+        - quarantine
+        - weapons_checks
+
+    - id: garnette.transverse_corridor
+      name: Transverse corridor
+      condition:
+        - clean
+        - dinged_and_chipped
+        - old_iris_valves
+        - slight_system_hesitation
+      scene_uses:
+        - close_quarters_encounters
+        - overheard_conversations
+        - movement_between_bridge_airlock_and_living_spaces
+
+    - id: garnette.staterooms
+      name: Four standard staterooms
+      count: 4
+      known_current_assignment:
+        - occupants:
+            - char.ruuk
+            - char.dralan
+          status: shared_cabin
+      other_current_assignments: unresolved
+      constraints:
+        - standard_Type_S_scale
+        - limited_floor_space
+        - limited_privacy
+        - no_assumed_extra_guest_cabins
+      scene_uses:
+        - private_conversation
+        - rest
+        - personal_storage
+        - cramped_character_scenes
+
+    - id: garnette.workshop_lab
+      name: Workshop and multipurpose laboratory
+      origin: rebuilt_standard_workshop
+      function:
+        - repair
+        - fabrication
+        - ammunition_loading
+        - chemistry
+        - equipment_modification
+        - artifact_examination
+      scene_uses:
+        - Roamer_repairs_with_consent
+        - containment_work
+        - weapon_maintenance
+        - forensic_analysis
+        - improvised_device_construction
+      constraints:
+        - multipurpose_not_spacious
+        - exact_current_inventory_unresolved
+
+    - id: garnette.common_room
+      name: Common room
+      origin: converted_probe_drone_chamber_and_air_raft_bay
+      function:
+        - meals
+        - meetings
+        - recreation
+        - jump_week_social_space
+      scene_uses:
+        - crew_briefings
+        - arguments
+        - shared_meals
+        - guest_entertaining
+        - equipment_laydown
+      constraints:
+        - larger_than_stock_Type_S_common_space
+        - still_within_a_100_ton_hull
+
+    - id: garnette.galley
+      name: Well-equipped galley
+      origin: converted_probe_drone_and_air_raft_space
+      inherited_character:
+        - high_quality_fittings
+        - formal_dining_legacy
+        - top_end_ingredient_storage
+      current_character:
+        - Dralan's_professional_workspace
+        - serious_culinary_facility
+      scene_uses:
+        - cooking
+        - hospitality
+        - quiet_conversation
+        - crew_routine
+      constraints:
+        - not_the_RTS_galley
+        - current_exact_equipment_unresolved
+
+    - id: garnette.pantry
+      name: Food and wine locker
+      origin: original_ship_locker
+      function:
+        - provisions
+        - specialty_ingredients
+        - wine_storage
+      scene_uses:
+        - inventory_shortage
+        - protected_ingredients
+        - hiding_small_items
+      current_contents: unresolved
+
+  lower_deck:
+    - id: garnette.cargo_hold
+      name: Cargo hold
+      access:
+        - large_external_cargo_ramp
+        - internal_deck_connection
+      function:
+        - cargo
+        - mission_equipment
+        - trade_goods
+        - temporary_containment
+      scene_uses:
+        - loading
+        - inspection
+        - combat
+        - quarantine
+        - artifact_handling
+      known_historical_contents:
+        - two_electric_offroad_cycles
+        - adapted_livestock_cryo_stasis_unit
+      current_contents: unresolved
+
+    - id: garnette.former_secure_section
+      name: Former secure cargo and data-processing section
+      location: rear_of_cargo_hold
+      visible_evidence:
+        - heavy_door_fittings
+        - reinforced_anchor_points
+        - former_data_connections
+      former_function:
+        - secure_cargo
+        - intelligence_data_storage
+        - intelligence_data_processing
+      current_function: cargo_and_possible_containment
+      scene_uses:
+        - sensitive_cargo
+        - improvised_vault
+        - artifact_containment
+        - discovery_of_old_Scout_modifications
+
+    - id: garnette.engineering
+      name: Engineering spaces
+      systems:
+        - fusion_power_plant
+        - jump_drive
+        - manoeuvre_drive
+      condition:
+        - old_drives
+        - excellent_working_order
+        - cramped
+        - historically_untidy
+      scene_uses:
+        - damage_control
+        - maintenance
+        - sabotage_investigation
+        - jump_drive_trouble
+      constraints:
+        - noise
+        - heat
+        - limited_movement
+        - loose_items_are_hazards_under_acceleration
+
+    - id: garnette.fuel_processing
+      name: Fuel-processing spaces
+      function:
+        - scoop_support
+        - unrefined_fuel_processing
+      capacity_tons_per_day: 40
+      scene_uses:
+        - frontier_refuelling
+        - contamination
+        - maintenance
+        - operational_delay
+
+    - id: garnette.sensor_dome_access
+      name: Former turret and sensor-dome access
+      origin: distorted_double_turret_ring
+      current_function:
+        - additional_antennae
+        - sensor_and_communications_support
+      scene_uses:
+        - avionics_maintenance
+        - interference_diagnostics
+        - discovery_of_structural_damage
+      constraints:
+        - not_a_functional_turret
+        - no_established_ship_weapon
+
+general_scene_constraints:
+  - No observation dome is established aboard Garnette.
+  - No Hiver habitat is established aboard Garnette.
+  - No expansive Hiver-centered bridge is established aboard Garnette.
+  - No automated Hiver repair-drone network is established aboard Garnette.
+  - New spaces require explicit referee approval.

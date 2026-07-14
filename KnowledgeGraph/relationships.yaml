@@ -27,8 +27,28 @@ relationships:
     status: campaign_canon
 
   - subject: ship.garnette
+    relation: legally_owned_by
+    object: char.mercedes_taramaka
+    status: campaign_canon
+
+  - subject: ship.garnette
     relation: operated_by
     object: org.garnette_crew
+    status: campaign_canon
+
+  - subject: org.garnette_crew
+    relation: operates_with_permission_from
+    object: char.mercedes_taramaka
+    status: campaign_canon
+
+  - subject: ship.garnette
+    relation: formerly_operated_by
+    object: char.bernadetta_khaled
+    status: campaign_canon
+
+  - subject: ship.garnette
+    relation: recovered_at
+    object: place.callia
     status: campaign_canon
 
   - subject: char.ruuk
@@ -64,6 +84,21 @@ relationships:
   - subject: place.dustfall
     relation: located_in
     object: place.glisten
+    status: campaign_canon
+
+  - subject: char.tapir_tracks
+    relation: held_by
+    object: org.bounty_hunters
+    status: campaign_canon
+
+  - subject: ship.restless_tentacle_syndrome
+    relation: formerly_operated_by
+    object: char.tapir_tracks
+    status: campaign_canon
+
+  - subject: ship.restless_tentacle_syndrome
+    relation: seized_by
+    object: org.bounty_hunters
     status: campaign_canon
 
   - subject: org.omicron

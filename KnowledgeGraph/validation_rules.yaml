@@ -6,6 +6,51 @@ validation_rules:
     severity: error
     message: Use Garnette.
 
+  - code: SHIP_IDENTITY_CONFLATION
+    pattern:
+      - Garnette's Hiver command chamber
+      - Garnette Hiver habitat pod
+      - Garnette's observation dome
+      - Garnette repair drones
+    severity: error
+    message: These features belong to RTS, not Garnette.
+
+  - code: INVALID_GARNETTE_OWNERSHIP
+    pattern:
+      - the party owns Garnette
+      - Garnette belongs to the party
+    severity: error
+    message: Mercedes Taramaka owns Garnette. The crew operates it with permission.
+
+  - code: INVALID_GARNETTE_CRAFT
+    pattern:
+      - Garnette's air/raft
+      - Garnette's ten probe drones
+    severity: error
+    message: The stock craft and probe-drone spaces were converted into living space.
+
+  - code: INVALID_GARNETTE_TURRET
+    pattern:
+      - Garnette's operational turret
+      - Garnette fires its turret
+    severity: error
+    message: Garnette's turret was removed and replaced by a sensor and communications dome.
+
+  - code: INVALID_TAPIR_PRESENCE
+    pattern:
+      - Tapir aboard Garnette
+      - Tapir joined them aboard Garnette
+    severity: error
+    message: Tapir is absent and in bounty-hunter custody until his escape and reunion occur in play.
+
+  - code: INVALID_RTS_AVAILABILITY
+    pattern:
+      - return to RTS
+      - aboard RTS again
+      - RTS returned
+    severity: error
+    message: RTS was seized and will not return as a party asset.
+
   - code: INVALID_ROAMER_OWNERSHIP
     pattern:
       - Ardric owns Roamer

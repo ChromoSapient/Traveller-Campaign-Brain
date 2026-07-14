@@ -11,32 +11,36 @@
 - [x] v0.7 Darrian, Aslan, and Sword World interaction
 - [x] v0.8 Imperial Institutions
 - [x] v0.9 Adventure and JTAS Lore Index
-- [x] v1.0 Integrated Knowledge Graph, first operational release
+- [x] v1.0 Integrated Knowledge Graph
+- [x] v1.1 Garnette and ship-identity correction
 
-## v1.0 Operational Features
+## v1.1 Operational Features
 
-- normalized entities
-- relationship graph
-- canon precedence
-- fact provenance
-- knowledge states
-- contradiction tracking
-- branch-aware campaign state
-- validation
-- scene recommendation
-- test suite
+- accurate Garnette Type-S identity
+- Mercedes ownership and crew permission model
+- Garnette deck and scene-space reference
+- published performance and modifications
+- hidden-feature knowledge controls
+- RTS permanent-loss state
+- Tapir custody and absence state
+- ship-conflation validation
+- project routing manifest
+- regression tests
 
-## Post-1.0 Enrichment
+## Next Operational Step
 
+- install compact Project Instructions
+- upload Project_Operating_Manual.md to the ChatGPT project
+- run retrieval and prose acceptance tests
+- normalize complete campaign chronology
+- begin practical campaign use
+
+## Post-1.1 Enrichment
+
+- current cabin assignments
+- reconciled modified deck plan
+- current cargo snapshot
+- exact post-Glisten ship configuration
 - page-level source indexing
-- complete chronology normalization
-- deeper graph traversal
-- alias resolution
-- schema validation
 - transcript ingestion
-- improved scene scoring
 - persistent session-state updates
-
-## Readiness
-
-The repository is ready for practical campaign use and iterative refinement.
