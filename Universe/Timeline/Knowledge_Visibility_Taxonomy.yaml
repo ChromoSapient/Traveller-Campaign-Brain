@@ -1,0 +1,18 @@
+schema_version: 1.4
+taxonomy: knowledge_visibility
+
+levels:
+  public:
+    definition: unrestricted and normally retrievable
+  specialist:
+    definition: public but primarily known to trained specialists
+  limited:
+    definition: known to a defined crew, faction, expedition, institution, or compartment
+  secret:
+    definition: deliberately concealed and known to a small group
+  referee_only:
+    definition: objective truth not yet known in-setting
+  lost:
+    definition: once-known information no longer reliably accessible
+  disputed:
+    definition: multiple credible interpretations remain

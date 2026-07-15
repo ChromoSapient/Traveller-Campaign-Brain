@@ -1,0 +1,46 @@
+schema_version: 1.4
+schema: dated_event
+
+fields:
+  id: string
+  date:
+    value: string_or_number
+    calendar: string
+    precision: one_of[exact, day, year, decade, century, millennium, circa, range, unknown]
+    inferred: boolean
+    confidence: one_of[high, medium, low, disputed]
+    source_date_code: string_or_null
+  event: string
+  location: list
+  participants: list
+  related:
+    entities: list
+    events: list
+  historical_threads: list
+  truth_status: one_of[published_canon, campaign_canon, referee_truth, adopted_interpretation, hypothesis, disputed, false_public_record, superseded]
+  knowledge:
+    visibility: one_of[public, specialist, limited, secret, referee_only, lost, disputed]
+    public_summary_available: boolean
+    common_knowledge: boolean
+    known_to: list
+    believed_by: list
+    concealed_by: list
+    unknown_to: list
+    certainty_to_public: one_of[high, medium, low, disputed, unknown]
+    public_version: string_or_null
+    restricted_details: list
+  sources: list
+  campaign_overlays: list
+  tags: list
+  notes: list
+
+rules:
+  - Truth status and knowledge visibility are independent classifications.
+  - Date precision and date confidence are independent classifications.
+  - Public means unrestricted, not universally known.
+  - Specialist information is publicly retrievable but uncommon outside trained specialists.
+  - Limited and secret information must identify who knows it in knowledge.known_to.
+  - Referee-only information creates no character knowledge.
+  - Lost information has no reliable current knower.
+  - Disputed claims preserve competing accounts and their attribution.
+  - Planned future actions are not historical events.
