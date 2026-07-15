@@ -30,6 +30,7 @@ task_routes:
     - KnowledgeGraph/facts.yaml
     - KnowledgeGraph/knowledge_states.yaml
     - Characters/Garnette_Crew_Capabilities.yaml
+    - KnowledgeGraph/Ancients_Kursae_Esseray_Backdrop.yaml
 
   recommendations:
     - Chronology/Campaign_Chronology.yaml
@@ -37,6 +38,7 @@ task_routes:
     - KnowledgeGraph/campaign_state.yaml
     - Story/Campaign_Hook_Index.yaml
     - Characters/Garnette_Crew_Capabilities.yaml
+    - KnowledgeGraph/Ancients_Kursae_Esseray_Backdrop.yaml
 
   live_edge:
     - KnowledgeGraph/campaign_state.yaml
@@ -84,6 +86,17 @@ task_routes:
   traveller_rules:
     - Reference/Source_Provenance_Schema.yaml
     - TravellerKnowledge/Indexes/Adventure_Index.yaml
+    - KnowledgeGraph/Ancients_Kursae_Esseray_Backdrop.yaml
+
+  ancient_history:
+    - KnowledgeGraph/Ancients_Kursae_Esseray_Backdrop.yaml
+    - KnowledgeGraph/canon_precedence.yaml
+    - TravellerKnowledge/Indexes/Adventure_Index.yaml
+
+  published_adventures:
+    - TravellerKnowledge/Indexes/Adventure_Index.yaml
+    - Instructions/BRANCH_AND_DRAFT_POLICY.yaml
+    - KnowledgeGraph/Ancients_Kursae_Esseray_Backdrop.yaml
 
 failure_rule: >
   If a required source cannot be accessed, identify the unavailable file.

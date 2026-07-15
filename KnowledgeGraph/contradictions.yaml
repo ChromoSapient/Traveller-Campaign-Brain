@@ -86,3 +86,39 @@ contradictions:
     preferred: augment_is_passive_invisitech
     status: resolved
     validation_code: INVALID_AUGMENT_DETECTION
+
+  - id: contradiction.esseray_spelling
+    claims:
+      - Eseray
+      - Esseray
+    preferred: Esseray
+    status: resolved
+    reason: explicit_referee_ruling
+    validation_code: INVALID_ESSERAY_SPELLING
+
+  - id: contradiction.esseray_jump_drive
+    claims:
+      - Esseray_cannot_use_Jump_Drive
+      - Esseray_can_use_Jump_Drive_for_relatively_small_subgroups
+    preferred: Esseray_can_use_Jump_Drive_for_relatively_small_subgroups
+    status: resolved
+    reason: explicit_referee_ruling
+    validation_code: INVALID_ESSERAY_JUMP_CAPABILITY
+
+  - id: contradiction.generated_story_mainline
+    claims:
+      - generated_story_events_are_Mainline_canon
+      - generated_story_events_are_isolated_noncanonical_branches
+    preferred: generated_story_events_are_isolated_noncanonical_branches_unless_referee_promoted
+    status: resolved
+    reason: explicit_referee_ruling
+    validation_code: GENERATED_BRANCH_CANON_LEAK
+
+  - id: contradiction.numbered_ancients_named_droyne
+    claims:
+      - all_Ancient_era_Droyne_are_numbered_Ancients
+      - numbered_Ancients_are_Yaskoydray_and_420_offspring_only
+    preferred: numbered_Ancients_are_Yaskoydray_and_420_offspring_only
+    status: resolved
+    reason: explicit_referee_ruling
+    validation_code: NUMBERED_ANCIENT_DROYNE_CONFLATION

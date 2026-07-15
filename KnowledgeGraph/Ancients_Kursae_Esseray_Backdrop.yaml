@@ -1,0 +1,240 @@
+schema_version: 1
+canon_file_id: canon.ancients_kursae_esseray_backdrop
+scope: deep_history_species_behavior_technology_and_revelation_limits
+
+fact_defaults:
+  status: referee_truth
+  authority: explicit_referee_ruling
+  visibility: referee_only
+  knowledge_restriction: >-
+    Creates no in-setting character or institutional knowledge unless an
+    existing canon record explicitly establishes that knowledge.
+
+entities:
+  - id: entity.yaskoydray
+    type: ancient_droyne
+    canonical_name: Yaskoydray
+    aliases: [Grandfather]
+  - id: species.droyne
+    type: sophont_species
+    canonical_name: Droyne
+  - id: group.numbered_ancients
+    type: clone_cohort
+    canonical_name: Numbered Ancients
+  - id: species.kursae
+    type: ancient_species
+    canonical_name: Kursae
+  - id: species.esseray
+    type: ancient_species
+    canonical_name: Esseray
+  - id: system.kursae_noospace
+    type: distributed_memory_ecology
+    canonical_name: Kursae Noospace
+  - id: technology.black_globe
+    type: technology
+    canonical_name: Black Globe technology
+
+external_entity_references:
+  - place.lydia
+  - org.garnette_crew
+  - org.omicron
+  - org.imperial_navy
+  - org.scout_service
+
+knowledge_exclusions:
+  applies_to:
+    - species.kursae
+    - species.esseray
+    - system.kursae_noospace
+    - group.numbered_ancients
+    - technology.black_globe
+    - esseray_megastructures
+    - prehistoric_biological_intervention
+  not_known_to_unless_explicitly_established_elsewhere:
+    - org.garnette_crew
+    - org.omicron
+    - Imperial_academics
+    - org.scout_service
+    - org.imperial_navy
+    - surviving_Droyne
+    - Ancient_archives
+  ancient_archive_limit: >-
+    Ancient archives may preserve incomplete observations, suspicions,
+    procedures, biological evidence, or small Esseray samples, but no archive
+    directly identifies the Kursae or contains comprehensive Esseray knowledge.
+
+droyne_caste_behavior:
+  - id: fact.droyne.caste_function_basis
+    statement: Droyne perform functions appropriate to caste; caste is the organizing basis of Droyne thought and action, not mindlessness.
+  - id: fact.droyne.initiative_limit
+    statement: Except for Sports, Droyne generally do not initiate action outside caste function or without direction.
+  - id: fact.droyne.technician_persistence
+    statement: Technicians continue assigned work until redirected or relieved, even under mortal threat.
+  - id: fact.droyne.warrior_automatic_defense
+    statement: Warriors automatically defend assigned Outrim members, protected persons, locations, or objectives.
+  - id: fact.droyne.warrior_assignment_limit
+    statement: Warriors do not pursue beyond assignment, assume command, perform unrelated rescues, or address collateral problems unless directed by a Leader.
+  - id: fact.droyne.leader_direction
+    statement: Leaders direct other Droyne and ordinarily do not speak directly to non-Droyne.
+  - id: fact.droyne.leader_intermediaries
+    statement: Leaders normally use Sports and Drones as intermediaries with outsiders.
+  - id: fact.droyne.sport_function
+    statement: Sports may communicate, improvise, investigate, and interact with unfamiliar sophonts as part of caste function.
+  - id: fact.droyne.drone_function
+    statement: Drones perform general labor, nurturing, support, and intermediary functions according to direction.
+
+yaskoydray_and_numbered_ancients:
+  - id: fact.yaskoydray.personal_name
+    statement: Grandfather's personal name is Yaskoydray.
+  - id: fact.yaskoydray.supreme_leadership
+    statement: Shortly after he began to act, Yaskoydray became the leader of leaders of leaders.
+  - id: fact.yaskoydray.species_control
+    statement: Shortly after reaching adulthood, approximately 300000 years ago, Yaskoydray controlled the entire Droyne species.
+  - id: fact.yaskoydray.first_generation_clones
+    statement: Yaskoydray created 20 clones.
+  - id: fact.yaskoydray.second_generation_clones
+    statement: Each first-generation clone created 20 additional near-equal clones.
+  - id: fact.ancients.numbered_cohort
+    statement: The beings properly called the Ancients were Yaskoydray plus 420 numbered offspring.
+  - id: fact.ancients.numeric_identity
+    statement: The 420 offspring had no names or titles and were identified only by flat numbers 1 through 420.
+  - id: fact.ancients.lineage_irrelevant
+    statement: Clone lineage was socially irrelevant.
+  - id: fact.ancients.relative_status
+    statement: All 420 offspring were roughly equal to one another and subordinate to Yaskoydray.
+  - id: fact.ancients.ordinary_droyne_distinction
+    statement: Ordinary Droyne servants, workers, crews, and populations were not numbered Ancients and have personal names.
+  - id: fact.ancients.research_dispatch
+    statement: Yaskoydray dispatched offspring to investigate questions and collect data.
+  - id: fact.ancients.independent_experiments
+    statement: Some offspring wandered away and conducted independent experiments.
+  - id: fact.ancients.civil_war_trigger
+    statement: Yaskoydray decided to destroy offspring whose work interfered with his or who refused summons to assist him; that decision began the Ancient civil war.
+
+ancient_technology:
+  - id: fact.ancient_technology.not_immediately_comprehensible
+    statement: Ancient technology must not become immediately understandable to the Garnette crew.
+  - id: fact.ancient_technology.psionic_operation
+    statement: Some devices require psionic commands as a functional part of operation, not merely as access locks.
+  - id: fact.ancient_technology.superhuman_comprehension
+    statement: Some systems can be comprehended only by superhuman intelligence.
+  - id: fact.ancient_technology.procedure_without_theory
+    statement: Lesser operators may learn procedures without understanding underlying principles; operation does not imply comprehension.
+  - id: fact.ancient_technology.interface_not_authority
+    statement: Interface compatibility does not imply administrative authority.
+  - id: fact.ancient_technology.independent_redevelopment
+    statement: Numbered Ancients commonly redeveloped tools from first principles.
+  - id: fact.ancient_technology.local_design_traditions
+    statement: Numbered Ancients used local materials and their own mathematics, notation, engineering assumptions, and design traditions.
+  - id: fact.ancient_technology.radical_variation
+    statement: Different numbered Ancients may create radically different technologies for the same purpose, and identical functions may appear unrelated.
+  - id: fact.ancient_technology.servant_instruction_limit
+    statement: Offspring generally gave servants only instructions required to operate or maintain assigned systems.
+  - id: fact.ancient_technology.manual_limit
+    statement: Surviving manuals may contain exact procedures with little or no theoretical explanation.
+  - id: fact.ancient_technology.crew_capability_limit
+    statement: The crew may become competent operators without being able to reproduce, repair, or explain a device.
+  - id: fact.ancient_technology.site_specific_investigation
+    statement: Each Ancient site may require fresh investigation because it reflects its numbered Ancient designer.
+
+kursae_and_esseray_history:
+  - id: fact.kursae_esseray.pre_ancient_age
+    statement: The Kursae and Esseray predate Yaskoydray and the Ancients by more than two million years.
+  - id: fact.kursae_esseray.original_stl
+    statement: Both civilizations originally possessed only slower-than-light interstellar travel, typically approximately 0.1c to 0.2c.
+  - id: fact.kursae_esseray.jump_examples_after_yaskoydray
+    statement: They acquired examples of Jump technology only after Yaskoydray developed Jump Drive.
+  - id: fact.kursae.no_jump_drive
+    statement: Kursae do not use Jump Drive; their interstellar travel uses STL propulsion or interstellar-range teleportation.
+  - id: fact.esseray.jump_capability
+    statement: Esseray can use Jump Drive, generally for relatively small subgroups.
+  - id: fact.esseray.creative_mass_requirement
+    statement: Fully creative Esseray intelligence requires a very large mass of nanocomponents.
+  - id: fact.esseray.jump_mass_limit
+    statement: The mass required for fully creative Esseray colonies makes Jump transport impractical or contraindicated.
+  - id: fact.esseray.ship_scale
+    statement: Even relatively small Esseray ships displace multiple millions of tons.
+  - id: fact.esseray.macro_engineering
+    statement: Esseray are masters of macro-engineering and created several megastructures still undiscovered in the current campaign era.
+  - id: fact.esseray.black_globe_origin
+    statement: Esseray were the original inventors of Black Globe technology.
+  - id: fact.esseray.black_globe_concealment
+    statement: Esseray use Black Globes to conceal many megastructures, including some of the stars that power them.
+
+biological_intervention:
+  - id: fact.biological_intervention.date_range
+    statement: Evidence suggests subtle manipulation of many studied species between approximately 3.5 and 2.5 million years ago.
+  - id: fact.biological_intervention.signatures
+    statement: Evidence may include DNA changes, regulatory structures, non-coding markers, and related biological signatures.
+  - id: fact.biological_intervention.scope
+    statement: The interventions affected more than dominant or sophont species.
+  - id: fact.biological_intervention.ancient_ancestry_implication
+    statement: Evidence may imply earlier manipulation contributed to the beings later called the Ancients or altered their ancestors.
+  - id: fact.biological_intervention.no_kursae_identification
+    statement: No Ancient archive concretely identifies the Kursae; involvement must be inferred from patterns, absences, and biological evidence.
+  - id: fact.yaskoydray.suspected_droyne_intervention
+    statement: Yaskoydray suspected prehistoric Droyne had been altered and continuously searched for the responsible intelligence.
+  - id: fact.yaskoydray.assigned_intervention_search
+    statement: A small number of Yaskoydray's offspring continued the search.
+  - id: fact.yaskoydray.no_concrete_proof
+    statement: Yaskoydray never obtained concrete proof.
+
+kursae_noospace_and_concealment:
+  - id: fact.kursae.departure_before_ancients
+    statement: Most Kursae were gone by Yaskoydray's era, fleeing the Esseray.
+  - id: fact.kursae.remaining_concealment
+    statement: Remaining Kursae concealed themselves from both Ancients and Esseray.
+  - id: fact.kursae.refuges
+    statement: Common refuges included deep interstellar space, oceans beneath thick planetary ice, and environmentally appropriate bodies embedded in local ecosystems.
+  - id: fact.kursae.no_conventional_infrastructure
+    statement: Kursae civilization did not depend on conventional communication networks, archives, or centralized data storage.
+  - id: fact.kursae.shared_memories
+    statement: Kursae communicated through shared memories not limited to individual Kursae.
+  - id: fact.kursae.noospace_ecology
+    statement: Kursae modifications to living organisms helped power, maintain, and extend a distributed memory Noospace.
+  - id: fact.kursae.noospace_character
+    statement: The Noospace is psionic-adjacent, pervasive, and effectively real-time across vast distances.
+  - id: fact.kursae.unaware_participants
+    statement: Modified organisms may participate without conscious awareness.
+  - id: fact.kursae.ancient_search_failure
+    statement: This distributed memory ecology helped the Kursae evade Ancient detection because Ancient searches focused on artifacts, signals, settlements, and conventional infrastructure the Kursae did not require.
+
+esseray_samples:
+  - id: fact.esseray.hunted_kursae
+    statement: Esseray hunted the Kursae.
+  - id: fact.ancients.small_esseray_samples
+    statement: Ancients occasionally captured small Esseray nanomachine colonies.
+  - id: fact.ancients.no_large_esseray_capture
+    statement: Ancients never captured larger and more intelligent Esseray colonies.
+  - id: fact.lydia.esseray_sample_limit
+    statement: Lydia or similar Ancient sites may preserve observations or small Esseray samples, but not comprehensive Esseray understanding.
+
+lydia_revelation_limits:
+  primary_framework: mysteries_of_the_ancients
+  later_arcs: [secrets_of_the_ancients, wrath_of_the_ancients]
+  forbidden_revelations:
+    - complete_Kursae_cosmology
+    - complete_Noospace_truth
+    - concealed_Esseray_megastructures
+    - later_campaign_revelations
+  permitted_evidence:
+    - incomplete_observations
+    - disputed_interpretations
+    - inferential_evidence_of_older_biological_intervention
+    - small_Esseray_nanocolony_samples
+  site_constraints:
+    - preserve_danger
+    - preserve_psionic_systems
+    - preserve_incomprehensible_technology
+    - preserve_partial_operating_instructions
+    - preserve_operator_capability_limits
+  adaptation_rule: >-
+    Garnette and its current crew may bypass or alter published encounters due
+    to equipment, skills, previous discoveries, or unusual access. Bypassing
+    changes access, route, or method, not the published adventure's underlying truth.
+
+unresolved_questions:
+  - id: unresolved.black_globe_technology_transmission
+    question: How did Yaskoydray, his offspring, or later civilizations acquire Black Globe technology?
+    status: deliberately_unresolved
+    rule: Do not establish an answer unless an existing or future explicit canon record does so.

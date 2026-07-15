@@ -1,6 +1,16 @@
 schema_version: 1
 index: published_adventures
 
+campaign_spine:
+  order:
+    - mysteries_of_the_ancients
+    - secrets_of_the_ancients
+    - wrath_of_the_ancients
+  current: mysteries_of_the_ancients
+  adaptation_rule: >-
+    Adapt published material to the Garnette crew, established chronology,
+    character knowledge, ship limitations, and campaign consequences.
+
 entries:
   - id: mysteries_of_the_ancients
     title: Mysteries of the Ancients
@@ -12,11 +22,14 @@ entries:
       - dangerous_provenance
       - hidden_agendas
     adoption_status: active_plot_framework
+    campaign_sequence: 1
     usage_rule:
       - Preserve the campaign's current chronology and cast.
       - Use published sequence as scaffolding, not a railroad.
       - Replace incompatible NPC assumptions with campaign equivalents.
       - Preserve mystery escalation and consequence.
+      - Lydia may reveal only incomplete, disputed, or inferential evidence of older biological intervention.
+      - Do not reveal Kursae cosmology, complete Noospace truth, concealed Esseray megastructures, or later-arc revelations at Lydia.
 
   - id: secrets_of_the_ancients
     title: Secrets of the Ancients
@@ -28,6 +41,7 @@ entries:
       - transformative_technology
       - political_consequences
     adoption_status: future_reference
+    campaign_sequence: 2
     usage_rule:
       - Do not prematurely reveal endgame truths.
       - Mine for motifs, locations, and escalation structures.
@@ -43,9 +57,14 @@ entries:
       - large_scale_consequences
       - moral_pressure
     adoption_status: future_reference
+    campaign_sequence: 3
     usage_rule:
       - Avoid importing campaign-breaking scale before earned.
       - Use threat architecture and faction reactions before apocalyptic escalation.
+
+background_rule: >-
+  Historical Spinward Extents canon may affect events as background but does
+  not grant present characters knowledge they have not acquired.
 
 fields:
   recommended_extraction:

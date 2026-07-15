@@ -1,11 +1,14 @@
 schema_version: 1
-policy_version: 1.0
+policy_version: 1.1
 
 active_branch:
   id: mainline_pagaton_departure
   status: canonical_active_branch
 
 canon_admission_rules:
+  - Uploaded campaign transcripts represent Mainline canon.
+  - Generated stories are isolated, noncanonical branches.
+  - Generated events do not alter Mainline unless explicitly promoted by the referee.
   - Played events may enter chronology after their date, location, participants, and outcome are established.
   - Explicit referee rulings may establish canon even when an event was resolved off-screen.
   - Planned actions remain intentions until play or an explicit referee ruling confirms completion.
@@ -15,10 +18,22 @@ canon_admission_rules:
   - Draft material may be reused later only after being adapted to the then-current campaign state and explicitly adopted.
   - Never infer that a draft became canon because it was written in a prior conversation.
 
+published_adventure_spine:
+  order:
+    - mysteries_of_the_ancients
+    - secrets_of_the_ancients
+    - wrath_of_the_ancients
+  immediate_framework: mysteries_of_the_ancients
+  adaptation_rules:
+    - Adapt published material to the Garnette crew, established chronology, character knowledge, ship limitations, and campaign consequences.
+    - Historical Spinward Extents canon may affect events as background but grants no present character knowledge without acquisition in canon.
+    - Bypassing a published encounter may change access, route, or method but does not rewrite its underlying truth.
+
 repository_boundary:
   canon_records:
     - KnowledgeGraph/campaign_state.yaml
     - KnowledgeGraph/facts.yaml
+    - KnowledgeGraph/Ancients_Kursae_Esseray_Backdrop.yaml
     - KnowledgeGraph/knowledge_states.yaml
     - KnowledgeGraph/relationships.yaml
     - Chronology/Campaign_Chronology.yaml
