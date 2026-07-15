@@ -37,7 +37,7 @@ events:
     notes: [Compiler inference is preserved rather than promoted to fact.]
 
   - id: ancient.grandfather_appears_among_droyne
-    date: {value: -350000, calendar: Imperial_year_relative, precision: circa, inferred: false, confidence: medium, source_date_code: c}
+    date: {value: -350000, calendar: Imperial_year_relative, precision: circa, inferred: true, confidence: medium, source_date_code: cX}
     event: Grandfather appears among the Droyne.
     location: [droyne_space]
     participants: [grandfather, droyne]
@@ -58,10 +58,10 @@ events:
     sources: [integrated_timeline_traveller_v2_1]
     campaign_overlays: []
     tags: [ancients, grandfather, droyne]
-    notes: []
+    notes: [The source marks this Ancient-era date as compiler-inferred.]
 
   - id: ancient.exploration_known_space
-    date: {value: -320000, calendar: Imperial_year_relative, precision: circa, inferred: false, confidence: medium, source_date_code: c}
+    date: {value: -320000, calendar: Imperial_year_relative, precision: circa, inferred: true, confidence: medium, source_date_code: cX}
     event: Ancient exploration expands across known space.
     location: [known_space]
     participants: [ancients]
@@ -82,10 +82,10 @@ events:
     sources: [integrated_timeline_traveller_v2_1]
     campaign_overlays: []
     tags: [ancients, exploration]
-    notes: []
+    notes: [The source marks this Ancient-era date as compiler-inferred.]
 
   - id: ancient.humaniti_transplanted
-    date: {value: -315000, calendar: Imperial_year_relative, precision: circa, inferred: false, confidence: medium, source_date_code: c}
+    date: {value: -315000, calendar: Imperial_year_relative, precision: circa, inferred: true, confidence: medium, source_date_code: cX}
     event: Ancient agents transplant populations of Humaniti from Terra.
     location: [Terra, known_space]
     participants: [ancients, humaniti]
@@ -106,7 +106,7 @@ events:
     sources: [integrated_timeline_traveller_v2_1]
     campaign_overlays: []
     tags: [ancients, humaniti, Terra, transplantation]
-    notes: []
+    notes: [The source marks this Ancient-era date as compiler-inferred.]
 
   - id: chosen_ones.first_vargr_uplift_teaching
     date: {value: -312463, calendar: Imperial_year_relative, precision: exact, inferred: false, confidence: disputed, source_date_code: null}
@@ -133,7 +133,7 @@ events:
     notes: [The exact date is belief-attributed and is not asserted as objective fact.]
 
   - id: ancient.proto_vargr_transplanted_to_lair
-    date: {value: -310000, calendar: Imperial_year_relative, precision: circa, inferred: false, confidence: medium, source_date_code: c}
+    date: {value: -310000, calendar: Imperial_year_relative, precision: circa, inferred: true, confidence: medium, source_date_code: cX}
     event: Proto-Vargr are transplanted from Terra to Lair.
     location: [Terra, Lair]
     participants: [ancients, proto_Vargr]
@@ -161,10 +161,10 @@ events:
         encouraged_by: char.kzarn
         answer_status: unresolved_do_not_answer_in_this_patch
     tags: [ancients, Vargr, Terra, Lair, transplantation]
-    notes: []
+    notes: [The source marks this Ancient-era date as compiler-inferred.]
 
   - id: ancient.final_war
-    date: {value: "-302000/-300000", calendar: Imperial_year_relative, precision: range, inferred: false, confidence: medium, source_date_code: c}
+    date: {value: "-302000/-300000", calendar: Imperial_year_relative, precision: range, inferred: true, confidence: medium, source_date_code: cX/c}
     event: The Final War devastates Ancient civilization.
     location: [known_space]
     participants: [ancients]
@@ -185,7 +185,9 @@ events:
     sources: [integrated_timeline_traveller_v2_1]
     campaign_overlays: []
     tags: [ancients, final_war]
-    notes: [The supplied range is preserved.]
+    notes:
+      - The supplied range is preserved.
+      - The -302000 boundary is cX (compiler-inferred); the -300000 boundary is c.
 
   - id: droyne.coyn_renaissance
     date: {value: -75000, calendar: Imperial_year_relative, precision: circa, inferred: false, confidence: medium, source_date_code: c}
@@ -219,4 +221,6 @@ sources:
     date: 2006-09-16
     supplied_filename: Third Imperium - timeline of canon events.pdf
     role: historical_index_and_provenance_spine
-    verification_status: source_file_not_available_in_task_attachment
+    verification_status: verified_against_supplied_pdf
+    verified_pdf_pages: [6, 7, 9, 11]
+    printed_pages: [5, 6, 8, 10]

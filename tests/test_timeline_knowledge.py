@@ -53,7 +53,9 @@ class TimelineKnowledgeTests(unittest.TestCase):
 
     def test_cx_entries_preserve_compiler_inference(self):
         cx_events = [
-            event for event in self.events if event["date"]["source_date_code"] == "cX"
+            event
+            for event in self.events
+            if "X" in (event["date"]["source_date_code"] or "")
         ]
         self.assertTrue(cx_events)
         for event in cx_events:
