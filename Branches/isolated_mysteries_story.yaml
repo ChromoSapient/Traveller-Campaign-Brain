@@ -1,0 +1,57 @@
+schema_version: 1
+id: branch.isolated_mysteries_story
+status: isolated_noncanonical
+authority: explicit_referee_ruling
+source: isolated_Mysteries_Secrets_Wrath_story_conversation
+
+divergence:
+  date: "056-1107"
+  location:
+    system: Pagaton
+    area: just_outside_respis
+  ship: ship.garnette
+  cast:
+    - char.ruuk
+    - char.dralan
+    - robot.roamer
+    - char.ardric
+    - char.solveig
+    - char.corbin
+
+branch_assumptions:
+  tapir:
+    released_by_persuasion: true
+    booked_passage_to: Binges
+    contacts_crew_at: Binges
+    mainline_effect: none
+
+branch_events:
+  - id: branch_event.garnette_departs_pagaton
+    date: "056-1107"
+    event: Garnette departs Pagaton and enters jump toward Binges.
+    status: branch_prose_only
+  - id: branch_event.garnette_emerges_binges
+    date: "063-1107"
+    event: Garnette emerges at Binges and receives Tapir's message.
+    status: branch_prose_only
+  - id: branch_event.garnette_reaches_lydia
+    date: "098-1107"
+    event: Garnette reaches Lydia in generated branch prose.
+    status: branch_prose_only
+
+adventure_spine:
+  - mysteries_of_the_ancients
+  - secrets_of_the_ancients
+  - wrath_of_the_ancients
+
+historical_backdrop:
+  spinward_extents_allowed: true
+  future_character_or_event_leakage: false
+
+promotion_to_mainline:
+  automatic: false
+  requires_explicit_referee_ruling: true
+
+excluded_scene_content:
+  stable_canon_status: excluded_unless_separately_adopted
+  examples: [Rusk, Mara, Curator, laboratory_numbers]

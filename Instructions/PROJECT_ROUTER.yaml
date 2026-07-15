@@ -8,7 +8,7 @@ project_source_manual:
   filename: Project_Operating_Manual.md
   accepted_project_source_aliases:
     - Project_Operating_Manual(2).md
-  location: ChatGPT_project_files
+  location: Instructions
   purpose:
     - prose_conventions
     - recommendation_protocol
@@ -16,10 +16,12 @@ project_source_manual:
     - transcript_processing
 
 always_read:
+  - Instructions/Project_Operating_Manual.md
   - KnowledgeGraph/campaign_state.yaml
   - KnowledgeGraph/canon_precedence.yaml
   - KnowledgeGraph/contradictions.yaml
   - Instructions/BRANCH_AND_DRAFT_POLICY.yaml
+  - KnowledgeGraph/Future_Knowledge_Boundaries.yaml
 
 task_routes:
   prose:
@@ -31,6 +33,7 @@ task_routes:
     - KnowledgeGraph/knowledge_states.yaml
     - Characters/Garnette_Crew_Capabilities.yaml
     - KnowledgeGraph/Ancients_Kursae_Esseray_Backdrop.yaml
+    - KnowledgeGraph/Future_Knowledge_Boundaries.yaml
 
   recommendations:
     - Chronology/Campaign_Chronology.yaml
@@ -39,6 +42,7 @@ task_routes:
     - Story/Campaign_Hook_Index.yaml
     - Characters/Garnette_Crew_Capabilities.yaml
     - KnowledgeGraph/Ancients_Kursae_Esseray_Backdrop.yaml
+    - KnowledgeGraph/Future_Knowledge_Boundaries.yaml
 
   live_edge:
     - KnowledgeGraph/campaign_state.yaml
@@ -82,6 +86,7 @@ task_routes:
     - KnowledgeGraph/campaign_state.yaml
     - Chronology/Campaign_Chronology.yaml
     - Instructions/BRANCH_AND_DRAFT_POLICY.yaml
+    - KnowledgeGraph/Future_Knowledge_Boundaries.yaml
 
   traveller_rules:
     - Reference/Source_Provenance_Schema.yaml
@@ -97,6 +102,12 @@ task_routes:
     - TravellerKnowledge/Indexes/Adventure_Index.yaml
     - Instructions/BRANCH_AND_DRAFT_POLICY.yaml
     - KnowledgeGraph/Ancients_Kursae_Esseray_Backdrop.yaml
+
+  isolated_branches:
+    - Branches/isolated_mysteries_story.yaml
+    - Instructions/BRANCH_AND_DRAFT_POLICY.yaml
+    - KnowledgeGraph/campaign_state.yaml
+    - KnowledgeGraph/Future_Knowledge_Boundaries.yaml
 
 failure_rule: >
   If a required source cannot be accessed, identify the unavailable file.

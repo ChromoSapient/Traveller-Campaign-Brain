@@ -1,0 +1,21 @@
+schema_version: 1
+id: canon.future_knowledge_boundaries
+status: referee_truth
+authority: explicit_referee_ruling
+visibility: referee_only
+
+boundaries:
+  - id: boundary.ariel.preexistence
+    subject: entity.ariel
+    current_branch: mainline_pagaton_departure
+    current_date: "056-1107"
+    exists_at_current_date: false
+    creation_time: several_years_after_1107_branch_events
+    current_crew_contact: impossible
+    current_crew_knowledge: none
+    use_in_current_story: prohibited
+    rule: Ariel-derived characters, events, and knowledge cannot influence the current crew or chronology.
+
+knowledge_rule: >-
+  A future entity or event creates no present character knowledge merely because
+  it appears in generated prose, a later branch, or out-of-period source material.

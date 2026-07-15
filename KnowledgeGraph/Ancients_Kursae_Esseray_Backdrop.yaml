@@ -89,7 +89,7 @@ yaskoydray_and_numbered_ancients:
   - id: fact.yaskoydray.supreme_leadership
     statement: Shortly after he began to act, Yaskoydray became the leader of leaders of leaders.
   - id: fact.yaskoydray.species_control
-    statement: Shortly after reaching adulthood, approximately 300000 years ago, Yaskoydray controlled the entire Droyne species.
+    statement: Shortly after reaching adulthood, approximately 300000 years ago and before entering space, Yaskoydray controlled the entire Droyne species.
   - id: fact.yaskoydray.first_generation_clones
     statement: Yaskoydray created 20 clones.
   - id: fact.yaskoydray.second_generation_clones
@@ -238,3 +238,7 @@ unresolved_questions:
     question: How did Yaskoydray, his offspring, or later civilizations acquire Black Globe technology?
     status: deliberately_unresolved
     rule: Do not establish an answer unless an existing or future explicit canon record does so.
+
+chronology_boundary:
+  ancient_activity: constrained_to_roughly_the_last_300000_years
+  deep_time_biological_manipulation: Kursae_backdrop_not_Ancient_activity

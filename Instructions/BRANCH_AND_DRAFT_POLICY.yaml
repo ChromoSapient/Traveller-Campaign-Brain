@@ -40,6 +40,9 @@ repository_boundary:
   instruction_records:
     - Instructions/BRANCH_AND_DRAFT_POLICY.yaml
     - Instructions/PROJECT_ROUTER.yaml
+    - Instructions/Project_Operating_Manual.md
+  branch_records:
+    - Branches/isolated_mysteries_story.yaml
 
 failure_rule: >
   When source material and active canon disagree, preserve the active branch and
