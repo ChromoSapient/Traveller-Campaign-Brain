@@ -1,5 +1,5 @@
 schema_version: 1
-router_version: 1.3
+router_version: 1.4
 project: Mysterious Secrets of Wrathful Ancients
 repository: ChromoSapient/Traveller-Campaign-Brain
 branch: main
@@ -98,6 +98,19 @@ task_routes:
     - Instructions/BRANCH_AND_DRAFT_POLICY.yaml
     - KnowledgeGraph/Ancients_Kursae_Esseray_Backdrop.yaml
 
+  universe_timeline:
+    - Universe/Timeline/Event_Schema.yaml
+    - Universe/Timeline/Knowledge_Visibility_Taxonomy.yaml
+    - Universe/Timeline/Ancient_Era_Pilot.yaml
+    - Reference/Source_Provenance_Schema.yaml
+    - KnowledgeGraph/canon_precedence.yaml
+
+  ancient_history:
+    - Universe/Timeline/Event_Schema.yaml
+    - Universe/Timeline/Knowledge_Visibility_Taxonomy.yaml
+    - Universe/Timeline/Ancient_Era_Pilot.yaml
+    - TravellerKnowledge/Indexes/Adventure_Index.yaml
+
 failure_rule: >
   If a required source cannot be accessed, identify the unavailable file.
   Do not invent canon-dependent facts or substitute remembered campaign state.
@@ -113,3 +126,5 @@ refresh_triggers:
   - crew_role_or_skill_question
   - live_edge_question
   - explicit_verification_request
+  - universe_timeline_question
+  - ancient_history_question

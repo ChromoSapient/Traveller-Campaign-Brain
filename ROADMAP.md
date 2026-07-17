@@ -14,6 +14,25 @@
 - [x] v1.0 Integrated Knowledge Graph
 - [x] v1.1 Garnette and ship-identity correction
 - [x] v1.2 Live edge normalization
+- [x] v1.4 Knowledge Engine Foundation
+
+## v1.4 Knowledge Engine Foundation
+
+- event schema
+- truth separated from visibility
+- date precision separated from confidence
+- knowledge classifications
+- campaign overlays
+- Ancient-era pilot
+- provenance and compiler inference preservation
+- regression tests
+
+### Next steps
+
+- expand the Ancient era using current-edition sources
+- build Ancients, Kursae, and Essaray historical threads
+- add Spinward Extents and Wrathful Ancients campaign overlays
+- convert 1100-1107 at day-level where possible
 
 ## v1.2 Operational Features
 

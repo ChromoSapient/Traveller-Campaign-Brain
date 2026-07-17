@@ -1,0 +1,226 @@
+schema_version: 1.4
+timeline: ancient_era_pilot
+calendar: Imperial_year_relative
+
+source_policy:
+  role: historical_index_and_provenance_spine
+  authority_limit: >-
+    The Integrated Timeline is not higher authority than referee rulings,
+    campaign canon, or current-edition sources.
+  date_codes:
+    c: circa
+    X: compiler_inferred
+
+events:
+  - id: ancient.maximum_proposed_dating_variance
+    date: {value: -410000, calendar: Imperial_year_relative, precision: circa, inferred: true, confidence: low, source_date_code: cX}
+    event: Maximum proposed variance for dating Ancient activity.
+    location: [known_space]
+    participants: [ancients]
+    related: {entities: [ancients], events: []}
+    historical_threads: [ancient_dating]
+    truth_status: hypothesis
+    knowledge:
+      visibility: disputed
+      public_summary_available: true
+      common_knowledge: false
+      known_to: [ancient_history_specialists]
+      believed_by: []
+      concealed_by: []
+      unknown_to: []
+      certainty_to_public: disputed
+      public_version: Ancient activity may be dated as early as approximately -410000.
+      restricted_details: []
+    sources: [integrated_timeline_traveller_v2_1]
+    campaign_overlays: []
+    tags: [ancients, chronology, dating_variance]
+    notes: [Compiler inference is preserved rather than promoted to fact.]
+
+  - id: ancient.grandfather_appears_among_droyne
+    date: {value: -350000, calendar: Imperial_year_relative, precision: circa, inferred: true, confidence: medium, source_date_code: cX}
+    event: Grandfather appears among the Droyne.
+    location: [droyne_space]
+    participants: [grandfather, droyne]
+    related: {entities: [grandfather, droyne], events: [ancient.exploration_known_space]}
+    historical_threads: [ancients, droyne_history]
+    truth_status: published_canon
+    knowledge:
+      visibility: specialist
+      public_summary_available: true
+      common_knowledge: false
+      known_to: [ancient_history_specialists]
+      believed_by: []
+      concealed_by: []
+      unknown_to: []
+      certainty_to_public: medium
+      public_version: Grandfather is associated with the rise of Ancient activity among the Droyne.
+      restricted_details: []
+    sources: [integrated_timeline_traveller_v2_1]
+    campaign_overlays: []
+    tags: [ancients, grandfather, droyne]
+    notes: [The source marks this Ancient-era date as compiler-inferred.]
+
+  - id: ancient.exploration_known_space
+    date: {value: -320000, calendar: Imperial_year_relative, precision: circa, inferred: true, confidence: medium, source_date_code: cX}
+    event: Ancient exploration expands across known space.
+    location: [known_space]
+    participants: [ancients]
+    related: {entities: [ancients], events: [ancient.humaniti_transplanted]}
+    historical_threads: [ancient_expansion]
+    truth_status: published_canon
+    knowledge:
+      visibility: specialist
+      public_summary_available: true
+      common_knowledge: false
+      known_to: [ancient_history_specialists]
+      believed_by: []
+      concealed_by: []
+      unknown_to: []
+      certainty_to_public: medium
+      public_version: Ancient exploration reached widely across known space.
+      restricted_details: []
+    sources: [integrated_timeline_traveller_v2_1]
+    campaign_overlays: []
+    tags: [ancients, exploration]
+    notes: [The source marks this Ancient-era date as compiler-inferred.]
+
+  - id: ancient.humaniti_transplanted
+    date: {value: -315000, calendar: Imperial_year_relative, precision: circa, inferred: true, confidence: medium, source_date_code: cX}
+    event: Ancient agents transplant populations of Humaniti from Terra.
+    location: [Terra, known_space]
+    participants: [ancients, humaniti]
+    related: {entities: [Terra, humaniti, ancients], events: [ancient.exploration_known_space]}
+    historical_threads: [humaniti_diaspora, ancient_experiments]
+    truth_status: published_canon
+    knowledge:
+      visibility: specialist
+      public_summary_available: true
+      common_knowledge: false
+      known_to: [ancient_history_specialists, humaniti_origin_specialists]
+      believed_by: []
+      concealed_by: []
+      unknown_to: []
+      certainty_to_public: medium
+      public_version: Ancient activity dispersed Humaniti from Terra.
+      restricted_details: []
+    sources: [integrated_timeline_traveller_v2_1]
+    campaign_overlays: []
+    tags: [ancients, humaniti, Terra, transplantation]
+    notes: [The source marks this Ancient-era date as compiler-inferred.]
+
+  - id: chosen_ones.first_vargr_uplift_teaching
+    date: {value: -312463, calendar: Imperial_year_relative, precision: exact, inferred: false, confidence: disputed, source_date_code: null}
+    event: The Church of the Chosen Ones teaches this as the date of the first Vargr uplift.
+    location: [unknown]
+    participants: [Church_of_the_Chosen_Ones, proto_Vargr]
+    related: {entities: [Church_of_the_Chosen_Ones, Vargr], events: [ancient.proto_vargr_transplanted_to_lair]}
+    historical_threads: [vargr_origins, religious_accounts]
+    truth_status: disputed
+    knowledge:
+      visibility: public
+      public_summary_available: true
+      common_knowledge: false
+      known_to: []
+      believed_by: [Church_of_the_Chosen_Ones]
+      concealed_by: []
+      unknown_to: []
+      certainty_to_public: disputed
+      public_version: The Church of the Chosen Ones identifies -312463 as the first Vargr uplift.
+      restricted_details: []
+    sources: [integrated_timeline_traveller_v2_1]
+    campaign_overlays: []
+    tags: [Vargr, uplift, religious_teaching, disputed_date]
+    notes: [The exact date is belief-attributed and is not asserted as objective fact.]
+
+  - id: ancient.proto_vargr_transplanted_to_lair
+    date: {value: -310000, calendar: Imperial_year_relative, precision: circa, inferred: true, confidence: medium, source_date_code: cX}
+    event: Proto-Vargr are transplanted from Terra to Lair.
+    location: [Terra, Lair]
+    participants: [ancients, proto_Vargr]
+    related: {entities: [Terra, Lair, Vargr, ancients], events: [chosen_ones.first_vargr_uplift_teaching]}
+    historical_threads: [vargr_origins, ancient_experiments]
+    truth_status: published_canon
+    knowledge:
+      visibility: specialist
+      public_summary_available: true
+      common_knowledge: false
+      known_to: [ancient_history_specialists, vargr_origin_specialists]
+      believed_by: []
+      concealed_by: []
+      unknown_to: [char.ruuk]
+      certainty_to_public: medium
+      public_version: The Ancients moved proto-Vargr from Terra to Lair.
+      restricted_details: [intended_higher_purpose, identity_of_responsible_Ancient, genetic_modification_sequence]
+    sources: [integrated_timeline_traveller_v2_1]
+    campaign_overlays:
+      - campaign: Mysterious Secrets of Wrathful Ancients
+        character: char.ruuk
+        knows_or_accepts: The Ancients created the Vargr.
+        does_not_know: Why the Vargr were created.
+        motivating_question: Were the Vargr created for a higher purpose?
+        encouraged_by: char.kzarn
+        answer_status: unresolved_do_not_answer_in_this_patch
+    tags: [ancients, Vargr, Terra, Lair, transplantation]
+    notes: [The source marks this Ancient-era date as compiler-inferred.]
+
+  - id: ancient.final_war
+    date: {value: "-302000/-300000", calendar: Imperial_year_relative, precision: range, inferred: true, confidence: medium, source_date_code: cX/c}
+    event: The Final War devastates Ancient civilization.
+    location: [known_space]
+    participants: [ancients]
+    related: {entities: [ancients], events: [droyne.coyn_renaissance]}
+    historical_threads: [final_war, ancient_collapse]
+    truth_status: published_canon
+    knowledge:
+      visibility: specialist
+      public_summary_available: true
+      common_knowledge: false
+      known_to: [ancient_history_specialists]
+      believed_by: []
+      concealed_by: []
+      unknown_to: []
+      certainty_to_public: medium
+      public_version: A catastrophic Final War ended the Ancient era.
+      restricted_details: []
+    sources: [integrated_timeline_traveller_v2_1]
+    campaign_overlays: []
+    tags: [ancients, final_war]
+    notes:
+      - The supplied range is preserved.
+      - The -302000 boundary is cX (compiler-inferred); the -300000 boundary is c.
+
+  - id: droyne.coyn_renaissance
+    date: {value: -75000, calendar: Imperial_year_relative, precision: circa, inferred: false, confidence: medium, source_date_code: c}
+    event: Droyne society experiences a renaissance through restored coyns.
+    location: [droyne_space]
+    participants: [droyne]
+    related: {entities: [droyne, coyns], events: [ancient.final_war]}
+    historical_threads: [droyne_history, coyn_restoration]
+    truth_status: published_canon
+    knowledge:
+      visibility: specialist
+      public_summary_available: true
+      common_knowledge: false
+      known_to: [droyne_history_specialists]
+      believed_by: []
+      concealed_by: []
+      unknown_to: []
+      certainty_to_public: medium
+      public_version: Restored coyns support a later Droyne renaissance.
+      restricted_details: []
+    sources: [integrated_timeline_traveller_v2_1]
+    campaign_overlays: []
+    tags: [droyne, coyns, renaissance]
+    notes: []
+
+sources:
+  integrated_timeline_traveller_v2_1:
+    title: Integrated Timeline Traveller
+    author: Donald E. McKinney
+    version: "2.1"
+    date: 2006-09-16
+    supplied_filename: Third Imperium - timeline of canon events.pdf
+    role: historical_index_and_provenance_spine
+    verification_status: verified_against_supplied_pdf
+    verified_pdf_pages: [6, 7, 9, 11]
+    printed_pages: [5, 6, 8, 10]
